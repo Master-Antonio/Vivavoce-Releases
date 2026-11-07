@@ -1,23 +1,23 @@
 {
   "version": "1.0.0",
   "total_files": 28381,
-  "total_bytes": 4574858011,
+  "total_bytes": 4574861768,
   "packages": [
     {
       "id": "vivavoce_core",
       "filename": "VivaVoce_Core.tar.zst",
-      "blake3": "ae52b57c964a0ce1da6e16448aa1b22ba5309b9eabd5e3bd442a6333395f3b87",
+      "blake3": "879f20f59d64d626d3ef40686d1653926c208858cdbeba53d0e7205f3793df36",
       "download_url": "https://github.com/Master-Antonio/Vivavoce-Releases/releases/download/v1.0.0/VivaVoce_Core.tar.zst",
-      "compressed_size": 509149,
-      "uncompressed_size": 2331648
+      "compressed_size": 509627,
+      "uncompressed_size": 2334593
     },
     {
       "id": "vivavoce_quests",
       "filename": "VivaVoce_Quests.tar.zst",
-      "blake3": "34bd264889de4c09aa9accf4cd59a55e7754da3f999d9a4b77f629eb2e21d840",
+      "blake3": "6cd0c7a26c87f6b1d23bbfec32a3a9a432b6ad7aa69f31b2e6cb28a415f00a22",
       "download_url": "https://github.com/Master-Antonio/Vivavoce-Releases/releases/download/v1.0.0/VivaVoce_Quests.tar.zst",
-      "compressed_size": 96459,
-      "uncompressed_size": 394474
+      "compressed_size": 96671,
+      "uncompressed_size": 395286
     },
     {
       "id": "vivavoce_books",
@@ -90,8 +90,8 @@
     },
     "VivaVoce/Core.lua": {
       "relative_path": "VivaVoce/Core.lua",
-      "blake3_hash": "92e3fd8122561167826b691969251d50fa7cc767d2bc9bffe892dba82f25899e",
-      "size": 24589
+      "blake3_hash": "49c22384689e3d6507e0f377c6830b930d77aa25aa68590d8488389b880f11d4",
+      "size": 24857
     },
     "VivaVoce/embeds.xml": {
       "relative_path": "VivaVoce/embeds.xml",
@@ -150,8 +150,8 @@
     },
     "VivaVoce/SoundUtils.lua": {
       "relative_path": "VivaVoce/SoundUtils.lua",
-      "blake3_hash": "20e9ca47c030721d4d10190f8c7d8a83b30ac1d8a5c5dee1eb38c7f59a09f23a",
-      "size": 7907
+      "blake3_hash": "abc2b2ca81fe43faa5ccb85bf52f2baad9d145c33617c4fee2ade88cbfc6000c",
+      "size": 9418
     },
     "VivaVoce/Sources.lua": {
       "relative_path": "VivaVoce/Sources.lua",
@@ -320,8 +320,8 @@
     },
     "VivaVoce/UI/Options.lua": {
       "relative_path": "VivaVoce/UI/Options.lua",
-      "blake3_hash": "4a18aaff47be2845890400fb4ccbfd7e964ef0880100861891bd7fe86afcd3b2",
-      "size": 70731
+      "blake3_hash": "63dd649883ed3bb0f3177db40c5afae3de390ac5fb42b7951b1d45b434be3444",
+      "size": 71897
     },
     "VivaVoce/UI/PlayerFrame.lua": {
       "relative_path": "VivaVoce/UI/PlayerFrame.lua",
@@ -365,8 +365,8 @@
     },
     "VivaVoce_Quests/Core.lua": {
       "relative_path": "VivaVoce_Quests/Core.lua",
-      "blake3_hash": "fcd2bced5fcbff84a5aeb51b9f851404f329f546989c4089cb8059457678146d",
-      "size": 8119
+      "blake3_hash": "d123110ddef07e28e637a6809299221e0596436bd90a65bb88757e4283a43cb3",
+      "size": 8236
     },
     "VivaVoce_Quests/DataModules.lua": {
       "relative_path": "VivaVoce_Quests/DataModules.lua",
@@ -450,8 +450,8 @@
     },
     "VivaVoce_Quests/VoiceOver.lua": {
       "relative_path": "VivaVoce_Quests/VoiceOver.lua",
-      "blake3_hash": "85441fddee86c127beb64805b429b162271d0e03583cf025a384896fa7c2aacf",
-      "size": 28240
+      "blake3_hash": "788e60d87c0a31b8757d26c0291322217a173eb78dda5538e25993ade06dc355",
+      "size": 28935
     },
     "VivaVoce_Quests/Textures/Icon.tga": {
       "relative_path": "VivaVoce_Quests/Textures/Icon.tga",
