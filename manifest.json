@@ -1,7 +1,7 @@
 {
-  "version": "1.0.0",
-  "total_files": 28381,
-  "total_bytes": 4574864308,
+  "version": "1.0.1",
+  "total_files": 28380,
+  "total_bytes": 4577535766,
   "packages": [
     {
       "id": "vivavoce_core",
@@ -76,7 +76,19 @@
       "uncompressed_size": 1553720287
     }
   ],
-  "patches": [],
+  "patches": [
+    {
+      "id": "patch-1.0.0-to-1.0.1",
+      "from_version": "1.0.0",
+      "to_version": "1.0.1",
+      "filename": "patch-v1.0.1.tar.zst",
+      "blake3": "9bc37479a815407ffa6f71dc0bc83f4be45a72a72cb903225afe2e9f7579fa5d",
+      "download_url": "https://github.com/Master-Antonio/Vivavoce-Releases/releases/download/v1.0.1/patch-v1.0.1.tar.zst",
+      "compressed_size": 54466572,
+      "uncompressed_size": 56165676,
+      "files_count": 319
+    }
+  ],
   "files": {
     "VivaVoce/Bindings.xml": {
       "relative_path": "VivaVoce/Bindings.xml",
@@ -140,8 +152,8 @@
     },
     "VivaVoce/SoundLengthsData.lua": {
       "relative_path": "VivaVoce/SoundLengthsData.lua",
-      "blake3_hash": "98cc059cd6eae2d0876ec27945f96883618d0123ca227eec4189a8ecf856309d",
-      "size": 865424
+      "blake3_hash": "f1bf260e9a57ca29cce01d305b80485cfe766491c1c96725cf5ffb51fabf9610",
+      "size": 865421
     },
     "VivaVoce/SoundQueue.lua": {
       "relative_path": "VivaVoce/SoundQueue.lua",
@@ -150,8 +162,8 @@
     },
     "VivaVoce/SoundUtils.lua": {
       "relative_path": "VivaVoce/SoundUtils.lua",
-      "blake3_hash": "abc2b2ca81fe43faa5ccb85bf52f2baad9d145c33617c4fee2ade88cbfc6000c",
-      "size": 9418
+      "blake3_hash": "269fe0687b1766df45ca762b315ecdba9c3f6b12de39bc4756653d14ea50a739",
+      "size": 10588
     },
     "VivaVoce/Sources.lua": {
       "relative_path": "VivaVoce/Sources.lua",
@@ -365,13 +377,13 @@
     },
     "VivaVoce_Quests/Core.lua": {
       "relative_path": "VivaVoce_Quests/Core.lua",
-      "blake3_hash": "d123110ddef07e28e637a6809299221e0596436bd90a65bb88757e4283a43cb3",
-      "size": 8236
+      "blake3_hash": "fcd2bced5fcbff84a5aeb51b9f851404f329f546989c4089cb8059457678146d",
+      "size": 8119
     },
     "VivaVoce_Quests/DataModules.lua": {
       "relative_path": "VivaVoce_Quests/DataModules.lua",
-      "blake3_hash": "69ebcfe45b45b0884332264d6a6c2ff1eb904ca9cf5a848ac1a3d2978e4e952a",
-      "size": 7126
+      "blake3_hash": "81b592969e0d9382111f9ef15bae97119ee2a96b23991aceab8745e7396cbf41",
+      "size": 6976
     },
     "VivaVoce_Quests/DialogPlayButton.lua": {
       "relative_path": "VivaVoce_Quests/DialogPlayButton.lua",
@@ -420,8 +432,8 @@
     },
     "VivaVoce_Quests/Player.lua": {
       "relative_path": "VivaVoce_Quests/Player.lua",
-      "blake3_hash": "12948f1d09c0ce4a175ef0df5f15dd22538cdbe9ea3cce85a0b4382cce1f5fe7",
-      "size": 8106
+      "blake3_hash": "e39de556fce394188254fb659253e5ae66dd513d9d44d04922d02a89fefa425a",
+      "size": 8087
     },
     "VivaVoce_Quests/QuestOverlayUI.lua": {
       "relative_path": "VivaVoce_Quests/QuestOverlayUI.lua",
@@ -430,18 +442,18 @@
     },
     "VivaVoce_Quests/README.md": {
       "relative_path": "VivaVoce_Quests/README.md",
-      "blake3_hash": "709151abdaaa36079ee4b54473680754e30e2e76a2961f43bde5eb93673adc55",
-      "size": 4125
+      "blake3_hash": "38703449a00fddeac7aa17b0d7a9d36d9f43e92f1c05312a9d94f60ab1bf009f",
+      "size": 4146
     },
     "VivaVoce_Quests/Report.lua": {
       "relative_path": "VivaVoce_Quests/Report.lua",
-      "blake3_hash": "31301d7e5d9d14f9013c5ab538527cbc49e2ab10ac1157fb3af5ec70a9b41b59",
-      "size": 4071
+      "blake3_hash": "22ceb3ff3790ab5aa10ef39cf4c7ce4455a6ff707bcbe10b3ed325772535c590",
+      "size": 4170
     },
     "VivaVoce_Quests/Utils.lua": {
       "relative_path": "VivaVoce_Quests/Utils.lua",
-      "blake3_hash": "736215a96dba5eac427e97e284a94002c354c8efbbfff1a74a970183f7acb2a9",
-      "size": 6515
+      "blake3_hash": "790cb4ab1b2376e64455d43c65d35eb9fbad903b4a7d1751dce62834c3479482",
+      "size": 5612
     },
     "VivaVoce_Quests/VivaVoce_Quests.toc": {
       "relative_path": "VivaVoce_Quests/VivaVoce_Quests.toc",
@@ -450,8 +462,8 @@
     },
     "VivaVoce_Quests/VoiceOver.lua": {
       "relative_path": "VivaVoce_Quests/VoiceOver.lua",
-      "blake3_hash": "a3c1990dd9e2d10e391d357c19b7be9dbf5c3be54926d7c4f7ec1368dda112e6",
-      "size": 28676
+      "blake3_hash": "40eb906ec10f4f947781ebcdcb1eeb75eb7a13c8c37ecf5ccb4e59dc9d038ea9",
+      "size": 26598
     },
     "VivaVoce_Quests/Textures/Icon.tga": {
       "relative_path": "VivaVoce_Quests/Textures/Icon.tga",
@@ -460,8 +472,8 @@
     },
     "VivaVoce_Books/Audio.lua": {
       "relative_path": "VivaVoce_Books/Audio.lua",
-      "blake3_hash": "9e43e586de0423bafb79ca5d0c662494e01af7b932ff95c99689e89622f1033b",
-      "size": 7621
+      "blake3_hash": "308dd1516304a290ab19a70f7d85ff3bf5aed35061e80d3d4e3d4113eda5603f",
+      "size": 5152
     },
     "VivaVoce_Books/Checksum.lua": {
       "relative_path": "VivaVoce_Books/Checksum.lua",
@@ -485,8 +497,8 @@
     },
     "VivaVoce_Books/Events.lua": {
       "relative_path": "VivaVoce_Books/Events.lua",
-      "blake3_hash": "2f9ce99584649967f34b237551c25d5c46a3c23e30ede482f4487fc1f6daea63",
-      "size": 6066
+      "blake3_hash": "728d7cdb8c9b000b8c61563a61788655deefb5e990673fe9ec54a52df33e3915",
+      "size": 6015
     },
     "VivaVoce_Books/Language.lua": {
       "relative_path": "VivaVoce_Books/Language.lua",
@@ -510,18 +522,18 @@
     },
     "VivaVoce_Books/Playlist.lua": {
       "relative_path": "VivaVoce_Books/Playlist.lua",
-      "blake3_hash": "b5dfc9ed4f6b0fc241268ff139f18f857fb6e0d94e48814f01f077a12b0b8e52",
-      "size": 4186
+      "blake3_hash": "7c1e7ddf8ba6259c1167863d6f3eb8bb9c97e121765ba32fdea5deebcf36321e",
+      "size": 4525
     },
     "VivaVoce_Books/Reader.lua": {
       "relative_path": "VivaVoce_Books/Reader.lua",
-      "blake3_hash": "48eb71419732cf3e27a967ac287da76ae1424f79ea7758a0309203c62a2d8c5c",
-      "size": 4315
+      "blake3_hash": "e38580d49eb10ccd48d85d9389e000c6e05f4dfd313f5f69cbd5d1451022f660",
+      "size": 3706
     },
     "VivaVoce_Books/VivaVoce_Books.toc": {
       "relative_path": "VivaVoce_Books/VivaVoce_Books.toc",
-      "blake3_hash": "a1c1abcd12f995cb09b220e8c0d23cb55067fc5820df64f14162788ace80e49f",
-      "size": 1367
+      "blake3_hash": "f01aa1ff85cc556621a1b3c706cb7a56da9eb0d661c0367d986665749d79af88",
+      "size": 1358
     },
     "VivaVoce_Books/Data/Books.lua": {
       "relative_path": "VivaVoce_Books/Data/Books.lua",
@@ -4775,8 +4787,8 @@
     },
     "VivaVoce_Codex/Audio.lua": {
       "relative_path": "VivaVoce_Codex/Audio.lua",
-      "blake3_hash": "7881b585d213b64214cbb374934ca84bebfef449c5efff668afc88573b56eb95",
-      "size": 5484
+      "blake3_hash": "80ef1b905847bd6ed7f0b5e261b3e426fd18b394312e0d458d948467562a6632",
+      "size": 4205
     },
     "VivaVoce_Codex/Commands.lua": {
       "relative_path": "VivaVoce_Codex/Commands.lua",
@@ -56505,8 +56517,8 @@
     },
     "VivaVoce/Sounds/gb69f8db5.ogg": {
       "relative_path": "VivaVoce/Sounds/gb69f8db5.ogg",
-      "blake3_hash": "0e3c11070c373f85bd94f01ba6e18be73dc9445586635b26a02e0b529d546336",
-      "size": 32168
+      "blake3_hash": "ae8a21000ae7e54225b3b1ee02d69ff088fb18da96018780284eee445ef6d205",
+      "size": 25358
     },
     "VivaVoce/Sounds/gb6c83a53.ogg": {
       "relative_path": "VivaVoce/Sounds/gb6c83a53.ogg",
@@ -62805,8 +62817,8 @@
     },
     "VivaVoce/Sounds/q100-reward.ogg": {
       "relative_path": "VivaVoce/Sounds/q100-reward.ogg",
-      "blake3_hash": "50a35485a3d09c5265ddb2098205cac81482aa3bf526865929da78a207708e05",
-      "size": 101232
+      "blake3_hash": "59f570a9479077e84743429921371bb7e3c28d9b976bc16cf2a8df5aaf689a03",
+      "size": 111342
     },
     "VivaVoce/Sounds/q100-text.ogg": {
       "relative_path": "VivaVoce/Sounds/q100-text.ogg",
@@ -63220,18 +63232,18 @@
     },
     "VivaVoce/Sounds/q1027-progress.ogg": {
       "relative_path": "VivaVoce/Sounds/q1027-progress.ogg",
-      "blake3_hash": "d9ef02efa7befe41287f5071fb25ea93bb0b96da6121aac438053a818d7b92ef",
-      "size": 30357
+      "blake3_hash": "9a955cea070dafed4d281f080f9c263e1ead4e86456d604ff1eab53bdb2a1611",
+      "size": 31948
     },
     "VivaVoce/Sounds/q1027-reward.ogg": {
       "relative_path": "VivaVoce/Sounds/q1027-reward.ogg",
-      "blake3_hash": "0d48c0f0b5831c53b0c690325efb6359b408a046e480cab64a94ea8e78ce91ef",
-      "size": 89707
+      "blake3_hash": "a45b8e25a03ae751b51c4a1945aba988e769a9d0a7f792294babbb2dd5a44c55",
+      "size": 60791
     },
     "VivaVoce/Sounds/q1027-text.ogg": {
       "relative_path": "VivaVoce/Sounds/q1027-text.ogg",
-      "blake3_hash": "3f3cb5c46f78e0aded0009289d7d2f9d7bb05d9f680da487b05c7279aada8780",
-      "size": 295272
+      "blake3_hash": "9f2b1d0661402d960f76c71feee09c362e647c1a0a644134c7b2c93f766145c4",
+      "size": 233530
     },
     "VivaVoce/Sounds/q1028-progress.ogg": {
       "relative_path": "VivaVoce/Sounds/q1028-progress.ogg",
@@ -63690,13 +63702,13 @@
     },
     "VivaVoce/Sounds/q1055-reward.ogg": {
       "relative_path": "VivaVoce/Sounds/q1055-reward.ogg",
-      "blake3_hash": "d9d91a3fa891ffd45bd1f6d3c81bb37b09766d6a26e92ea9da40111990015e0c",
-      "size": 27476
+      "blake3_hash": "2084cf393107e3ad31aff8124f4cbafc59947834cdb154d4d590f9d6c0a699a0",
+      "size": 24006
     },
     "VivaVoce/Sounds/q1055-text.ogg": {
       "relative_path": "VivaVoce/Sounds/q1055-text.ogg",
-      "blake3_hash": "dd7f5a56e1595db656055bb01af4f537995b5018a4a4f47fc9a5671d5f1ed968",
-      "size": 72082
+      "blake3_hash": "d4bc2eb90753bde39494bb75ad3751780841786d8f3198646cbc825fa3b9760e",
+      "size": 49321
     },
     "VivaVoce/Sounds/q1056-reward-f.ogg": {
       "relative_path": "VivaVoce/Sounds/q1056-reward-f.ogg",
@@ -64290,13 +64302,13 @@
     },
     "VivaVoce/Sounds/q109-text-f.ogg": {
       "relative_path": "VivaVoce/Sounds/q109-text-f.ogg",
-      "blake3_hash": "94f61c04198802d4326e07f5fa123bf056967228056559e2ebc2830d284dd528",
-      "size": 217037
+      "blake3_hash": "f63aab086b3638c25e564f57bd4a513327e110b94b38725bd71cd6f94e77c10d",
+      "size": 183018
     },
     "VivaVoce/Sounds/q109-text-m.ogg": {
       "relative_path": "VivaVoce/Sounds/q109-text-m.ogg",
-      "blake3_hash": "607dff55dae9f790c0e2ddaa15ca2ffa6db9d80b547fb1e77c377d04bb605ea1",
-      "size": 213023
+      "blake3_hash": "d9d16ea6485dd8ca145fcf76a1e1769441ed19f3055d1bb1ab379d04100cc51e",
+      "size": 171726
     },
     "VivaVoce/Sounds/q1090-reward.ogg": {
       "relative_path": "VivaVoce/Sounds/q1090-reward.ogg",
@@ -65545,28 +65557,28 @@
     },
     "VivaVoce/Sounds/q1166-progress.ogg": {
       "relative_path": "VivaVoce/Sounds/q1166-progress.ogg",
-      "blake3_hash": "c2a57ca2a59127e67a69ac19ba2384ca84a8fc035cece3ea3a9e200e8d8957d5",
-      "size": 167555
+      "blake3_hash": "e3e4d7f65356557663cec13ffc879d9a3863bf235d62382ed34b7c08b4eb9564",
+      "size": 202116
     },
     "VivaVoce/Sounds/q1166-reward-f.ogg": {
       "relative_path": "VivaVoce/Sounds/q1166-reward-f.ogg",
-      "blake3_hash": "63e3646129c2267c151f795adb013e4dc8ad8a9ebd3d1417c175b13f77cecd85",
-      "size": 75234
+      "blake3_hash": "a8d1aeade9c3339289c224f69e680b3d0db532935e50f5df7f1a9c729313c72a",
+      "size": 68695
     },
     "VivaVoce/Sounds/q1166-reward-m.ogg": {
       "relative_path": "VivaVoce/Sounds/q1166-reward-m.ogg",
-      "blake3_hash": "7bc8d2da4d250e8cc0cdcc67c75e0c4f581f9b1def584ddbdb87c84ac2079aa7",
-      "size": 71024
+      "blake3_hash": "0bdccfc0486d491e5edeb938528aae343bacf4b93f05605cd39ce2b54f304063",
+      "size": 59575
     },
     "VivaVoce/Sounds/q1166-text-f.ogg": {
       "relative_path": "VivaVoce/Sounds/q1166-text-f.ogg",
-      "blake3_hash": "c0ae16bc1725bce9543c368a3d2e367881c51af28645cdea0f1184f0ccc6e42e",
-      "size": 476142
+      "blake3_hash": "92b9bf733baccdcc70313c60d29f9fcece4eed7454b8b1bcc901eefa20c86aee",
+      "size": 499389
     },
     "VivaVoce/Sounds/q1166-text-m.ogg": {
       "relative_path": "VivaVoce/Sounds/q1166-text-m.ogg",
-      "blake3_hash": "941134ada88c89862ae0c3edf16dda37c09ce723894d914d59313122df898684",
-      "size": 427097
+      "blake3_hash": "05334b13e20b356bf112e5df225d1be8f12537de1f3e634eab3260b5f9046843",
+      "size": 521462
     },
     "VivaVoce/Sounds/q1167-reward-f.ogg": {
       "relative_path": "VivaVoce/Sounds/q1167-reward-f.ogg",
@@ -65605,23 +65617,23 @@
     },
     "VivaVoce/Sounds/q1169-progress.ogg": {
       "relative_path": "VivaVoce/Sounds/q1169-progress.ogg",
-      "blake3_hash": "94ef7088a87764468c1a6c64c6409926d14ef58e0164c9d5de5c70762aaed69d",
-      "size": 298266
+      "blake3_hash": "e6c03ab18a931bf9a8576a428c3cd4a5987e60954f7b53dd6db24a2757f7eff5",
+      "size": 347256
     },
     "VivaVoce/Sounds/q1169-reward.ogg": {
       "relative_path": "VivaVoce/Sounds/q1169-reward.ogg",
-      "blake3_hash": "2a7d5308ec74dc64e05b31c0d41653c5abc88cc59006c4264d96170c3650e7e9",
-      "size": 146736
+      "blake3_hash": "4e63908c7176e04754cb3e9a64957be9c508fdada2693296923b540e0210d051",
+      "size": 168720
     },
     "VivaVoce/Sounds/q1169-text-f.ogg": {
       "relative_path": "VivaVoce/Sounds/q1169-text-f.ogg",
-      "blake3_hash": "df859201d6332fefaa49ce43dc76dcde537dceea8dea5f1c609f6ce37a8dc4e4",
-      "size": 364248
+      "blake3_hash": "f76cd5681a6f71e622788e698c1a8e664400c6a2cd9dab26fecb3174331841e1",
+      "size": 438443
     },
     "VivaVoce/Sounds/q1169-text-m.ogg": {
       "relative_path": "VivaVoce/Sounds/q1169-text-m.ogg",
-      "blake3_hash": "8becb4c9f37b8a775fdd4f57f6c0bf57a3c820eae82581f51a00640093d92c36",
-      "size": 357870
+      "blake3_hash": "ead3a4e25eeed0c2f524beda718e1a521073c3a6f29c409bcf1cbeada43cec0b",
+      "size": 428326
     },
     "VivaVoce/Sounds/q117-progress-f.ogg": {
       "relative_path": "VivaVoce/Sounds/q117-progress-f.ogg",
@@ -65670,43 +65682,43 @@
     },
     "VivaVoce/Sounds/q1172-progress.ogg": {
       "relative_path": "VivaVoce/Sounds/q1172-progress.ogg",
-      "blake3_hash": "0308cc554d16194ca8cc4bc642263c62e89c058ce1c441fc307ca5a963addaf3",
-      "size": 153369
+      "blake3_hash": "c9da2da0d5170591580d3b5e8d634183ee6df36e2f0ef04209180d6291facb23",
+      "size": 173116
     },
     "VivaVoce/Sounds/q1172-reward.ogg": {
       "relative_path": "VivaVoce/Sounds/q1172-reward.ogg",
-      "blake3_hash": "ae4afd099240cd96bf042d59e32ecabcca877328152fdc5897cbcbaae2cf23a5",
-      "size": 314064
+      "blake3_hash": "e0cbc9d30b16a7535739910395c489ad621da660ea0d00ec8eb7e8ec863f471b",
+      "size": 380636
     },
     "VivaVoce/Sounds/q1172-text.ogg": {
       "relative_path": "VivaVoce/Sounds/q1172-text.ogg",
-      "blake3_hash": "307debd39d2a2bef7fcafe88f3d3a005d35c8b376bda6a8254b34269b2d2c3d0",
-      "size": 323559
+      "blake3_hash": "0b1055ac8aa82e78cd993447bf69c6c75c9ba1258cdc23c54f0546785f0b4b51",
+      "size": 369025
     },
     "VivaVoce/Sounds/q1173-progress-f.ogg": {
       "relative_path": "VivaVoce/Sounds/q1173-progress-f.ogg",
-      "blake3_hash": "8d3db016de87322a2e7d1bd5752581bbcfc10cb3955002567acfb0cdc3126583",
-      "size": 71917
+      "blake3_hash": "f9b7fe82eecff7625248c58f789f89fd5ecfbce43755d0a6636c61d2d2a02523",
+      "size": 76849
     },
     "VivaVoce/Sounds/q1173-progress-m.ogg": {
       "relative_path": "VivaVoce/Sounds/q1173-progress-m.ogg",
-      "blake3_hash": "4c0008de1b0053c4a7087c816e3c67bd22bc74f0e6b28e9ea2c97168c7871e42",
-      "size": 76471
+      "blake3_hash": "47f2d977b3087328b6102d5caa4af6de77cf7048e9e194fa66626008b9bc890b",
+      "size": 72387
     },
     "VivaVoce/Sounds/q1173-reward.ogg": {
       "relative_path": "VivaVoce/Sounds/q1173-reward.ogg",
-      "blake3_hash": "dc431a8790798f29714f6463286b83224f0aae98d9ecdc1e89b203172687c685",
-      "size": 180349
+      "blake3_hash": "c0bab586a7e9d087ccb3803eee6cbebab968247046437e9f8beecedf533830b6",
+      "size": 187395
     },
     "VivaVoce/Sounds/q1173-text-f.ogg": {
       "relative_path": "VivaVoce/Sounds/q1173-text-f.ogg",
-      "blake3_hash": "0ac7664a75b13289ab4d2380f8b407fb32164287997ce661695a0e03230737da",
-      "size": 123517
+      "blake3_hash": "db266b2d7ae3fba5d74e27493f48bef64361bbbb077b2bdc6ea3fd055f990333",
+      "size": 125574
     },
     "VivaVoce/Sounds/q1173-text-m.ogg": {
       "relative_path": "VivaVoce/Sounds/q1173-text-m.ogg",
-      "blake3_hash": "88868696b7890f8d161d0a88c520288c542c48fb02016149175dc7694aef1b50",
-      "size": 119790
+      "blake3_hash": "4fec4c116baccbde318b97aa28ddfa12b4b9f068353f1553f26b1e0143162680",
+      "size": 145059
     },
     "VivaVoce/Sounds/q1175-progress.ogg": {
       "relative_path": "VivaVoce/Sounds/q1175-progress.ogg",
@@ -66600,18 +66612,18 @@
     },
     "VivaVoce/Sounds/q1251-progress.ogg": {
       "relative_path": "VivaVoce/Sounds/q1251-progress.ogg",
-      "blake3_hash": "3bc24a1672bd7709e3bb1903faf10e6f4b69a38846bd720803468f4a2ad5b328",
-      "size": 43121
+      "blake3_hash": "4bccba372583b8e8e7a5b7f8b4b07d191dc3d195e62b9ce5bafec9f04462e358",
+      "size": 52067
     },
     "VivaVoce/Sounds/q1251-reward.ogg": {
       "relative_path": "VivaVoce/Sounds/q1251-reward.ogg",
-      "blake3_hash": "a09d291e9765aa115ba0c47230eab33bf0478196efff03e5d621bf676565583e",
-      "size": 152469
+      "blake3_hash": "f9ca1ebc2b5cf859e61bbcd096a07604160a643ced494964e93aa3beddd3ec2d",
+      "size": 157133
     },
     "VivaVoce/Sounds/q1251-text.ogg": {
       "relative_path": "VivaVoce/Sounds/q1251-text.ogg",
-      "blake3_hash": "3190898970341a416fdb0bcd7fb9e1f89777b08457d1384fd3d15f31a6a5cfc8",
-      "size": 141175
+      "blake3_hash": "3260a7c6390d85dd7aba24348fdb7576fdb6d34deb83ef3f37a53ecdb4d53147",
+      "size": 157368
     },
     "VivaVoce/Sounds/q1252-progress.ogg": {
       "relative_path": "VivaVoce/Sounds/q1252-progress.ogg",
@@ -66805,18 +66817,18 @@
     },
     "VivaVoce/Sounds/q1269-progress.ogg": {
       "relative_path": "VivaVoce/Sounds/q1269-progress.ogg",
-      "blake3_hash": "dfcce2acd96c7401ed82817146781da79e8299a48ab52c80f3033f29a1997096",
-      "size": 40773
+      "blake3_hash": "89d08c545aed2148a54bc49afefa4974172b5caa573363f0c03ec88ef7458b3e",
+      "size": 45678
     },
     "VivaVoce/Sounds/q1269-reward.ogg": {
       "relative_path": "VivaVoce/Sounds/q1269-reward.ogg",
-      "blake3_hash": "fea47b2e4a313f7a815fe4a7eb66d48a4b4141695f0d324dc286db037e3d9a4b",
-      "size": 182011
+      "blake3_hash": "a54205945aff205249a84c65741732c1dcf52798cc51bbca3eea4847261462e7",
+      "size": 230266
     },
     "VivaVoce/Sounds/q1269-text.ogg": {
       "relative_path": "VivaVoce/Sounds/q1269-text.ogg",
-      "blake3_hash": "83884fa9ff7443232ce045c6bd9cfa079a930a00d98c85d63f6d81b5a4271bce",
-      "size": 213981
+      "blake3_hash": "36f87f9ebd13fd2f11f10b951ebf1fd8fb0bb25e489d7fc96d7d478046b89011",
+      "size": 267172
     },
     "VivaVoce/Sounds/q127-progress.ogg": {
       "relative_path": "VivaVoce/Sounds/q127-progress.ogg",
@@ -66855,18 +66867,18 @@
     },
     "VivaVoce/Sounds/q1273-progress.ogg": {
       "relative_path": "VivaVoce/Sounds/q1273-progress.ogg",
-      "blake3_hash": "6a174c4fc5f2fb758d2a619bafe66655ae1b3bf0b84654f9db70ef41563c27dd",
-      "size": 13843
+      "blake3_hash": "c0e02d3407c70ef17f75159a1b016b414f6ba21d347cc5272853b40e16e73fc9",
+      "size": 17775
     },
     "VivaVoce/Sounds/q1273-reward.ogg": {
       "relative_path": "VivaVoce/Sounds/q1273-reward.ogg",
-      "blake3_hash": "710f982c7535e4ef79592741d574c995844d03f3c6876d0930acfd72361b5921",
-      "size": 168101
+      "blake3_hash": "aa27f8eaeb643335d30f57dc3d70fa2b694ed9a96d23c7993176bffeb9fa2e06",
+      "size": 179227
     },
     "VivaVoce/Sounds/q1273-text.ogg": {
       "relative_path": "VivaVoce/Sounds/q1273-text.ogg",
-      "blake3_hash": "cbf2c29ab86ab415ba11ec4a4b2f25ce370834b663491f67d90d6d9e6a93e132",
-      "size": 161212
+      "blake3_hash": "f4c226f125e818b7bf282bde90b48b32b52d2c3b879b1e6cc88c3cf428d588ca",
+      "size": 181382
     },
     "VivaVoce/Sounds/q1274-reward.ogg": {
       "relative_path": "VivaVoce/Sounds/q1274-reward.ogg",
@@ -67030,8 +67042,8 @@
     },
     "VivaVoce/Sounds/q130-reward.ogg": {
       "relative_path": "VivaVoce/Sounds/q130-reward.ogg",
-      "blake3_hash": "7d392d635ca8f2fafed06567eb49b6f35f3ada07936ac0b5fb4078729b12578d",
-      "size": 141908
+      "blake3_hash": "ec84b670eee9e0f5a72527786cad2cdcdc336d02ea432963a8b01822b63cea9c",
+      "size": 110635
     },
     "VivaVoce/Sounds/q130-text.ogg": {
       "relative_path": "VivaVoce/Sounds/q130-text.ogg",
@@ -67070,18 +67082,18 @@
     },
     "VivaVoce/Sounds/q131-text.ogg": {
       "relative_path": "VivaVoce/Sounds/q131-text.ogg",
-      "blake3_hash": "6957dd1964aaee81ab008b90093ddf7ba40467a7e48ab3b7a1d654f3388abec9",
-      "size": 51237
+      "blake3_hash": "f57d0192417889161c43fe1b66e25f9b706de21dd1c3a1e8e1123e3f827a24c4",
+      "size": 37366
     },
     "VivaVoce/Sounds/q1318-text-f.ogg": {
       "relative_path": "VivaVoce/Sounds/q1318-text-f.ogg",
-      "blake3_hash": "83d966ccddee4bef25f6e9f3757454c27c0f33f30ae89bb9e7e9d29d0741c340",
-      "size": 442979
+      "blake3_hash": "21073bb15ae0d2d1973e3f1ccf00ccbaf6441bb1e7c0d2fa2fbe4d907f7267ef",
+      "size": 512367
     },
     "VivaVoce/Sounds/q1318-text-m.ogg": {
       "relative_path": "VivaVoce/Sounds/q1318-text-m.ogg",
-      "blake3_hash": "26c417a8d9925536de9de01cff5c8045d7a605c5b100cf054a61d4299b82d614",
-      "size": 395270
+      "blake3_hash": "4937425175fab9774012e616a19a0c62d8a7798300347489a7cf7d24de0b9f6d",
+      "size": 485957
     },
     "VivaVoce/Sounds/q1319-progress.ogg": {
       "relative_path": "VivaVoce/Sounds/q1319-progress.ogg",
@@ -67125,18 +67137,18 @@
     },
     "VivaVoce/Sounds/q1321-progress.ogg": {
       "relative_path": "VivaVoce/Sounds/q1321-progress.ogg",
-      "blake3_hash": "49017e4245aef44da4f73cb3c1ada399e4384cba5a73fe008cccb438f9c83e9d",
-      "size": 18694
+      "blake3_hash": "8975b496ddf39e0c2bf1d83637a4bfde7a17bd990b0bf1fe8d50283d1f38893a",
+      "size": 17514
     },
     "VivaVoce/Sounds/q1321-reward.ogg": {
       "relative_path": "VivaVoce/Sounds/q1321-reward.ogg",
-      "blake3_hash": "e5ec83b81abe95faa86ef1f8379eee92becc9ba171f0fb0be2a861170bd08329",
-      "size": 119148
+      "blake3_hash": "c18d8805eda6672f5934c513d8a1941a5c1c864db62a4abdf21c928086aa0a4b",
+      "size": 136803
     },
     "VivaVoce/Sounds/q1321-text.ogg": {
       "relative_path": "VivaVoce/Sounds/q1321-text.ogg",
-      "blake3_hash": "877d299c474d32433403a34ee4bfffeed8dfb256e25dd2eed0dc3ef78a79ac13",
-      "size": 121113
+      "blake3_hash": "1dcde40a5f3eb830a1149eaf25e338158df4d5ebe8f57a3744595cb8dd84d86a",
+      "size": 114797
     },
     "VivaVoce/Sounds/q1322-progress.ogg": {
       "relative_path": "VivaVoce/Sounds/q1322-progress.ogg",
@@ -67185,18 +67197,18 @@
     },
     "VivaVoce/Sounds/q133-progress.ogg": {
       "relative_path": "VivaVoce/Sounds/q133-progress.ogg",
-      "blake3_hash": "d025d37b76360f33b7f21ce459be5a0e8575bf169de7be68815626b195fc5edf",
-      "size": 70100
+      "blake3_hash": "132cb6f8a281879d48ee9a287667a9d114f7b19bb3e75abfd7289fa88f80b5db",
+      "size": 96276
     },
     "VivaVoce/Sounds/q133-reward.ogg": {
       "relative_path": "VivaVoce/Sounds/q133-reward.ogg",
-      "blake3_hash": "3e39432375d3e5bfc7726da0fff91b9b79fc1b3234826a46c2bb9a5122b89b6a",
-      "size": 32968
+      "blake3_hash": "e4a10a190b10345c26bc62e47b2237069022a32ee041827854645611f6dc64e6",
+      "size": 41188
     },
     "VivaVoce/Sounds/q133-text.ogg": {
       "relative_path": "VivaVoce/Sounds/q133-text.ogg",
-      "blake3_hash": "1508bc4748be91a601cc493b789a18d41f2700cc29a30676bc11a0d26409981b",
-      "size": 273802
+      "blake3_hash": "25fb26055eb5d7341eff3bb989d97acb6bf2f01a1414d63334d60d7d752c3eb2",
+      "size": 380653
     },
     "VivaVoce/Sounds/q1338-progress.ogg": {
       "relative_path": "VivaVoce/Sounds/q1338-progress.ogg",
@@ -67230,18 +67242,18 @@
     },
     "VivaVoce/Sounds/q134-progress.ogg": {
       "relative_path": "VivaVoce/Sounds/q134-progress.ogg",
-      "blake3_hash": "f2c941fdc3d05437185210c3f940cf5cc9fb628131890dbbcf0def0697bc8858",
-      "size": 43593
+      "blake3_hash": "d306509c5a720934e6db9cb8f7e2ee481f5621b9d79cf30438c0d19aa9026934",
+      "size": 45998
     },
     "VivaVoce/Sounds/q134-reward.ogg": {
       "relative_path": "VivaVoce/Sounds/q134-reward.ogg",
-      "blake3_hash": "ff8e2065f2d5f9609ccf0170f2e47d229addbadd327a0e24e3bc3408d533ce2d",
-      "size": 84111
+      "blake3_hash": "090aff74c2aa6fe22989028438e6e63ace363bf2d675cd6c97056c86077d580f",
+      "size": 121675
     },
     "VivaVoce/Sounds/q134-text.ogg": {
       "relative_path": "VivaVoce/Sounds/q134-text.ogg",
-      "blake3_hash": "7b0553f97d3c826af3c24f07fab2b14d9f7e99b06dbcf6c6ff057050ff0fe849",
-      "size": 213971
+      "blake3_hash": "94e2a2b0c6e878d6035748a98c7c12e5e844f3494587c15a6a0acb1f0f4ee7d9",
+      "size": 300617
     },
     "VivaVoce/Sounds/q135-progress.ogg": {
       "relative_path": "VivaVoce/Sounds/q135-progress.ogg",
@@ -67455,23 +67467,23 @@
     },
     "VivaVoce/Sounds/q1369-progress-f.ogg": {
       "relative_path": "VivaVoce/Sounds/q1369-progress-f.ogg",
-      "blake3_hash": "8530bad0b41af68fd8576fcb3ba618fcc235df6dd32edbfb918849714703cc9d",
-      "size": 39769
+      "blake3_hash": "3d4bd81b53cf2a6d09f8e576ba8c83a8728b1795f2d19e9b3f0071513d9fd32c",
+      "size": 43725
     },
     "VivaVoce/Sounds/q1369-progress-m.ogg": {
       "relative_path": "VivaVoce/Sounds/q1369-progress-m.ogg",
-      "blake3_hash": "0c2274444dda7ddb2788e36a1255c0ad843a8f92f3dc5f5f4d5dab5e7d4039d6",
-      "size": 40383
+      "blake3_hash": "85761c8fd6dd46b528f5dc1293f2810580f117a9240fd823155f4977f8fc1f5f",
+      "size": 43590
     },
     "VivaVoce/Sounds/q1369-reward.ogg": {
       "relative_path": "VivaVoce/Sounds/q1369-reward.ogg",
-      "blake3_hash": "fb049f45e1478ecac41ebe831df281504894e114633d9242a5ebb5c2c102c7e7",
-      "size": 170901
+      "blake3_hash": "74e459ceb81e9341159c978ced1921bad6c33d69d7d8a70a8676b780f665f33f",
+      "size": 167958
     },
     "VivaVoce/Sounds/q1369-text.ogg": {
       "relative_path": "VivaVoce/Sounds/q1369-text.ogg",
-      "blake3_hash": "31ca7b57fb71687a2be42d0afea0b19c4db5f291d4ed539ceaaabc90e961b7d5",
-      "size": 268344
+      "blake3_hash": "6beb35344f4163cc6286e4cb36ab4e6eba047e0307d259cd143db7bbc7cdf596",
+      "size": 310824
     },
     "VivaVoce/Sounds/q1370-progress.ogg": {
       "relative_path": "VivaVoce/Sounds/q1370-progress.ogg",
@@ -67565,18 +67577,18 @@
     },
     "VivaVoce/Sounds/q1375-progress.ogg": {
       "relative_path": "VivaVoce/Sounds/q1375-progress.ogg",
-      "blake3_hash": "989be9d0d07367ef3565f2ee07a4fe579fed8a14b27eab2d920b653777d21a92",
-      "size": 41401
+      "blake3_hash": "7cf2f858cc2fc1d070a0b3b9bcae70351266782090b04f4b8d443fe11fefb6e8",
+      "size": 38831
     },
     "VivaVoce/Sounds/q1375-reward.ogg": {
       "relative_path": "VivaVoce/Sounds/q1375-reward.ogg",
-      "blake3_hash": "e28a1946b8b1a33501923b3e3e74fe380e5493f189854a176acdbfe9e5f231a0",
-      "size": 106306
+      "blake3_hash": "896be790ef79ce65636b2962ccfdf9f14874a6e95170dc4d701d55ef6248d877",
+      "size": 120358
     },
     "VivaVoce/Sounds/q1375-text.ogg": {
       "relative_path": "VivaVoce/Sounds/q1375-text.ogg",
-      "blake3_hash": "9115fb928fd8f709e2e2a9b5b794dfd8d1e9f1ca8368d12fc3c976ca1abc1b82",
-      "size": 125424
+      "blake3_hash": "80f2dceab208034e42b3559aa2a63afa495525eb91655a7ccfd1759077c7eb6c",
+      "size": 141817
     },
     "VivaVoce/Sounds/q138-reward-f.ogg": {
       "relative_path": "VivaVoce/Sounds/q138-reward-f.ogg",
@@ -67610,28 +67622,28 @@
     },
     "VivaVoce/Sounds/q1381-progress-f.ogg": {
       "relative_path": "VivaVoce/Sounds/q1381-progress-f.ogg",
-      "blake3_hash": "f98f4771fed27c6165237bfeeb6f03b744aa77609d009318cc22f2c4e48629b8",
-      "size": 49592
+      "blake3_hash": "6197bc0a624714ec7bf2d9eeb422229ea419e6144147c8edfe01b974582bbb0c",
+      "size": 52163
     },
     "VivaVoce/Sounds/q1381-progress-m.ogg": {
       "relative_path": "VivaVoce/Sounds/q1381-progress-m.ogg",
-      "blake3_hash": "7fabbd77c6a3e2da2044dcc7a79047c9546b804c70310b2711609744c75e0ebb",
-      "size": 43182
+      "blake3_hash": "38c7348158bbc85072b31c58dbc76fc628d29b7852b3ca8b8c8102ddacea7b3d",
+      "size": 56017
     },
     "VivaVoce/Sounds/q1381-reward-f.ogg": {
       "relative_path": "VivaVoce/Sounds/q1381-reward-f.ogg",
-      "blake3_hash": "0885b51e535e7ebaff3698a7abb4562dfb6b0d423cd5e72fc48bf0fac92edcd8",
-      "size": 188905
+      "blake3_hash": "33c5c248dcfdc005abaa465080456e151c8ac6d9d4ae44975e56a94a7e99bf05",
+      "size": 208978
     },
     "VivaVoce/Sounds/q1381-reward-m.ogg": {
       "relative_path": "VivaVoce/Sounds/q1381-reward-m.ogg",
-      "blake3_hash": "aaa048732398e2bdf3c38507c134c4a972f435088f277e3f8c941f8ba4cbc238",
-      "size": 190442
+      "blake3_hash": "5af1e266e9cf155b23b09ff5f8f25892c3a715a031780bec4ac9ab51ffb74033",
+      "size": 210130
     },
     "VivaVoce/Sounds/q1381-text.ogg": {
       "relative_path": "VivaVoce/Sounds/q1381-text.ogg",
-      "blake3_hash": "830bb9026915b7e9296ab1a37a31dac6599422e283ae8a72903c3e1e302788c7",
-      "size": 368268
+      "blake3_hash": "9099e0eb243b82d495d97db9beda2bb8bb805450d432907a3a7d05e4315d310d",
+      "size": 440423
     },
     "VivaVoce/Sounds/q1382-progress.ogg": {
       "relative_path": "VivaVoce/Sounds/q1382-progress.ogg",
@@ -67705,18 +67717,18 @@
     },
     "VivaVoce/Sounds/q1386-progress.ogg": {
       "relative_path": "VivaVoce/Sounds/q1386-progress.ogg",
-      "blake3_hash": "a4bd3f497cf12d3ad24e9fe37112c8fb6244bde77e8f315334757d4f7438d838",
-      "size": 101801
+      "blake3_hash": "3a7cd410b95b105d22f9374e647787d58aec3adda5cdcba280b210bd7f959dd3",
+      "size": 105062
     },
     "VivaVoce/Sounds/q1386-reward.ogg": {
       "relative_path": "VivaVoce/Sounds/q1386-reward.ogg",
-      "blake3_hash": "e7c3b00a98e06f3c196c595c546ee4bcb8f5d1794bff8418930026b155456800",
-      "size": 122499
+      "blake3_hash": "592269d4308050232867277ebf3cb31e6c129ef2fc4239995ee4dad3d8c58ce0",
+      "size": 111527
     },
     "VivaVoce/Sounds/q1386-text.ogg": {
       "relative_path": "VivaVoce/Sounds/q1386-text.ogg",
-      "blake3_hash": "933dfc545e14a86e5e7fdb2c76e1c94bc5cb7bcfcf0764d010dbf180d1aff506",
-      "size": 132346
+      "blake3_hash": "dffabf9fd5400a88fda8a4a361f7528c750099efbe803cee953c11d4a17f7bc4",
+      "size": 144683
     },
     "VivaVoce/Sounds/q1387-progress.ogg": {
       "relative_path": "VivaVoce/Sounds/q1387-progress.ogg",
@@ -68765,13 +68777,13 @@
     },
     "VivaVoce/Sounds/q1468-reward-f.ogg": {
       "relative_path": "VivaVoce/Sounds/q1468-reward-f.ogg",
-      "blake3_hash": "e04b06d19877f798eb58e13c1ed166a4eca1a346e3bf43dd27e94fd0ed27b326",
-      "size": 167026
+      "blake3_hash": "c64793d155e313ce2265a382b7ac4ede9804ae0dee59663e187cee1483a859a7",
+      "size": 199504
     },
     "VivaVoce/Sounds/q1468-reward-m.ogg": {
       "relative_path": "VivaVoce/Sounds/q1468-reward-m.ogg",
-      "blake3_hash": "2f2e71bb1526607a588776f2d3cf4fb4dd0e4ae899e790c059eb98360abe03da",
-      "size": 178504
+      "blake3_hash": "f7f856bda449786c4c40e88e9f8d335ae16249688ea2ce9f3022286fb25afd20",
+      "size": 179621
     },
     "VivaVoce/Sounds/q1468-text-f.ogg": {
       "relative_path": "VivaVoce/Sounds/q1468-text-f.ogg",
@@ -68990,8 +69002,8 @@
     },
     "VivaVoce/Sounds/q148-text.ogg": {
       "relative_path": "VivaVoce/Sounds/q148-text.ogg",
-      "blake3_hash": "caae3a937f964aec090a94bafc7773b269be5f6c705f4b58386f469da455cb3b",
-      "size": 174974
+      "blake3_hash": "864ce30e6de016182cdbd7238968f17d4d1a8322ead3b434915a2ef2a349bb17",
+      "size": 288958
     },
     "VivaVoce/Sounds/q1480-progress.ogg": {
       "relative_path": "VivaVoce/Sounds/q1480-progress.ogg",
@@ -70045,8 +70057,8 @@
     },
     "VivaVoce/Sounds/q156-text.ogg": {
       "relative_path": "VivaVoce/Sounds/q156-text.ogg",
-      "blake3_hash": "d676b914590b567b9d6647d4b371118a401bc7e085603128e1c2d14b5c8df812",
-      "size": 318833
+      "blake3_hash": "d22a71bf022c60dbd66ce7cee415d4c7736c2704d770b73483567a66db8ea680",
+      "size": 315241
     },
     "VivaVoce/Sounds/q1560-progress.ogg": {
       "relative_path": "VivaVoce/Sounds/q1560-progress.ogg",
@@ -70065,18 +70077,18 @@
     },
     "VivaVoce/Sounds/q157-progress.ogg": {
       "relative_path": "VivaVoce/Sounds/q157-progress.ogg",
-      "blake3_hash": "824ed0ca94adfaba25c5c9b5a047ad81dfccf39f462dc39bbcd9142469230f10",
-      "size": 68317
+      "blake3_hash": "2b4998ce14d6143a089c1e305a60997934d3e2b8ae3368a1b0c94f6dd390cc75",
+      "size": 94794
     },
     "VivaVoce/Sounds/q157-reward-f.ogg": {
       "relative_path": "VivaVoce/Sounds/q157-reward-f.ogg",
-      "blake3_hash": "16d8722780a2705362c26e4d8df0712a4c37e4142ba18ac3c5c9485da2a04ada",
-      "size": 65290
+      "blake3_hash": "4cedd137a3185c4edd089b1dc826f82b27b90794769466427fe57e2858117496",
+      "size": 93748
     },
     "VivaVoce/Sounds/q157-reward-m.ogg": {
       "relative_path": "VivaVoce/Sounds/q157-reward-m.ogg",
-      "blake3_hash": "9447bbffa8c5ad52e165e5de500f74f7d0880d303e9ca7c4e429ec30e5aef167",
-      "size": 63301
+      "blake3_hash": "d315f983f25e178f44cdb69e955ea63226f28aecf4a144b3fc0a43cbe186b6d7",
+      "size": 102548
     },
     "VivaVoce/Sounds/q157-text.ogg": {
       "relative_path": "VivaVoce/Sounds/q157-text.ogg",
@@ -70120,13 +70132,13 @@
     },
     "VivaVoce/Sounds/q158-reward.ogg": {
       "relative_path": "VivaVoce/Sounds/q158-reward.ogg",
-      "blake3_hash": "4636d1d4735987d5cb5aceed3113a6169a95489b30de6d3d92f7b56d74c2d0ca",
-      "size": 67478
+      "blake3_hash": "787479395cbc140b81b26d302032250c1231a358fc26bc95d06215fb09f53ce4",
+      "size": 72603
     },
     "VivaVoce/Sounds/q158-text.ogg": {
       "relative_path": "VivaVoce/Sounds/q158-text.ogg",
-      "blake3_hash": "bfeca0d5c276252d0436e535cd61a4b65069e047751c07c4193c85e1d2f51ac1",
-      "size": 128271
+      "blake3_hash": "47db9f4cea495b7e618b5088301261a4348eb0d1adeb2a1f0b40601cd06b4b1c",
+      "size": 206708
     },
     "VivaVoce/Sounds/q1580-progress.ogg": {
       "relative_path": "VivaVoce/Sounds/q1580-progress.ogg",
@@ -70185,23 +70197,23 @@
     },
     "VivaVoce/Sounds/q159-progress.ogg": {
       "relative_path": "VivaVoce/Sounds/q159-progress.ogg",
-      "blake3_hash": "d44d13fc898596da866fa64647d67603e567b2af2a05b30066bb1907e2bd6e27",
-      "size": 48321
+      "blake3_hash": "d97cda6b8507b8eed6c477f97c1d55423ddc691e0ce0aa4a3204a3a8f06e3b7c",
+      "size": 71685
     },
     "VivaVoce/Sounds/q159-reward-f.ogg": {
       "relative_path": "VivaVoce/Sounds/q159-reward-f.ogg",
-      "blake3_hash": "b1b5e1a15a965df3ee7c15ac997dc3c13145448f18d1d0ccf77670d25e0fe4e9",
-      "size": 106234
+      "blake3_hash": "77a6d083822158570cf292e0db983b011987b0d2e800df6b962817da6e217f10",
+      "size": 147151
     },
     "VivaVoce/Sounds/q159-reward-m.ogg": {
       "relative_path": "VivaVoce/Sounds/q159-reward-m.ogg",
-      "blake3_hash": "ba232fc71b507f901dee4705cf3a8895942b3c19cd58d3f5230b62d029a17c27",
-      "size": 114502
+      "blake3_hash": "6204c3f003616ca71ed87070a60f44f879bb85bd3959baaacee18515108edf46",
+      "size": 148649
     },
     "VivaVoce/Sounds/q159-text.ogg": {
       "relative_path": "VivaVoce/Sounds/q159-text.ogg",
-      "blake3_hash": "1498ddc191a9e05c4b22b13aabc889782b6dc1126f27ed0d8a37e8bc0ac9e630",
-      "size": 79589
+      "blake3_hash": "98f563c989c578cf83333ae20b0d9a4b49d6c0c0af5fbac9a32921dfae0e66d6",
+      "size": 89776
     },
     "VivaVoce/Sounds/q1598-progress.ogg": {
       "relative_path": "VivaVoce/Sounds/q1598-progress.ogg",
@@ -70265,8 +70277,8 @@
     },
     "VivaVoce/Sounds/q160-text.ogg": {
       "relative_path": "VivaVoce/Sounds/q160-text.ogg",
-      "blake3_hash": "9f2a33907b456871d08cbbc8b27c377013652bc17f3918842e5ad7c6d25957a7",
-      "size": 119979
+      "blake3_hash": "1b306e5ca69b4c31d664c7368adffe509344c76004bcc538e4fb7c6baaf1b965",
+      "size": 161783
     },
     "VivaVoce/Sounds/q161-progress-f.ogg": {
       "relative_path": "VivaVoce/Sounds/q161-progress-f.ogg",
@@ -70325,8 +70337,8 @@
     },
     "VivaVoce/Sounds/q163-reward.ogg": {
       "relative_path": "VivaVoce/Sounds/q163-reward.ogg",
-      "blake3_hash": "687b48e0f4cc416b79e40c2a2ba6748cd7231c5337f63f8b59cd0ea510de3155",
-      "size": 141761
+      "blake3_hash": "3ee5a3c2b3cddc0c008c67d9585058a3a50dc75a5e95032b1521e48a3e2c1c83",
+      "size": 105001
     },
     "VivaVoce/Sounds/q163-text.ogg": {
       "relative_path": "VivaVoce/Sounds/q163-text.ogg",
@@ -70555,8 +70567,8 @@
     },
     "VivaVoce/Sounds/q165-reward.ogg": {
       "relative_path": "VivaVoce/Sounds/q165-reward.ogg",
-      "blake3_hash": "d2bef7c00ce2fa13a96e96d5a392843f6fd11f1258c0354c490c135fdb3e7211",
-      "size": 139859
+      "blake3_hash": "f9b0dd313fa1359c9b77e36ab94caca9289a3117bd6e5504be377d6b3835d000",
+      "size": 236568
     },
     "VivaVoce/Sounds/q165-text.ogg": {
       "relative_path": "VivaVoce/Sounds/q165-text.ogg",
@@ -71355,28 +71367,28 @@
     },
     "VivaVoce/Sounds/q171-progress-f.ogg": {
       "relative_path": "VivaVoce/Sounds/q171-progress-f.ogg",
-      "blake3_hash": "deae283d2e670465226892509aeb01e9a48c8376ca1ded087f7b62046a855d06",
-      "size": 90575
+      "blake3_hash": "348a743f72737b012f19c3c03ea21dad52957aecfb148b924f145bfa1a2bc4b7",
+      "size": 60157
     },
     "VivaVoce/Sounds/q171-progress-m.ogg": {
       "relative_path": "VivaVoce/Sounds/q171-progress-m.ogg",
-      "blake3_hash": "c73a24ec884098363171bb97a1e7e4d74971cf3d22ccb0ce21558a9f43765274",
-      "size": 89184
+      "blake3_hash": "96dd6d33fc7e02ec355277047e1133a5a8c2a74d17f8063e1ee5f8d6e6f3aa18",
+      "size": 64026
     },
     "VivaVoce/Sounds/q171-reward.ogg": {
       "relative_path": "VivaVoce/Sounds/q171-reward.ogg",
-      "blake3_hash": "22a2293aeda634348af6005269013277454d25acd936f489df1e9ea29f202ad6",
-      "size": 288704
+      "blake3_hash": "d93d0a74577c10078bb98cbbf99fbe4e046b3d08ec449c544a7d5a7462196fe3",
+      "size": 200967
     },
     "VivaVoce/Sounds/q171-text-f.ogg": {
       "relative_path": "VivaVoce/Sounds/q171-text-f.ogg",
-      "blake3_hash": "efc398d7701a4e9dc5d4a6ed470b5a0b65d3b2768a038f0a1036feb791f25786",
-      "size": 317483
+      "blake3_hash": "a853ff696e64415e3110b4d174badd4ece9c8d23bef4a07773e0afe293046617",
+      "size": 252328
     },
     "VivaVoce/Sounds/q171-text-m.ogg": {
       "relative_path": "VivaVoce/Sounds/q171-text-m.ogg",
-      "blake3_hash": "216d68be2fd8a4cf43df89741549a702038cd39dd255572e4d153894b40bc25b",
-      "size": 317269
+      "blake3_hash": "0e77ecbd11daf0647ee2340b1d32a353e56402d7ffd8e1b715d081db40d0b351",
+      "size": 234643
     },
     "VivaVoce/Sounds/q1710-progress.ogg": {
       "relative_path": "VivaVoce/Sounds/q1710-progress.ogg",
@@ -71530,23 +71542,23 @@
     },
     "VivaVoce/Sounds/q172-reward-f.ogg": {
       "relative_path": "VivaVoce/Sounds/q172-reward-f.ogg",
-      "blake3_hash": "378c6596add07958642a7911262c24cdbe25a4dc54f7c16688c5dc0575e03893",
-      "size": 189431
+      "blake3_hash": "8ef17d9de06cbe9b4d24136d219628ab29f0074088dd6c961ccda2913cab0780",
+      "size": 254213
     },
     "VivaVoce/Sounds/q172-reward-m.ogg": {
       "relative_path": "VivaVoce/Sounds/q172-reward-m.ogg",
-      "blake3_hash": "b4774ee2a9e158ea9a9535355d962bd4718f11e6fb433ed0f0bb9fafa49db4a4",
-      "size": 181324
+      "blake3_hash": "9cf677c0017484f8dd40977db2c745eef12d95e6bebcdf849d8a963e2055836f",
+      "size": 247074
     },
     "VivaVoce/Sounds/q172-text-f.ogg": {
       "relative_path": "VivaVoce/Sounds/q172-text-f.ogg",
-      "blake3_hash": "5553ee05b67e48272c59930c2dd84b56b42a43aa51b151d4e4a03f2e3525726a",
-      "size": 232667
+      "blake3_hash": "022241d1ca89a6b4951ffcb89a516c0f73578bc84dda3d8cdc84fdb55862ca37",
+      "size": 319250
     },
     "VivaVoce/Sounds/q172-text-m.ogg": {
       "relative_path": "VivaVoce/Sounds/q172-text-m.ogg",
-      "blake3_hash": "8c67d1e72ae82843cdc92e40cf625176aa38ac29a180db4f65c0120d08780713",
-      "size": 232667
+      "blake3_hash": "b472a45910d048b2d002d900f3157f47382e62cfd5d0e45a240018633111c352",
+      "size": 341185
     },
     "VivaVoce/Sounds/q173-progress.ogg": {
       "relative_path": "VivaVoce/Sounds/q173-progress.ogg",
@@ -71635,8 +71647,8 @@
     },
     "VivaVoce/Sounds/q175-reward.ogg": {
       "relative_path": "VivaVoce/Sounds/q175-reward.ogg",
-      "blake3_hash": "cfe1deaf08bc82b09f55cb737262a8a86b85d0b26a9e7b24e066d79834163de5",
-      "size": 33703
+      "blake3_hash": "a2d5bbef6901b05d23c1870299d4133dfe61881e8158211a5ba7bae79fd3591b",
+      "size": 33396
     },
     "VivaVoce/Sounds/q175-text.ogg": {
       "relative_path": "VivaVoce/Sounds/q175-text.ogg",
@@ -71680,8 +71692,8 @@
     },
     "VivaVoce/Sounds/q177-text.ogg": {
       "relative_path": "VivaVoce/Sounds/q177-text.ogg",
-      "blake3_hash": "beebc3e3e99223b0df1d55720e3484d1bfc0b7cadfc2085bf4eda924ecf935b0",
-      "size": 208633
+      "blake3_hash": "6f992171506d04f9e442ab63cc17dca061a7e1a22cea92f7ee498605e97cf7ef",
+      "size": 163159
     },
     "VivaVoce/Sounds/q1778-reward-f.ogg": {
       "relative_path": "VivaVoce/Sounds/q1778-reward-f.ogg",
@@ -71725,8 +71737,8 @@
     },
     "VivaVoce/Sounds/q178-text.ogg": {
       "relative_path": "VivaVoce/Sounds/q178-text.ogg",
-      "blake3_hash": "3b2d03751b01d8d4d35c9d6da13d8916466cfba11f6b87df6b6a57a428022114",
-      "size": 258666
+      "blake3_hash": "a3f636f0f7e8fefd25c37fb88e873ee06bd99a41446c9c9e697f29c1cfb35901",
+      "size": 278255
     },
     "VivaVoce/Sounds/q1780-reward-f.ogg": {
       "relative_path": "VivaVoce/Sounds/q1780-reward-f.ogg",
@@ -72240,18 +72252,18 @@
     },
     "VivaVoce/Sounds/q182-progress.ogg": {
       "relative_path": "VivaVoce/Sounds/q182-progress.ogg",
-      "blake3_hash": "606dbd659580d24c9ebbee4afae6fc6dd2722a185b245347f849e28adb9a24d7",
-      "size": 80572
+      "blake3_hash": "eb6dbafa3a3f2804182fbab74128b69be552ca0b44d448b61a87379072b9f1a2",
+      "size": 85730
     },
     "VivaVoce/Sounds/q182-reward.ogg": {
       "relative_path": "VivaVoce/Sounds/q182-reward.ogg",
-      "blake3_hash": "0df70dc5f4325ebc27c8eb94e359d7bdc1a9ad93da2a1baf3e4ba5a63882c3a8",
-      "size": 111271
+      "blake3_hash": "17d50c463e5db8d1e6ff9fea67f19777a1328fdc6b5d426b9dd8c71c038b99e2",
+      "size": 123685
     },
     "VivaVoce/Sounds/q182-text.ogg": {
       "relative_path": "VivaVoce/Sounds/q182-text.ogg",
-      "blake3_hash": "97309e77083b09b26a40c44ff6b2a888f11f76ef8222bf8f93b974be4850b5f5",
-      "size": 310446
+      "blake3_hash": "30f85b1403d2d8583a387e633ec888af7d0363df8b63d2cf8a6866f64b616f70",
+      "size": 331568
     },
     "VivaVoce/Sounds/q1820-reward.ogg": {
       "relative_path": "VivaVoce/Sounds/q1820-reward.ogg",
@@ -72475,28 +72487,28 @@
     },
     "VivaVoce/Sounds/q185-progress-f.ogg": {
       "relative_path": "VivaVoce/Sounds/q185-progress-f.ogg",
-      "blake3_hash": "504f0d6d6d3bc9379374dba96df5df0bb4786c3227a893a747f63d7064161c8e",
-      "size": 86190
+      "blake3_hash": "4ce85b1dea49b4724a69a1e9a93c1f00fcc7113b3fd7b13588aadf9fc4c59ee6",
+      "size": 80983
     },
     "VivaVoce/Sounds/q185-progress-m.ogg": {
       "relative_path": "VivaVoce/Sounds/q185-progress-m.ogg",
-      "blake3_hash": "1c63ff1716c1cc7ee277ec999c00a07a785a5a9296bc0d11be4156185f0289c1",
-      "size": 80265
+      "blake3_hash": "f678d5f1947a2f0c99fd6bdf2614ba19a87ee672cc7ca36cd270455e9e3d59a0",
+      "size": 81675
     },
     "VivaVoce/Sounds/q185-reward-f.ogg": {
       "relative_path": "VivaVoce/Sounds/q185-reward-f.ogg",
-      "blake3_hash": "7479c1a0d403965df3c68efa5e579ab9406b06c7e54603a99e689767497d1ac7",
-      "size": 41994
+      "blake3_hash": "9f50912b1db2db10fa93d91990957a5a1c486a5f03d072e6b4869e916e718bd0",
+      "size": 42218
     },
     "VivaVoce/Sounds/q185-reward-m.ogg": {
       "relative_path": "VivaVoce/Sounds/q185-reward-m.ogg",
-      "blake3_hash": "0b22c2cb88f63466ce4152638bfa9f038b1edf33a5e0e14528abd5864ce30b2d",
-      "size": 43170
+      "blake3_hash": "785543c65513d4a925e9b21cca55a4c59f195c7da53b3e7e522fb7fb44cd1b0a",
+      "size": 42792
     },
     "VivaVoce/Sounds/q185-text.ogg": {
       "relative_path": "VivaVoce/Sounds/q185-text.ogg",
-      "blake3_hash": "c795ed7630a9c2fe8c1684166a4fe73845f25574008321f51dd78bcd129e3dfb",
-      "size": 216994
+      "blake3_hash": "c96defa368ab3d5754d8e4ea486583358fe8c2abcdc82ecfce36df04673cb961",
+      "size": 222718
     },
     "VivaVoce/Sounds/q1858-progress.ogg": {
       "relative_path": "VivaVoce/Sounds/q1858-progress.ogg",
@@ -72530,18 +72542,18 @@
     },
     "VivaVoce/Sounds/q186-progress.ogg": {
       "relative_path": "VivaVoce/Sounds/q186-progress.ogg",
-      "blake3_hash": "56ff1e91366902f478b25b3686c50e8660f178f29961930401cdd67ab3afc3ba",
-      "size": 102525
+      "blake3_hash": "425564fb382d2d9141c58f397c42759e56254840f00aeebb131899918b7b23bb",
+      "size": 102492
     },
     "VivaVoce/Sounds/q186-reward.ogg": {
       "relative_path": "VivaVoce/Sounds/q186-reward.ogg",
-      "blake3_hash": "811988f98c6a5de297ce788217c9f0e2ad74ab818706ba5772f7c48f4473b993",
-      "size": 35631
+      "blake3_hash": "ee4bed7c979c03369d86ecac13194a5a0739690379e9ce4077ddc25eb71baa4a",
+      "size": 35336
     },
     "VivaVoce/Sounds/q186-text.ogg": {
       "relative_path": "VivaVoce/Sounds/q186-text.ogg",
-      "blake3_hash": "d2446103e329636fa1ee8f85c2c10123033bbb74092f9a8046e8dd3e6fc7366c",
-      "size": 77611
+      "blake3_hash": "d55f2b7fd9a1f2972e6dfebaecd1ba72268e1cc9eb356a7e423dff3e012b461e",
+      "size": 73220
     },
     "VivaVoce/Sounds/q1860-reward-f.ogg": {
       "relative_path": "VivaVoce/Sounds/q1860-reward-f.ogg",
@@ -72575,33 +72587,33 @@
     },
     "VivaVoce/Sounds/q187-progress-f.ogg": {
       "relative_path": "VivaVoce/Sounds/q187-progress-f.ogg",
-      "blake3_hash": "8a024db69291667fe2783fc18205e549d19e94923bcd2779ab45fa2f510abe56",
-      "size": 109046
+      "blake3_hash": "a8014043561553fc4de23006203a419e9377777265bd2d0d2d52993e9991422e",
+      "size": 104705
     },
     "VivaVoce/Sounds/q187-progress-m.ogg": {
       "relative_path": "VivaVoce/Sounds/q187-progress-m.ogg",
-      "blake3_hash": "7cb37f724f764139fa83f4f6986cc6fe77083da43d5c21d59def9153907416aa",
-      "size": 105853
+      "blake3_hash": "999c8303d3a4669582643bfe93664ac251501f2475e7b4d9c1396a9369963cda",
+      "size": 105540
     },
     "VivaVoce/Sounds/q187-reward-f.ogg": {
       "relative_path": "VivaVoce/Sounds/q187-reward-f.ogg",
-      "blake3_hash": "16892e3a9cb02dccaf121ad126302e0db5e1a0edb75dbc69167826a76d335aaf",
-      "size": 35444
+      "blake3_hash": "504449481012542c1f0d5fdf835a6a57f030d621d4705f77b68210570aa04fd6",
+      "size": 32770
     },
     "VivaVoce/Sounds/q187-reward-m.ogg": {
       "relative_path": "VivaVoce/Sounds/q187-reward-m.ogg",
-      "blake3_hash": "995b09327eb201061620ba298c4e8cbcbf7d5d71b7e86e5995b627b12a6be663",
-      "size": 37933
+      "blake3_hash": "db715725807e653385004a638ffce730c97851f6bcda78ca865036d3ac552974",
+      "size": 34744
     },
     "VivaVoce/Sounds/q187-text-f.ogg": {
       "relative_path": "VivaVoce/Sounds/q187-text-f.ogg",
-      "blake3_hash": "f63856fb4e968276dc9a67d1a2670948d36af91cfd8af3a0ce082f42e0148a84",
-      "size": 248582
+      "blake3_hash": "b6bd544263b0b740b6fbb1443f8ac694822cf00d8614881262b26bd84783c5a9",
+      "size": 253536
     },
     "VivaVoce/Sounds/q187-text-m.ogg": {
       "relative_path": "VivaVoce/Sounds/q187-text-m.ogg",
-      "blake3_hash": "4830fa226761cf0426b791a963230ade613e7f31acc008bf498210c5947191f2",
-      "size": 250095
+      "blake3_hash": "aec1be5f3bf2bff32110ac8a16b1defdcca1be36dc1e67801a041414220fdba9",
+      "size": 254984
     },
     "VivaVoce/Sounds/q1878-progress.ogg": {
       "relative_path": "VivaVoce/Sounds/q1878-progress.ogg",
@@ -72635,28 +72647,28 @@
     },
     "VivaVoce/Sounds/q188-progress.ogg": {
       "relative_path": "VivaVoce/Sounds/q188-progress.ogg",
-      "blake3_hash": "22e99a48c44d51820663b99b1a989f14ec8aa08b4ac3d7f3ef59d8c1fea58812",
-      "size": 18828
+      "blake3_hash": "ad40d149f73828622742d35d83de1fdbd6de10869674a23b18f55e442d412c29",
+      "size": 21498
     },
     "VivaVoce/Sounds/q188-reward-f.ogg": {
       "relative_path": "VivaVoce/Sounds/q188-reward-f.ogg",
-      "blake3_hash": "fc8c34ab22f35cac4e4e702c8b5fafec7b5c4d56a16bf2a46bd2481e6ab54d1e",
-      "size": 64038
+      "blake3_hash": "1d397de4a0a5672492d1a554104d6b3482b4e3e408b55f173133fe4d33fb8f32",
+      "size": 74284
     },
     "VivaVoce/Sounds/q188-reward-m.ogg": {
       "relative_path": "VivaVoce/Sounds/q188-reward-m.ogg",
-      "blake3_hash": "28210a51c9afe4f5362e8970004414de96972e8ab152902587b203363a4da26a",
-      "size": 65607
+      "blake3_hash": "bf40e07ce26f4fad7749d8e6d8b1904d45c3304fd1789492c0fea28d03980e32",
+      "size": 66230
     },
     "VivaVoce/Sounds/q188-text-f.ogg": {
       "relative_path": "VivaVoce/Sounds/q188-text-f.ogg",
-      "blake3_hash": "e7868877cb65af4007638efd8a5a426c8181df5934b4ae845b45321fcb66cd6e",
-      "size": 209425
+      "blake3_hash": "9199df9a0309420abbbc3729101cff7efd5ea730a8b6179532896720f53a5ec1",
+      "size": 205263
     },
     "VivaVoce/Sounds/q188-text-m.ogg": {
       "relative_path": "VivaVoce/Sounds/q188-text-m.ogg",
-      "blake3_hash": "00df625cdc2ebdd178b0ed794b0fe429b70c6d02362fc5ebd75041b95f1787f6",
-      "size": 213271
+      "blake3_hash": "8086206e83ccfa4b02ad1b70e338e9e3f5cc0664ef8b3e19d01c116c9c231a08",
+      "size": 193420
     },
     "VivaVoce/Sounds/q1880-progress.ogg": {
       "relative_path": "VivaVoce/Sounds/q1880-progress.ogg",
@@ -74175,18 +74187,18 @@
     },
     "VivaVoce/Sounds/q218-progress.ogg": {
       "relative_path": "VivaVoce/Sounds/q218-progress.ogg",
-      "blake3_hash": "95f4a2489d3d365e4e228986ded761479ad66b978d6cbce07004b1c79a2ece99",
-      "size": 16140
+      "blake3_hash": "f4e05d09606fa2c7cf29048e48c28a13fa31f594cbbcda1bf244923da3bd11fc",
+      "size": 17546
     },
     "VivaVoce/Sounds/q218-reward.ogg": {
       "relative_path": "VivaVoce/Sounds/q218-reward.ogg",
-      "blake3_hash": "76084db801aec31c53685cc140ec21a37959e1b0a65acd091b3ed0b707314d77",
-      "size": 162579
+      "blake3_hash": "f997540b2026987c3826c5c95797b1b08e85ca5634c76a2d103a14e9b7587d60",
+      "size": 186923
     },
     "VivaVoce/Sounds/q218-text.ogg": {
       "relative_path": "VivaVoce/Sounds/q218-text.ogg",
-      "blake3_hash": "0ca842299cb986749c32631695a1b63221cca3ab1f6f3b39da6e5ffd15e7c5fc",
-      "size": 142123
+      "blake3_hash": "003eafb7227a6f1f53779b4358b9f27958a9353ca188836989b4cf92fa5d4b4a",
+      "size": 159262
     },
     "VivaVoce/Sounds/q219-progress.ogg": {
       "relative_path": "VivaVoce/Sounds/q219-progress.ogg",
@@ -74255,23 +74267,23 @@
     },
     "VivaVoce/Sounds/q22-progress.ogg": {
       "relative_path": "VivaVoce/Sounds/q22-progress.ogg",
-      "blake3_hash": "72293ef6c56ed1076677782b0dafd474bbcefb4863c8fe59d0b0c98949985615",
-      "size": 46782
+      "blake3_hash": "4d5a4f4b206135a2cc5515f54cf11fcb4f49a93d9b1d72b1c15660ee6698a4e2",
+      "size": 41825
     },
     "VivaVoce/Sounds/q22-reward-f.ogg": {
       "relative_path": "VivaVoce/Sounds/q22-reward-f.ogg",
-      "blake3_hash": "a6bcb1c0201bb5ad3c8b7b6bf5f88f60ea3d0d50b7fc2ceb561af6c0442c9fe0",
-      "size": 133206
+      "blake3_hash": "3a739837ed3897e8acd504a4bb14a4b92a06f330a68e44f62eae2c90c06e479a",
+      "size": 117401
     },
     "VivaVoce/Sounds/q22-reward-m.ogg": {
       "relative_path": "VivaVoce/Sounds/q22-reward-m.ogg",
-      "blake3_hash": "7ba4f402d75ed04787c23de3df0ac6fcae59bdd0f04e49f2c602c83a8daf80df",
-      "size": 142749
+      "blake3_hash": "72cb50706d42b959ac10956029a038c2d686463e094715c38a531c77487b49a1",
+      "size": 109648
     },
     "VivaVoce/Sounds/q22-text.ogg": {
       "relative_path": "VivaVoce/Sounds/q22-text.ogg",
-      "blake3_hash": "02666839335b9c67c9fa53c7006cd690b65e3ead101c97351aa22c24a62564bf",
-      "size": 164624
+      "blake3_hash": "691c159d09fbfd818b8d127ee6f78d593ba5b669299a08f06a71b36d59eb5cf3",
+      "size": 117504
     },
     "VivaVoce/Sounds/q220-progress.ogg": {
       "relative_path": "VivaVoce/Sounds/q220-progress.ogg",
@@ -74955,13 +74967,13 @@
     },
     "VivaVoce/Sounds/q231-progress.ogg": {
       "relative_path": "VivaVoce/Sounds/q231-progress.ogg",
-      "blake3_hash": "907e95e7f485644df2be0a0e27f7a731a9128f1f34770a45d999aa0b8677dce5",
-      "size": 19753
+      "blake3_hash": "37eec771f0f5a2faba3482033b95230ba3893b8bf09cda2ff34ee36c7712dd74",
+      "size": 19545
     },
     "VivaVoce/Sounds/q231-reward.ogg": {
       "relative_path": "VivaVoce/Sounds/q231-reward.ogg",
-      "blake3_hash": "ce87c655013b48c8174e865d48afdf84b56908c44dcf97f070021ec79512dc0d",
-      "size": 309574
+      "blake3_hash": "e6bee3247a1f9afae9e8e19668b80025268f19b97a8300f7f58156198152858e",
+      "size": 247967
     },
     "VivaVoce/Sounds/q231-text.ogg": {
       "relative_path": "VivaVoce/Sounds/q231-text.ogg",
@@ -75065,13 +75077,13 @@
     },
     "VivaVoce/Sounds/q234-progress.ogg": {
       "relative_path": "VivaVoce/Sounds/q234-progress.ogg",
-      "blake3_hash": "2abe980dba1ba9f9c856a343a1e420110e52772a5af0a4f9e88478d25f31af18",
-      "size": 19579
+      "blake3_hash": "43076241e056015504e39b8692f199077a0735d789a8c1a10c01c392c0787cc4",
+      "size": 21911
     },
     "VivaVoce/Sounds/q234-reward.ogg": {
       "relative_path": "VivaVoce/Sounds/q234-reward.ogg",
-      "blake3_hash": "1652543393bc755383443042ddb2ded7b30bd6c5823a7a80e0b4ee1627d82540",
-      "size": 138339
+      "blake3_hash": "2083c6c69be7f6d5aff1869055bec4842c9d908a615ca07d07566c0b886573a7",
+      "size": 149443
     },
     "VivaVoce/Sounds/q234-text.ogg": {
       "relative_path": "VivaVoce/Sounds/q234-text.ogg",
@@ -75400,13 +75412,13 @@
     },
     "VivaVoce/Sounds/q240-progress.ogg": {
       "relative_path": "VivaVoce/Sounds/q240-progress.ogg",
-      "blake3_hash": "541702155a5f97d475685c7041bb056c14ffd54a1b2d8abc7a66aa97c98e93fb",
-      "size": 26187
+      "blake3_hash": "ff67230ca8e37ac70e4bc7aa761d5d0c457fd177ded12dcde4e3ffd7b540a1b8",
+      "size": 17483
     },
     "VivaVoce/Sounds/q240-reward.ogg": {
       "relative_path": "VivaVoce/Sounds/q240-reward.ogg",
-      "blake3_hash": "2743694b8f40110d493bdbee2644ead73db25f7c6b7dda56c8817e025910ff99",
-      "size": 60616
+      "blake3_hash": "e93148ccaae8f4d5ca79759025d150345c4e7f03a74bf82af68350c06628bdee",
+      "size": 49081
     },
     "VivaVoce/Sounds/q240-text.ogg": {
       "relative_path": "VivaVoce/Sounds/q240-text.ogg",
@@ -75675,8 +75687,8 @@
     },
     "VivaVoce/Sounds/q248-text.ogg": {
       "relative_path": "VivaVoce/Sounds/q248-text.ogg",
-      "blake3_hash": "97486dbb978ef3b034441b48d4d24fa62c2f427f805b61615bf8889c59e61a3c",
-      "size": 274401
+      "blake3_hash": "36d463fefe1df257a6a029e61bd3afd03443c3c20cf69dd177038a25713e60d3",
+      "size": 290858
     },
     "VivaVoce/Sounds/q2480-reward.ogg": {
       "relative_path": "VivaVoce/Sounds/q2480-reward.ogg",
@@ -75955,28 +75967,28 @@
     },
     "VivaVoce/Sounds/q255-progress.ogg": {
       "relative_path": "VivaVoce/Sounds/q255-progress.ogg",
-      "blake3_hash": "c647b7e0009c730eca7cb26f5560463b947b334153dfd9a3eebb239ee391107d",
-      "size": 18173
+      "blake3_hash": "3486840cfa008e7f845ce5bf834d501d63084f1849d486ae4bb8316957a64c4f",
+      "size": 16526
     },
     "VivaVoce/Sounds/q255-reward.ogg": {
       "relative_path": "VivaVoce/Sounds/q255-reward.ogg",
-      "blake3_hash": "c63de1e9aefd252c1d90f49b503c753fd393afacbc504ad216216048fe1f2dd5",
-      "size": 142623
+      "blake3_hash": "08d038bcc8f2768a0d1030c65a548e36cec6699633480dc6a4904d77c3dd70b8",
+      "size": 148405
     },
     "VivaVoce/Sounds/q255-text.ogg": {
       "relative_path": "VivaVoce/Sounds/q255-text.ogg",
-      "blake3_hash": "172725fca263ccbed67b4066325995a68a3da8528a20305db5365a3a6c0a69dc",
-      "size": 352418
+      "blake3_hash": "84cbff23153b1bb914f867a2b1587fc4768c933bb6e9b520ba51e20d81e4a50f",
+      "size": 385584
     },
     "VivaVoce/Sounds/q256-progress.ogg": {
       "relative_path": "VivaVoce/Sounds/q256-progress.ogg",
-      "blake3_hash": "3b848df175c63fa52650cd1f0594e5badce9c3296128f36d3554ab3d598274cb",
-      "size": 26388
+      "blake3_hash": "c6bdbcd6c75100e8b31dbc2baf8b12243fe45c64ded3deb339f41987bcb583c6",
+      "size": 27021
     },
     "VivaVoce/Sounds/q256-reward.ogg": {
       "relative_path": "VivaVoce/Sounds/q256-reward.ogg",
-      "blake3_hash": "cb299495dff95f43d1410ddb16846af024a8bc34defddc0c7525d26055e058a4",
-      "size": 204011
+      "blake3_hash": "8ab73476fa8507ac86269678c0bcf8084c22d29ce3171e7536bd95c35ed50905",
+      "size": 201290
     },
     "VivaVoce/Sounds/q256-text.ogg": {
       "relative_path": "VivaVoce/Sounds/q256-text.ogg",
@@ -76005,8 +76017,8 @@
     },
     "VivaVoce/Sounds/q257-reward.ogg": {
       "relative_path": "VivaVoce/Sounds/q257-reward.ogg",
-      "blake3_hash": "ca5b453044be2da30828341811c051b8a65de26e5462618eb4ac9a4e92516af6",
-      "size": 188145
+      "blake3_hash": "c2ae453a10dab3f2013ac7d095597802b03549b427c467a63b2357b12990b6ee",
+      "size": 184497
     },
     "VivaVoce/Sounds/q257-text.ogg": {
       "relative_path": "VivaVoce/Sounds/q257-text.ogg",
@@ -76015,8 +76027,8 @@
     },
     "VivaVoce/Sounds/q258-progress.ogg": {
       "relative_path": "VivaVoce/Sounds/q258-progress.ogg",
-      "blake3_hash": "c0f202cf2a899be546732d35274cd8ca2519c0e9aa6c6841433f8f71f7955c22",
-      "size": 86248
+      "blake3_hash": "0897ce4cd6e8484fb1d24e2950a20b8aa634cd4e7802b0372bc996b59ae09a2a",
+      "size": 71294
     },
     "VivaVoce/Sounds/q258-reward-f.ogg": {
       "relative_path": "VivaVoce/Sounds/q258-reward-f.ogg",
@@ -76030,13 +76042,13 @@
     },
     "VivaVoce/Sounds/q258-text-f.ogg": {
       "relative_path": "VivaVoce/Sounds/q258-text-f.ogg",
-      "blake3_hash": "ae6ac480049c7171ff37b64d8b4407aee8545dc7be68d99c555ccf0e9c665b56",
-      "size": 259518
+      "blake3_hash": "cb07246eece54c090fd1db7b3d9761fa2fa6df62f3c4af06c217bdd02cfddf92",
+      "size": 247386
     },
     "VivaVoce/Sounds/q258-text-m.ogg": {
       "relative_path": "VivaVoce/Sounds/q258-text-m.ogg",
-      "blake3_hash": "904a66b63dce26afc838a4058cf3d99b79c2849eb8729d45dffdba0077796a07",
-      "size": 250637
+      "blake3_hash": "b8499340911ad462299bda6076098630caf1a415be276d7a174404a910bd7c20",
+      "size": 244802
     },
     "VivaVoce/Sounds/q2581-progress-f.ogg": {
       "relative_path": "VivaVoce/Sounds/q2581-progress-f.ogg",
@@ -76555,8 +76567,8 @@
     },
     "VivaVoce/Sounds/q268-text.ogg": {
       "relative_path": "VivaVoce/Sounds/q268-text.ogg",
-      "blake3_hash": "0bddb2b23b9a511f93702c4acb0bf270356a738e609cee6a14195eeb786207f7",
-      "size": 231387
+      "blake3_hash": "91cbdeb38fc757defbe5fd174eeabb0306de7696980a9febd9c1e40e41ce98ae",
+      "size": 187866
     },
     "VivaVoce/Sounds/q2681-progress.ogg": {
       "relative_path": "VivaVoce/Sounds/q2681-progress.ogg",
@@ -76580,23 +76592,23 @@
     },
     "VivaVoce/Sounds/q269-progress-f.ogg": {
       "relative_path": "VivaVoce/Sounds/q269-progress-f.ogg",
-      "blake3_hash": "3f3d99837c5e4110b4dfab76689d2d163d611bce155aaf9773ba1c318c02126a",
-      "size": 70619
+      "blake3_hash": "bba46607b7b606e1fae14736317e9d71401627f174a030ceaece74cfdf1cfaac",
+      "size": 88387
     },
     "VivaVoce/Sounds/q269-progress-m.ogg": {
       "relative_path": "VivaVoce/Sounds/q269-progress-m.ogg",
-      "blake3_hash": "fcfcd93c3cdb212b980f0d42dac5eba083ef8bc411079ec21e2dc33b60a6e763",
-      "size": 73561
+      "blake3_hash": "eb5efc961cfd135c36789078c76b00db72f942739dd0c46172e02725dabe0814",
+      "size": 88380
     },
     "VivaVoce/Sounds/q269-reward-f.ogg": {
       "relative_path": "VivaVoce/Sounds/q269-reward-f.ogg",
-      "blake3_hash": "dd928e90a963b2edda434e7bd9d6a46c7ba9adbf9fe26b1a65b8701ea98cc72f",
-      "size": 223393
+      "blake3_hash": "b71592b16365957d118a63c46919243ee22ea3269ed3b13c16afb8209036151c",
+      "size": 307942
     },
     "VivaVoce/Sounds/q269-reward-m.ogg": {
       "relative_path": "VivaVoce/Sounds/q269-reward-m.ogg",
-      "blake3_hash": "334d5ec99cc1c369e3a210ce01228f9a5ff11a8b5a1fed2ba0e5abc668d32340",
-      "size": 221304
+      "blake3_hash": "c69396d3a33242071c5949beff621175be9b8a07b4f853a9d5edff7af3279676",
+      "size": 295417
     },
     "VivaVoce/Sounds/q269-text.ogg": {
       "relative_path": "VivaVoce/Sounds/q269-text.ogg",
@@ -76605,13 +76617,13 @@
     },
     "VivaVoce/Sounds/q27-reward-f.ogg": {
       "relative_path": "VivaVoce/Sounds/q27-reward-f.ogg",
-      "blake3_hash": "7edf60b56a9c0244b00d6db11de7daebe38b5c31d89efab0701c8e4aa34b7ec8",
-      "size": 439764
+      "blake3_hash": "3c2d8942648787dbf73bce0182150f13ca89258eaba29d402d1ed6ff03ffea39",
+      "size": 417783
     },
     "VivaVoce/Sounds/q27-reward-m.ogg": {
       "relative_path": "VivaVoce/Sounds/q27-reward-m.ogg",
-      "blake3_hash": "93b0568abd36d3b9b8085136494fed65f085180c801c47f00e5689f2dc5b3017",
-      "size": 456651
+      "blake3_hash": "3e8ad71310767136ed5ca5e059dd71783d143f07efcddb0df56737db741214b4",
+      "size": 441198
     },
     "VivaVoce/Sounds/q27-text-f.ogg": {
       "relative_path": "VivaVoce/Sounds/q27-text-f.ogg",
@@ -76635,8 +76647,8 @@
     },
     "VivaVoce/Sounds/q270-text.ogg": {
       "relative_path": "VivaVoce/Sounds/q270-text.ogg",
-      "blake3_hash": "8760123d8c126721ea69e9f085e093d85091802cb58dda67ac66fa335f017ed4",
-      "size": 268865
+      "blake3_hash": "82b60e6a239bf988b3bfa0fa954d75a3c643a035816b5ae919f7128512097c13",
+      "size": 356752
     },
     "VivaVoce/Sounds/q2701-reward.ogg": {
       "relative_path": "VivaVoce/Sounds/q2701-reward.ogg",
@@ -76855,18 +76867,18 @@
     },
     "VivaVoce/Sounds/q275-progress.ogg": {
       "relative_path": "VivaVoce/Sounds/q275-progress.ogg",
-      "blake3_hash": "b3c62a56220cb482644e01d68e0a046809127e4a8017b39d9d87d5ffc247b6d8",
-      "size": 69757
+      "blake3_hash": "617eb53a3e18bcf9bed6b66385695bbc7a2c3245e033c7cacac15f70992c3e39",
+      "size": 65262
     },
     "VivaVoce/Sounds/q275-reward.ogg": {
       "relative_path": "VivaVoce/Sounds/q275-reward.ogg",
-      "blake3_hash": "e04a3ce6c3a0c85f9377455c19101fc4c185555ca95280f6f6e83818b344c0f6",
-      "size": 57686
+      "blake3_hash": "e39665da7bb858138600d3568bdab2d79ad0ae178369bf29a82829893f068d91",
+      "size": 50156
     },
     "VivaVoce/Sounds/q275-text.ogg": {
       "relative_path": "VivaVoce/Sounds/q275-text.ogg",
-      "blake3_hash": "97c45e1736898065d2d345bde5f73f2215d1d98503dac3b35d7f79f9c184e02f",
-      "size": 191732
+      "blake3_hash": "34287c245adf0b9d1eb1be887c491e2e976bdd6af5d9e0ca2c31e00c3384e587",
+      "size": 160958
     },
     "VivaVoce/Sounds/q2750-progress.ogg": {
       "relative_path": "VivaVoce/Sounds/q2750-progress.ogg",
@@ -77050,23 +77062,23 @@
     },
     "VivaVoce/Sounds/q276-progress.ogg": {
       "relative_path": "VivaVoce/Sounds/q276-progress.ogg",
-      "blake3_hash": "e25e31946f2403c57388b783e5c2b88920885fe13b3ffa3a15ad23f3cd542635",
-      "size": 28452
+      "blake3_hash": "b384e645561dee2a01c0d8d1a0d34d59a96467113d308e686f68dea52086a0c0",
+      "size": 23653
     },
     "VivaVoce/Sounds/q276-reward-f.ogg": {
       "relative_path": "VivaVoce/Sounds/q276-reward-f.ogg",
-      "blake3_hash": "efdea69640f1d20a5c4ef2beb6f831b9b0de5333b54ecef6d7e4f6961222912a",
-      "size": 107072
+      "blake3_hash": "d476ee89385ec8f8af8a7006281affc732d881ab8988aa765bad40d9e7357d99",
+      "size": 107487
     },
     "VivaVoce/Sounds/q276-reward-m.ogg": {
       "relative_path": "VivaVoce/Sounds/q276-reward-m.ogg",
-      "blake3_hash": "5dd0c802350ca89949a3b96e3fc1ef4f9a521722cf007038a6aa8782de096183",
-      "size": 105643
+      "blake3_hash": "ddea01411c19ac83d305ba6478d28c07209bff1800181d12248114fd9574bfb0",
+      "size": 103921
     },
     "VivaVoce/Sounds/q276-text.ogg": {
       "relative_path": "VivaVoce/Sounds/q276-text.ogg",
-      "blake3_hash": "64cfba308bd8aeb331335d663fe21c7d1a1773bd0458c60b91341039c9a0e581",
-      "size": 299548
+      "blake3_hash": "175ae254cba5ca86d6395de381e517df88c5fc12e4c5269749000058bb41829e",
+      "size": 266350
     },
     "VivaVoce/Sounds/q2760-progress.ogg": {
       "relative_path": "VivaVoce/Sounds/q2760-progress.ogg",
@@ -77235,18 +77247,18 @@
     },
     "VivaVoce/Sounds/q277-progress.ogg": {
       "relative_path": "VivaVoce/Sounds/q277-progress.ogg",
-      "blake3_hash": "f793ea8c9d2a35178999317a2fb5d29d91e51b809dab241da0ab5c4d27b6a8f9",
-      "size": 35508
+      "blake3_hash": "b46ee19b271923a40deff0255f04da08a98ff96eaf33efce25f8332374645d46",
+      "size": 34765
     },
     "VivaVoce/Sounds/q277-reward.ogg": {
       "relative_path": "VivaVoce/Sounds/q277-reward.ogg",
-      "blake3_hash": "778165d76623a8c37a52e90a0bf087161e6fac806fa26155d4d746ce052c626b",
-      "size": 83338
+      "blake3_hash": "e539a8ea3d4e07c931de2e3566f888b6486f3af479f41073731a5d26bc8d1fb2",
+      "size": 70383
     },
     "VivaVoce/Sounds/q277-text.ogg": {
       "relative_path": "VivaVoce/Sounds/q277-text.ogg",
-      "blake3_hash": "8e937c22e1480627ae2db24af851be7360d17aca795126755b2ca27bedb2fd72",
-      "size": 175030
+      "blake3_hash": "d0f52b807b9fa02488c9b823c9d555e8bd630ac4f11998614f038f582f699341",
+      "size": 160118
     },
     "VivaVoce/Sounds/q2770-progress.ogg": {
       "relative_path": "VivaVoce/Sounds/q2770-progress.ogg",
@@ -77470,8 +77482,8 @@
     },
     "VivaVoce/Sounds/q282-text.ogg": {
       "relative_path": "VivaVoce/Sounds/q282-text.ogg",
-      "blake3_hash": "d7c1cfe598070c7c5b7768b3dc43de22f9876991e7e8bc1769eaf5852bfc720f",
-      "size": 300515
+      "blake3_hash": "dbce0d4f46a2a7b10a71de7a2e7cb4052dad6394b3888aecc2a0efb83790922e",
+      "size": 346646
     },
     "VivaVoce/Sounds/q2821-progress.ogg": {
       "relative_path": "VivaVoce/Sounds/q2821-progress.ogg",
@@ -78450,13 +78462,13 @@
     },
     "VivaVoce/Sounds/q291-progress.ogg": {
       "relative_path": "VivaVoce/Sounds/q291-progress.ogg",
-      "blake3_hash": "9dcc7afdae5f2eb1b065184b3033ee3b4993375e18ef1a1786cd1effe75e540b",
-      "size": 95005
+      "blake3_hash": "12c7b4da5eeee1725692e31b52903cd641c47f76053ed4088e3476272fa33dea",
+      "size": 90765
     },
     "VivaVoce/Sounds/q291-reward.ogg": {
       "relative_path": "VivaVoce/Sounds/q291-reward.ogg",
-      "blake3_hash": "c5e3d77adfecadcb845d759b67bec035e11dc2b2d5d2cda38fb3942a4a23d866",
-      "size": 170678
+      "blake3_hash": "d4b41323d8c38b0ae66396ba2dd173ffa2501c174b8ae057404dada6346e70da",
+      "size": 167577
     },
     "VivaVoce/Sounds/q291-text.ogg": {
       "relative_path": "VivaVoce/Sounds/q291-text.ogg",
@@ -78595,18 +78607,18 @@
     },
     "VivaVoce/Sounds/q293-progress.ogg": {
       "relative_path": "VivaVoce/Sounds/q293-progress.ogg",
-      "blake3_hash": "5baf3b3d9cad8faf527097431d759398247ebeba594e50c1c77a4a9b37642b90",
-      "size": 30618
+      "blake3_hash": "75c31b05d18a4f61fab2026a6e6f11845fefa1dd6092f5a89b6abc1dbf5e1e4a",
+      "size": 37355
     },
     "VivaVoce/Sounds/q293-reward.ogg": {
       "relative_path": "VivaVoce/Sounds/q293-reward.ogg",
-      "blake3_hash": "e35f95c7c9c7bc4e2d4d639a78eff86aff29b1a02c62d3d818751cf0434d959b",
-      "size": 135482
+      "blake3_hash": "cdf81e1b2cdf3774d4f6d5e83c10c24d307ea8652294949494a2e24229cdac76",
+      "size": 181149
     },
     "VivaVoce/Sounds/q293-text.ogg": {
       "relative_path": "VivaVoce/Sounds/q293-text.ogg",
-      "blake3_hash": "4e2ba90162a45cd78770c4223f7c5de287260ddfeaa105e83e01c279b5cfb0b8",
-      "size": 232187
+      "blake3_hash": "ac7fb09030f102c0e23abe54f694eef9f9a9857f1ded29d4c8639b2c83ae386e",
+      "size": 242032
     },
     "VivaVoce/Sounds/q2930-progress.ogg": {
       "relative_path": "VivaVoce/Sounds/q2930-progress.ogg",
@@ -79735,13 +79747,13 @@
     },
     "VivaVoce/Sounds/q30-reward.ogg": {
       "relative_path": "VivaVoce/Sounds/q30-reward.ogg",
-      "blake3_hash": "6c939bbd91615f9ac3987b0fb725666c3f09167fbecaf0e56fef35df1f1db777",
-      "size": 385849
+      "blake3_hash": "cc3deddcee81dce4790f68a49c13dabd23b9600d423b9a67002df0d5059dae36",
+      "size": 388300
     },
     "VivaVoce/Sounds/q30-text.ogg": {
       "relative_path": "VivaVoce/Sounds/q30-text.ogg",
-      "blake3_hash": "b14ba9f2b1ca6cb45cf504a4d6dc3f13a3307cebc2cc0b53e17e8751126594d0",
-      "size": 295971
+      "blake3_hash": "a0d02b93cf8dde3b13e8e910aa590cda1e4801e6c543849b2d74e7e8915bbaa5",
+      "size": 308706
     },
     "VivaVoce/Sounds/q3000-reward.ogg": {
       "relative_path": "VivaVoce/Sounds/q3000-reward.ogg",
@@ -80495,18 +80507,18 @@
     },
     "VivaVoce/Sounds/q31-progress.ogg": {
       "relative_path": "VivaVoce/Sounds/q31-progress.ogg",
-      "blake3_hash": "ffcbd9346de66c078d9b839db2c551577d2fd29a5e8df12be929dcf08ffe6a4f",
-      "size": 129011
+      "blake3_hash": "dddefc3d58f812359acbce960a3393e5a29c52e8638b3c9af7c24a316eea6688",
+      "size": 125048
     },
     "VivaVoce/Sounds/q31-reward-f.ogg": {
       "relative_path": "VivaVoce/Sounds/q31-reward-f.ogg",
-      "blake3_hash": "efe2d44cd33516fac0ef8a99acf69cc2569c0a9ecdb510edb19e9ea43ee5a7b2",
-      "size": 254849
+      "blake3_hash": "765f316ce0a9662332fbea63c6a4b00299bfab6eafef8427df348dc588bd2130",
+      "size": 257121
     },
     "VivaVoce/Sounds/q31-reward-m.ogg": {
       "relative_path": "VivaVoce/Sounds/q31-reward-m.ogg",
-      "blake3_hash": "e51ce163015cfb5d5cdc7dcd6e9663980f0703b435006add967f56f8bfedc35a",
-      "size": 261390
+      "blake3_hash": "0c3d2a4f0c148ffd20e2f961b149d91580adc4bda9359dbf1dece82f2619fb4c",
+      "size": 259296
     },
     "VivaVoce/Sounds/q31-text-f.ogg": {
       "relative_path": "VivaVoce/Sounds/q31-text-f.ogg",
@@ -82690,8 +82702,8 @@
     },
     "VivaVoce/Sounds/q35-reward.ogg": {
       "relative_path": "VivaVoce/Sounds/q35-reward.ogg",
-      "blake3_hash": "5a713e47222e8b99aa9d0fb6a962293b48b6c2f7220569b1f54df740b8559ab5",
-      "size": 129674
+      "blake3_hash": "ac642261e8501cff17bfd7fea69d6fa82568b6c4b98f96d4594bc1daf562a79a",
+      "size": 146113
     },
     "VivaVoce/Sounds/q35-text.ogg": {
       "relative_path": "VivaVoce/Sounds/q35-text.ogg",
@@ -83440,13 +83452,13 @@
     },
     "VivaVoce/Sounds/q36-progress.ogg": {
       "relative_path": "VivaVoce/Sounds/q36-progress.ogg",
-      "blake3_hash": "5195938ac3c1fed44edd48f15069ddbd7dfe5d60abd5e9b22be687ca3aa3124d",
-      "size": 58435
+      "blake3_hash": "47bbdf2f8675de1d73ae886b843d8f65fea6775941dcb950b483ac7b4e9cf363",
+      "size": 46923
     },
     "VivaVoce/Sounds/q36-reward.ogg": {
       "relative_path": "VivaVoce/Sounds/q36-reward.ogg",
-      "blake3_hash": "ee1a9a95f93adbe91c262f5168748c823dd3a43fbd79c971c6d0c071f6e2d568",
-      "size": 149007
+      "blake3_hash": "83311db2220900a0216de0384aa4da1faf7a02b3e04f2e63769518b628feaeec",
+      "size": 127955
     },
     "VivaVoce/Sounds/q36-text.ogg": {
       "relative_path": "VivaVoce/Sounds/q36-text.ogg",
@@ -84185,8 +84197,8 @@
     },
     "VivaVoce/Sounds/q37-text.ogg": {
       "relative_path": "VivaVoce/Sounds/q37-text.ogg",
-      "blake3_hash": "d1b015ec0fce67d02649e996287cd4a6da917cee194763f892af39af73e5e11b",
-      "size": 174528
+      "blake3_hash": "1983775dc66b42934338d4b7839909f513612025113fab98154c827eaaca9c7d",
+      "size": 191694
     },
     "VivaVoce/Sounds/q370-progress.ogg": {
       "relative_path": "VivaVoce/Sounds/q370-progress.ogg",
@@ -84735,18 +84747,18 @@
     },
     "VivaVoce/Sounds/q38-progress.ogg": {
       "relative_path": "VivaVoce/Sounds/q38-progress.ogg",
-      "blake3_hash": "8472b0f75fc1c951b5a1fb13732f73c44cdd4e336e3ead86b0685f0d856de5ce",
-      "size": 89505
+      "blake3_hash": "990589e587a59a09fa8c229584dd3cebd6e38e56c822e8320f7a9431eb782106",
+      "size": 62669
     },
     "VivaVoce/Sounds/q38-reward.ogg": {
       "relative_path": "VivaVoce/Sounds/q38-reward.ogg",
-      "blake3_hash": "4b6022c2bce51f01a9baaf2cb6cc9d84ccc6674c435f8673487d56b2af3de9e1",
-      "size": 176223
+      "blake3_hash": "d5e4f70ab66ac574ae54dc074096d0ae80d83de29290e3037ad08f0c709b5366",
+      "size": 134882
     },
     "VivaVoce/Sounds/q38-text.ogg": {
       "relative_path": "VivaVoce/Sounds/q38-text.ogg",
-      "blake3_hash": "2b1077f871b8c38699b5b782d785504b784ec5a1b26a80290d603bac24c2be0e",
-      "size": 121540
+      "blake3_hash": "340e026604c8bdc834e4b4983f63276d56dce067e0d1e665f37a1627a62bc0be",
+      "size": 81013
     },
     "VivaVoce/Sounds/q380-progress-f.ogg": {
       "relative_path": "VivaVoce/Sounds/q380-progress-f.ogg",
@@ -85260,8 +85272,8 @@
     },
     "VivaVoce/Sounds/q39-text.ogg": {
       "relative_path": "VivaVoce/Sounds/q39-text.ogg",
-      "blake3_hash": "9cd99d9db4f9567556889579e790aff0ee6ff37759ebe642a45f2b7c1f044b2d",
-      "size": 166903
+      "blake3_hash": "02fbda0a5bca17ee48be64c15cc28fedce5faef83e2141254b94345814c67355",
+      "size": 171623
     },
     "VivaVoce/Sounds/q3901-progress.ogg": {
       "relative_path": "VivaVoce/Sounds/q3901-progress.ogg",
@@ -89080,13 +89092,13 @@
     },
     "VivaVoce/Sounds/q453-progress.ogg": {
       "relative_path": "VivaVoce/Sounds/q453-progress.ogg",
-      "blake3_hash": "52c777a88221bd35acbe96eb457dd29dee3058eed987df997d8fe8c7d46b3be8",
-      "size": 29767
+      "blake3_hash": "8c6938e983bea884c9c77f25c35d36525f0d25b23be562770acadf9e24ffdbe9",
+      "size": 19731
     },
     "VivaVoce/Sounds/q453-reward.ogg": {
       "relative_path": "VivaVoce/Sounds/q453-reward.ogg",
-      "blake3_hash": "8fa4755f4b60f1ced2b7b7311a26de51b916b61e8491f5609805fa308b80e63c",
-      "size": 108586
+      "blake3_hash": "077b5db4fc82e7de481318bc8aa6ed65594ee913ade0bdd138f2c4e90269ba73",
+      "size": 74790
     },
     "VivaVoce/Sounds/q453-text.ogg": {
       "relative_path": "VivaVoce/Sounds/q453-text.ogg",
@@ -89195,13 +89207,13 @@
     },
     "VivaVoce/Sounds/q458-reward.ogg": {
       "relative_path": "VivaVoce/Sounds/q458-reward.ogg",
-      "blake3_hash": "e1aff3dc9c3568e6cf5d2109f5b71ec8691bd4a04a1142ea6b2883f2067ef21c",
-      "size": 181806
+      "blake3_hash": "3d64bc44df2a24bd739f05a43337c51f9b32146e2e3cf5354ac7234deecd199f",
+      "size": 112488
     },
     "VivaVoce/Sounds/q458-text.ogg": {
       "relative_path": "VivaVoce/Sounds/q458-text.ogg",
-      "blake3_hash": "788769af1dd49b1ed971f3e1144f4b6678e925af1f63f20b04851e07244cf7fb",
-      "size": 350051
+      "blake3_hash": "30d676ecfaf78eec634637bfb14fb2c5266ea0e2c5df72ab05a9798652e3deb0",
+      "size": 271027
     },
     "VivaVoce/Sounds/q4581-progress.ogg": {
       "relative_path": "VivaVoce/Sounds/q4581-progress.ogg",
@@ -89235,33 +89247,33 @@
     },
     "VivaVoce/Sounds/q46-progress.ogg": {
       "relative_path": "VivaVoce/Sounds/q46-progress.ogg",
-      "blake3_hash": "9b82b7519e49099cc6d11a7f3356a11649d1410db32f90fbaaffb8a4da62be61",
-      "size": 13830
+      "blake3_hash": "d423f7ac744786014dd119d585d2e16370a8748a544f913a6a7840059136029d",
+      "size": 14066
     },
     "VivaVoce/Sounds/q46-reward.ogg": {
       "relative_path": "VivaVoce/Sounds/q46-reward.ogg",
-      "blake3_hash": "70aa4703407c29b911c987db5db522299c83f875972b24e615bff67f72b29771",
-      "size": 148695
+      "blake3_hash": "2847c994a48d54764f1af197d9502ce8e304a20e4bf0a50f8079e243bb52ab74",
+      "size": 147885
     },
     "VivaVoce/Sounds/q46-text.ogg": {
       "relative_path": "VivaVoce/Sounds/q46-text.ogg",
-      "blake3_hash": "77bc31cd09d9ee7a980e3cad57d8e4f62def78ac6d3c9858efbd0903a6911459",
-      "size": 214692
+      "blake3_hash": "10198598fec0d0fff9c51f25298d15538b1e3afacf075b4ce1ebae6a95bf7958",
+      "size": 233072
     },
     "VivaVoce/Sounds/q460-progress.ogg": {
       "relative_path": "VivaVoce/Sounds/q460-progress.ogg",
-      "blake3_hash": "cccf872152ec459f88a00f99abd4bcf5416d954a3e95d7831c84b5d4081e9cdb",
-      "size": 35914
+      "blake3_hash": "07c36b856c36b5c89421043ec9ce4f94837345254fab9934ceeebe81303f0518",
+      "size": 30847
     },
     "VivaVoce/Sounds/q460-reward.ogg": {
       "relative_path": "VivaVoce/Sounds/q460-reward.ogg",
-      "blake3_hash": "22293a0080899696ee0675d76354a7432ae5d1295710b19c37c695431cf783ae",
-      "size": 67350
+      "blake3_hash": "1bd64d02d6b4fb91704ded6e5c2eef8a4ffe97ac86c12b657e06c71d68da3f8d",
+      "size": 58589
     },
     "VivaVoce/Sounds/q460-text.ogg": {
       "relative_path": "VivaVoce/Sounds/q460-text.ogg",
-      "blake3_hash": "cbb10ce0a8c0707ce402a78d6cacb2bb1c5aa0be05f9b5b0a710b7c20876a122",
-      "size": 464854
+      "blake3_hash": "5300d3d97b7fc2a4fee901a56eb6b2348330c9ab266729e89b49a6388d4e877f",
+      "size": 393829
     },
     "VivaVoce/Sounds/q4601-progress.ogg": {
       "relative_path": "VivaVoce/Sounds/q4601-progress.ogg",
@@ -89325,23 +89337,23 @@
     },
     "VivaVoce/Sounds/q461-progress.ogg": {
       "relative_path": "VivaVoce/Sounds/q461-progress.ogg",
-      "blake3_hash": "c558dc8470cb87a67b5b1d3f084710964f03b5ee4acad175bee90c6151cf0c16",
-      "size": 30941
+      "blake3_hash": "961a6929f264f9901719ea4e5a47af367e3b9bbcb33de253d3489be4b89ab1e6",
+      "size": 23923
     },
     "VivaVoce/Sounds/q461-reward-f.ogg": {
       "relative_path": "VivaVoce/Sounds/q461-reward-f.ogg",
-      "blake3_hash": "f4c69f1d73eb2a1ebf4ab62169d612f2118fa385339a8201befb16a0336e3c35",
-      "size": 198677
+      "blake3_hash": "fcc33c1827213b01655095b280959d0561fefb903181072d72190e58645ec886",
+      "size": 162707
     },
     "VivaVoce/Sounds/q461-reward-m.ogg": {
       "relative_path": "VivaVoce/Sounds/q461-reward-m.ogg",
-      "blake3_hash": "65d60bf0e197cdee1b43a2da76ea49df9267f5496316903be599e25da8cbc421",
-      "size": 185765
+      "blake3_hash": "358abb159688d9fd9fb10ce57a03e66b069e54271d145674780afdfc1ad04943",
+      "size": 154331
     },
     "VivaVoce/Sounds/q461-text.ogg": {
       "relative_path": "VivaVoce/Sounds/q461-text.ogg",
-      "blake3_hash": "e7494ec6797b2f39645e3659b0d4cf428f104182dbec5e41dea56655a5ec2a92",
-      "size": 232951
+      "blake3_hash": "e5045006da2c1bd55a90d6017863922fb67d8e791fab0b4d6d261c6b78cb5ab6",
+      "size": 187523
     },
     "VivaVoce/Sounds/q4621-progress-f.ogg": {
       "relative_path": "VivaVoce/Sounds/q4621-progress-f.ogg",
@@ -90940,33 +90952,33 @@
     },
     "VivaVoce/Sounds/q488-progress-f.ogg": {
       "relative_path": "VivaVoce/Sounds/q488-progress-f.ogg",
-      "blake3_hash": "7c18f3f34b66c1e524f7c129880c785faed23c3742e424c2735ab2289f297daf",
-      "size": 65647
+      "blake3_hash": "d6d3e05f70456eccb25491003e9bdd75f70303608241afd71b568cd5e5247300",
+      "size": 82792
     },
     "VivaVoce/Sounds/q488-progress-m.ogg": {
       "relative_path": "VivaVoce/Sounds/q488-progress-m.ogg",
-      "blake3_hash": "80f5f867494457581960a25b94dc2c109ed1fab79cb79b445bcdbd457b6338cf",
-      "size": 61083
+      "blake3_hash": "402a81dee84bcee27e7d44117d512687f65ad595bc3cdcfc04080051833de783",
+      "size": 78843
     },
     "VivaVoce/Sounds/q488-reward-f.ogg": {
       "relative_path": "VivaVoce/Sounds/q488-reward-f.ogg",
-      "blake3_hash": "70ca0268470361a414c2fb0255bc6b7d6acca5c667983d5f07fa4284d2398099",
-      "size": 190580
+      "blake3_hash": "376cde4c985cea73371ecafb018be0f80961311c03bffe52787ebc8dc1269828",
+      "size": 236447
     },
     "VivaVoce/Sounds/q488-reward-m.ogg": {
       "relative_path": "VivaVoce/Sounds/q488-reward-m.ogg",
-      "blake3_hash": "a6fa0cf0e94e3d6a78b259d2be4440d982117b0f26a7b62a0583381ededc96dc",
-      "size": 210723
+      "blake3_hash": "f40637254a1f0adf5eed8d88c704f5f5db662f020d4748c404675629e17e0335",
+      "size": 227652
     },
     "VivaVoce/Sounds/q488-text-f.ogg": {
       "relative_path": "VivaVoce/Sounds/q488-text-f.ogg",
-      "blake3_hash": "2f0a40b4352e5bed23ee481d8eda50d322ff039e93935c852ffb46d3b1a05eb7",
-      "size": 355291
+      "blake3_hash": "445b059c4f804577a4abe7d86f1e6f875fe20619a065c7c7abd579a4646b3d58",
+      "size": 449084
     },
     "VivaVoce/Sounds/q488-text-m.ogg": {
       "relative_path": "VivaVoce/Sounds/q488-text-m.ogg",
-      "blake3_hash": "a153fb7a0fe10943e5c284cebd504ab46f4be1910049ab3ae759474cf7c648c8",
-      "size": 350180
+      "blake3_hash": "98a911cc3629f0057b2a82022621c85bb390728b83590c8a3f85c39ad6af1c94",
+      "size": 443293
     },
     "VivaVoce/Sounds/q4881-reward.ogg": {
       "relative_path": "VivaVoce/Sounds/q4881-reward.ogg",
@@ -91015,28 +91027,28 @@
     },
     "VivaVoce/Sounds/q489-progress.ogg": {
       "relative_path": "VivaVoce/Sounds/q489-progress.ogg",
-      "blake3_hash": "a9f0934410729f4763cba7575c7cef6e12e5e9e0254024ea329fd8d8664a54ae",
-      "size": 35734
+      "blake3_hash": "e2e4f9d80d46f449d552168a8c7c7c23cdfcb3f67ecdc7098cba90b201d4bd45",
+      "size": 48066
     },
     "VivaVoce/Sounds/q489-reward-f.ogg": {
       "relative_path": "VivaVoce/Sounds/q489-reward-f.ogg",
-      "blake3_hash": "35f9c98e69822ae573d4dffdc9f8aef78e2863b4c55cc36d1817d4388fcedd6b",
-      "size": 57777
+      "blake3_hash": "175e3d11fa77bcd1628c9e88c2507cc963a3202899d4271934c58eb5e43cf8d3",
+      "size": 61628
     },
     "VivaVoce/Sounds/q489-reward-m.ogg": {
       "relative_path": "VivaVoce/Sounds/q489-reward-m.ogg",
-      "blake3_hash": "7d90c9e5d26e17fa2be76190b846d6d3a92a5116b09e8c91de4777df4282ef0d",
-      "size": 46132
+      "blake3_hash": "b1a898a837608cf556170ff0214e074c8b983ed8215f1006066b8d60257346d4",
+      "size": 62211
     },
     "VivaVoce/Sounds/q489-text-f.ogg": {
       "relative_path": "VivaVoce/Sounds/q489-text-f.ogg",
-      "blake3_hash": "63b0e640cab569046ac83982d72ad590f78bc8d5fa8854ec0a5353cad9fff4db",
-      "size": 343846
+      "blake3_hash": "a4ccb2419bf0ffa655c08cbbad0e4408c54b5be3b82c014a29cdacd43c9e4bca",
+      "size": 393135
     },
     "VivaVoce/Sounds/q489-text-m.ogg": {
       "relative_path": "VivaVoce/Sounds/q489-text-m.ogg",
-      "blake3_hash": "6e50887bb8dd7f602fe39841b6c43430fa3cc8e81277759bf2a29d8fb76bd222",
-      "size": 339059
+      "blake3_hash": "03a5570d6058f232e43f944ea6e69a149c110dc408ce3fab614c5154dbbb9fb7",
+      "size": 405059
     },
     "VivaVoce/Sounds/q49-progress.ogg": {
       "relative_path": "VivaVoce/Sounds/q49-progress.ogg",
@@ -91725,18 +91737,18 @@
     },
     "VivaVoce/Sounds/q5-text.ogg": {
       "relative_path": "VivaVoce/Sounds/q5-text.ogg",
-      "blake3_hash": "e218b0aba994d97559656a7235236f3312b3a8438ec14c057f0564cc3cd2829f",
-      "size": 218584
+      "blake3_hash": "adfb389b12af711bc67676dba9e17b7bb0db0522f26b6e9f80d5db385cf8cc24",
+      "size": 191140
     },
     "VivaVoce/Sounds/q50-progress-f.ogg": {
       "relative_path": "VivaVoce/Sounds/q50-progress-f.ogg",
-      "blake3_hash": "31ac37f6f9ca451e1fd24683220580df0da117e07899609eeea47c0e4ac71f36",
-      "size": 152875
+      "blake3_hash": "74cd506838bd30bb83b79e809eafba7d103a4ce38ff6e08a39142198f35a4c9d",
+      "size": 196426
     },
     "VivaVoce/Sounds/q50-progress-m.ogg": {
       "relative_path": "VivaVoce/Sounds/q50-progress-m.ogg",
-      "blake3_hash": "75efadcc3a5e49fdb28fd0e850961839a251ef2de17de5e0ab148de9e535475c",
-      "size": 172084
+      "blake3_hash": "3c7571dee0277231274ca7c75d5a77494dc3ec24736e77b3afb25cf8405c6620",
+      "size": 175956
     },
     "VivaVoce/Sounds/q50-reward.ogg": {
       "relative_path": "VivaVoce/Sounds/q50-reward.ogg",
@@ -91745,8 +91757,8 @@
     },
     "VivaVoce/Sounds/q50-text.ogg": {
       "relative_path": "VivaVoce/Sounds/q50-text.ogg",
-      "blake3_hash": "f7c24d32bbf5d444030289e91c207bdb267206901627b21cb7ea4b5de06597a0",
-      "size": 145038
+      "blake3_hash": "1fe2c6b2a2f5c22f3d4c463bd6e796a0f78e3d7d35cd926568c86d5fd533e898",
+      "size": 165840
     },
     "VivaVoce/Sounds/q500-progress.ogg": {
       "relative_path": "VivaVoce/Sounds/q500-progress.ogg",
@@ -91775,13 +91787,13 @@
     },
     "VivaVoce/Sounds/q5001-text-f.ogg": {
       "relative_path": "VivaVoce/Sounds/q5001-text-f.ogg",
-      "blake3_hash": "7ab44c88fe6bca36fff67efd96028f19afce314201fd19a1785f05ff1dc92df4",
-      "size": 259983
+      "blake3_hash": "9f2479536a8f328313aefd4889ecb018a03b594fb5513e03daf4375773426b49",
+      "size": 280497
     },
     "VivaVoce/Sounds/q5001-text-m.ogg": {
       "relative_path": "VivaVoce/Sounds/q5001-text-m.ogg",
-      "blake3_hash": "d1a62853b73fcb161c1bd0e5f3941515e871bcb20421de8d9892cef3458b9ce7",
-      "size": 250167
+      "blake3_hash": "cd0668e85f454888f855b8141c88b0914fe9fcc417c330365d5d3058d97e0d8e",
+      "size": 280710
     },
     "VivaVoce/Sounds/q5002-progress.ogg": {
       "relative_path": "VivaVoce/Sounds/q5002-progress.ogg",
@@ -92655,8 +92667,8 @@
     },
     "VivaVoce/Sounds/q51-progress.ogg": {
       "relative_path": "VivaVoce/Sounds/q51-progress.ogg",
-      "blake3_hash": "8fc2c750844b6f673a19dd199db2a4c8a7331a934c8158c6e736d112d6738664",
-      "size": 170727
+      "blake3_hash": "1baf67afe9e479571d70e1879262e789db64decd1887f1335b5d0d9625efa5f8",
+      "size": 173387
     },
     "VivaVoce/Sounds/q51-reward.ogg": {
       "relative_path": "VivaVoce/Sounds/q51-reward.ogg",
@@ -92665,8 +92677,8 @@
     },
     "VivaVoce/Sounds/q51-text.ogg": {
       "relative_path": "VivaVoce/Sounds/q51-text.ogg",
-      "blake3_hash": "90438bde6603cca23d03f8a938c55087276bf25c3788e370e60060c76f75b733",
-      "size": 142242
+      "blake3_hash": "8e2d72c9dc768fec584643047cb07980ba4af4936218ed9759040f036ecc890f",
+      "size": 148940
     },
     "VivaVoce/Sounds/q510-progress-f.ogg": {
       "relative_path": "VivaVoce/Sounds/q510-progress-f.ogg",
@@ -93470,18 +93482,18 @@
     },
     "VivaVoce/Sounds/q52-progress.ogg": {
       "relative_path": "VivaVoce/Sounds/q52-progress.ogg",
-      "blake3_hash": "649fbbba5f9bfd10d22131574f0d6622ed7d6f8f7d4a988cfce83f98729662ae",
-      "size": 20981
+      "blake3_hash": "42b637dd7471daa9dee034efad7e0ce13efb6b0ec77e9882ee89855a16341cf8",
+      "size": 24796
     },
     "VivaVoce/Sounds/q52-reward.ogg": {
       "relative_path": "VivaVoce/Sounds/q52-reward.ogg",
-      "blake3_hash": "75d463ea9a6856eec90987082d8566133037c49ca6ae7de693fca1d2b30758e6",
-      "size": 107702
+      "blake3_hash": "378f4d1a2647582d9d7c724cd5f26e965598f4add1edcef1bf878c73a85f8602",
+      "size": 113289
     },
     "VivaVoce/Sounds/q52-text.ogg": {
       "relative_path": "VivaVoce/Sounds/q52-text.ogg",
-      "blake3_hash": "7191974614339231aeee64b7ed20c2842791e2f752616dcf7c286e144fd831e3",
-      "size": 151565
+      "blake3_hash": "2f33e40e1e72e76c78542d10563f516afe8ecf2ccc9b90879ed010f8e28d0f26",
+      "size": 170201
     },
     "VivaVoce/Sounds/q520-progress.ogg": {
       "relative_path": "VivaVoce/Sounds/q520-progress.ogg",
@@ -94525,23 +94537,23 @@
     },
     "VivaVoce/Sounds/q53-progress-f.ogg": {
       "relative_path": "VivaVoce/Sounds/q53-progress-f.ogg",
-      "blake3_hash": "36f3030a7f56cdfe6a59f3cec1a3b54d99c787b7e03ba74dd34fd1d3d2fb6856",
-      "size": 170839
+      "blake3_hash": "90f7c44a0c3aeb1e494818e920da79463b30edeb44faa97c0c8f4764f5fdb8c1",
+      "size": 179849
     },
     "VivaVoce/Sounds/q53-progress-m.ogg": {
       "relative_path": "VivaVoce/Sounds/q53-progress-m.ogg",
-      "blake3_hash": "8a62c75e18aafe56aafc34a3f02365e3363618c7eb2f3aea3401e172b9605689",
-      "size": 162319
+      "blake3_hash": "d8b8564d315fae12b8873244782067dd4e06a6400fa4735a7268526cd3cde550",
+      "size": 174790
     },
     "VivaVoce/Sounds/q53-reward.ogg": {
       "relative_path": "VivaVoce/Sounds/q53-reward.ogg",
-      "blake3_hash": "6134f29d2a894ff1b4c388c5685a372add737b7b75844b703e6eebf371bea4c2",
-      "size": 156862
+      "blake3_hash": "3ce48bc91019ebc4f8263ccf9839ffb581ba8d856a7ee0ac47f1f9656983f10d",
+      "size": 161957
     },
     "VivaVoce/Sounds/q53-text.ogg": {
       "relative_path": "VivaVoce/Sounds/q53-text.ogg",
-      "blake3_hash": "4187a63e4e779114e8bbe561ed44f69ea9587eda417c86ec5b3bc6060d2e435f",
-      "size": 130573
+      "blake3_hash": "37939bc8b9c1153cf661d6d589d0ce8da3c1994bde1a52178532296da28140cd",
+      "size": 161041
     },
     "VivaVoce/Sounds/q530-progress.ogg": {
       "relative_path": "VivaVoce/Sounds/q530-progress.ogg",
@@ -95485,13 +95497,13 @@
     },
     "VivaVoce/Sounds/q5502-text-f.ogg": {
       "relative_path": "VivaVoce/Sounds/q5502-text-f.ogg",
-      "blake3_hash": "5c8b9b452c37ad75724662806cad4a18cb0151cb31daec5d73daaef2c30b8d94",
-      "size": 315196
+      "blake3_hash": "121859a0c36ea12a86c11046990c7fd65928f77504c9240d734999db9cd04aa6",
+      "size": 273652
     },
     "VivaVoce/Sounds/q5502-text-m.ogg": {
       "relative_path": "VivaVoce/Sounds/q5502-text-m.ogg",
-      "blake3_hash": "5987d6794f282a98b75b12b575792431fa71f4fa3c09c30e05a7d7f8bc2df343",
-      "size": 320861
+      "blake3_hash": "9c3fff39757e9c3ff7ab0a306d48289d9adc524135b685ca5b05906f07fa5ba3",
+      "size": 262351
     },
     "VivaVoce/Sounds/q5503-reward.ogg": {
       "relative_path": "VivaVoce/Sounds/q5503-reward.ogg",
@@ -96730,13 +96742,13 @@
     },
     "VivaVoce/Sounds/q5640-reward-f.ogg": {
       "relative_path": "VivaVoce/Sounds/q5640-reward-f.ogg",
-      "blake3_hash": "5b77d9af453da5034c6092682f5f84da8dd0a2096b03149bfdee2241eb92d734",
-      "size": 149505
+      "blake3_hash": "9f84344e6995eccbdb23f2d6a49877a12f08368f57d19a8b09f8c4eea2f1b995",
+      "size": 170690
     },
     "VivaVoce/Sounds/q5640-reward-m.ogg": {
       "relative_path": "VivaVoce/Sounds/q5640-reward-m.ogg",
-      "blake3_hash": "a9fc3a5742af7c3eb3979798ff25d3bddabf1b60032b604a04924ed6d43910ce",
-      "size": 156138
+      "blake3_hash": "dde8263a351deb83b483e2f9764a120832e57314132d6ff654838caf7cd4ec6e",
+      "size": 169173
     },
     "VivaVoce/Sounds/q5640-text.ogg": {
       "relative_path": "VivaVoce/Sounds/q5640-text.ogg",
@@ -97230,13 +97242,13 @@
     },
     "VivaVoce/Sounds/q5678-reward-f.ogg": {
       "relative_path": "VivaVoce/Sounds/q5678-reward-f.ogg",
-      "blake3_hash": "ff9b3a585e2bf2ec4c945f3da1f77ee2aa34d8da7f96fcfefd2cb684939cb6d3",
-      "size": 233189
+      "blake3_hash": "070b07c9e0ed424a1b536742bb01ae8fddb34293699d92dd8b6e25ed01ae3654",
+      "size": 287739
     },
     "VivaVoce/Sounds/q5678-reward-m.ogg": {
       "relative_path": "VivaVoce/Sounds/q5678-reward-m.ogg",
-      "blake3_hash": "677ced841a48e3b72e42c471098f5867c143609f3516e83c46988888ea526128",
-      "size": 239575
+      "blake3_hash": "915a9486de977b4d830e17cc0f708cdeaa944104580b6e8f76d20398447bdca5",
+      "size": 303067
     },
     "VivaVoce/Sounds/q5678-text-f.ogg": {
       "relative_path": "VivaVoce/Sounds/q5678-text-f.ogg",
@@ -98010,38 +98022,38 @@
     },
     "VivaVoce/Sounds/q585-progress.ogg": {
       "relative_path": "VivaVoce/Sounds/q585-progress.ogg",
-      "blake3_hash": "a12046016aed0301139620d801c21c117e4af828fa278960f0b0b2b743c8a60d",
-      "size": 22511
+      "blake3_hash": "c71b4f105cea19fa196a3111b8591a91c56cf6aaae96903e5614034094b1b1ee",
+      "size": 29801
     },
     "VivaVoce/Sounds/q585-reward.ogg": {
       "relative_path": "VivaVoce/Sounds/q585-reward.ogg",
-      "blake3_hash": "8fcbca80b49dc6f208f5e217ee88fab9e139be8f4e64ca02d1c91d1e66804fe0",
-      "size": 125158
+      "blake3_hash": "b40dbd6e0f69159056f0f4a51fbe88fe444857a5dde6719fccf9c2380a2c0adb",
+      "size": 195938
     },
     "VivaVoce/Sounds/q585-text.ogg": {
       "relative_path": "VivaVoce/Sounds/q585-text.ogg",
-      "blake3_hash": "ad1ac5491206a887b6e6d8b005faf72bac1c37ef63e975e67182f2e0c3bbcda3",
-      "size": 368987
+      "blake3_hash": "782d9b5fa72e7dd03e509c18cd6deb6a0e9e11780c9c5a490004d39606d5f015",
+      "size": 554772
     },
     "VivaVoce/Sounds/q586-progress.ogg": {
       "relative_path": "VivaVoce/Sounds/q586-progress.ogg",
-      "blake3_hash": "616949572c366a2cfb33e18e46fb5586115b59138262bc814b5ffc5ff3f7c08b",
-      "size": 126811
+      "blake3_hash": "a9cae4a15f9dfda5e7433b60215f275ab5a1e4062de80482b3e9ba5847796142",
+      "size": 161583
     },
     "VivaVoce/Sounds/q586-reward.ogg": {
       "relative_path": "VivaVoce/Sounds/q586-reward.ogg",
-      "blake3_hash": "c0b703dd21d91d9be4c154e6b2d418e903808573f5ef56841777841b6fe08ef2",
-      "size": 204069
+      "blake3_hash": "a75eab4aba705dd4bc656942e64e5d6213dea2fd1c5d6d9fbeece45ce8496b1d",
+      "size": 298211
     },
     "VivaVoce/Sounds/q586-text-f.ogg": {
       "relative_path": "VivaVoce/Sounds/q586-text-f.ogg",
-      "blake3_hash": "04dc0948571783b02bca4c622d38dc8e3d59b6aeb7850ebcd55eccbf185c1247",
-      "size": 361217
+      "blake3_hash": "0eef2f3fc1c44658162bd470584bf87ceff2561b4810be757ba71a39b5e19c15",
+      "size": 478569
     },
     "VivaVoce/Sounds/q586-text-m.ogg": {
       "relative_path": "VivaVoce/Sounds/q586-text-m.ogg",
-      "blake3_hash": "00c1db5a67bb9b0c0640a21077bc115f12fadc36c90a5da34988bdf03116d742",
-      "size": 429105
+      "blake3_hash": "19e509c06cbc201802dd77e92e07e62d9afdff58ea565344301912c9e75c0ce5",
+      "size": 511526
     },
     "VivaVoce/Sounds/q5861-progress.ogg": {
       "relative_path": "VivaVoce/Sounds/q5861-progress.ogg",
@@ -98135,8 +98147,8 @@
     },
     "VivaVoce/Sounds/q588-text.ogg": {
       "relative_path": "VivaVoce/Sounds/q588-text.ogg",
-      "blake3_hash": "bdee50a5eb8a6e08146b70fd4773cc96a461634b6658843146cbf6b88c214b23",
-      "size": 306498
+      "blake3_hash": "d69c9709dfda41f3623f5fc3eab3c58fff4f056762b983dc5bf0dec1ac647fba",
+      "size": 399008
     },
     "VivaVoce/Sounds/q5881-progress.ogg": {
       "relative_path": "VivaVoce/Sounds/q5881-progress.ogg",
@@ -100270,23 +100282,23 @@
     },
     "VivaVoce/Sounds/q614-progress.ogg": {
       "relative_path": "VivaVoce/Sounds/q614-progress.ogg",
-      "blake3_hash": "edb69701dbb043a4ffac6e8c48586df84a0e2fdfc050c1661ae7bdc63ceaf3e0",
-      "size": 87258
+      "blake3_hash": "82ca447d7f2d4182f318f4f9f82ba92239b07296183ef1ca052b4a728eb4bb57",
+      "size": 92991
     },
     "VivaVoce/Sounds/q614-reward.ogg": {
       "relative_path": "VivaVoce/Sounds/q614-reward.ogg",
-      "blake3_hash": "363fcdd6f1d999803812350b5aafa89d2c0bea3faeceead29cb6a4b2dc421be7",
-      "size": 123651
+      "blake3_hash": "20b6c5d62d4d164ee1e675cf7851650ea65578ab774b3cb329d6d460529114a5",
+      "size": 130719
     },
     "VivaVoce/Sounds/q614-text-f.ogg": {
       "relative_path": "VivaVoce/Sounds/q614-text-f.ogg",
-      "blake3_hash": "1caba05c01d9113be5adc11d01e26054459bcd672c36ea50f5bbd9334ee720c9",
-      "size": 430110
+      "blake3_hash": "0fdbf410041e9034e071b578161023df3c2c396ee92ddf7d1a5fae96c6281a14",
+      "size": 434279
     },
     "VivaVoce/Sounds/q614-text-m.ogg": {
       "relative_path": "VivaVoce/Sounds/q614-text-m.ogg",
-      "blake3_hash": "85f183960a3a42079a831393f57e0d08d1027422ca15bd62c2f520eb7b4a6d35",
-      "size": 441830
+      "blake3_hash": "d79c159fd16a42608d04744714e8a8ee1de18244f73442f88fb2e0360d5393ba",
+      "size": 434211
     },
     "VivaVoce/Sounds/q6141-reward-f.ogg": {
       "relative_path": "VivaVoce/Sounds/q6141-reward-f.ogg",
@@ -101480,18 +101492,18 @@
     },
     "VivaVoce/Sounds/q639-progress.ogg": {
       "relative_path": "VivaVoce/Sounds/q639-progress.ogg",
-      "blake3_hash": "7c8852c65063732b6dd15c555362c0a91a7d0e25f4077396c6b46643843be718",
-      "size": 75494
+      "blake3_hash": "c39e1bf2e8617b652455ca493ed85076c18a4edab64204aa13a5f44c6bfbe444",
+      "size": 70812
     },
     "VivaVoce/Sounds/q639-reward.ogg": {
       "relative_path": "VivaVoce/Sounds/q639-reward.ogg",
-      "blake3_hash": "bb428e57584f1f474252b1d0929126b0d73703442d4b411d5b36a0111636c086",
-      "size": 79243
+      "blake3_hash": "61f632a7890b4b4bba4b39bd52b5be478b4f378e5d0830af0e60d0aeabd6c47b",
+      "size": 76569
     },
     "VivaVoce/Sounds/q639-text.ogg": {
       "relative_path": "VivaVoce/Sounds/q639-text.ogg",
-      "blake3_hash": "37236a6af5af2f9964e38e2153250c1cbb288dfe746adde36fd01adc25e577d6",
-      "size": 401824
+      "blake3_hash": "33b526d3bc92215c03cb69f48eca3e1fa4c280ff9492b01ff995d189226eecc9",
+      "size": 393427
     },
     "VivaVoce/Sounds/q6390-progress.ogg": {
       "relative_path": "VivaVoce/Sounds/q6390-progress.ogg",
@@ -101705,13 +101717,13 @@
     },
     "VivaVoce/Sounds/q641-progress.ogg": {
       "relative_path": "VivaVoce/Sounds/q641-progress.ogg",
-      "blake3_hash": "e9d9770d6e132f259bf00423fe650a0cc1c37ab7dc52704d25a3c6cd5eb4f04b",
-      "size": 25674
+      "blake3_hash": "83ccb24b66b26c64edd3e6a246ce81e63d26671a0eb85a235d3d7aa4fb198022",
+      "size": 23251
     },
     "VivaVoce/Sounds/q641-reward.ogg": {
       "relative_path": "VivaVoce/Sounds/q641-reward.ogg",
-      "blake3_hash": "5d7bd41e421124bde4362e8e346d73163d3c561fb1f3d33e59529c6d6a32eed1",
-      "size": 129839
+      "blake3_hash": "19b3e10e401fea8dac91419bfec9ae395cb149da5d9336e00c41bd4d1486c07d",
+      "size": 120849
     },
     "VivaVoce/Sounds/q641-text.ogg": {
       "relative_path": "VivaVoce/Sounds/q641-text.ogg",
@@ -101720,18 +101732,18 @@
     },
     "VivaVoce/Sounds/q642-progress.ogg": {
       "relative_path": "VivaVoce/Sounds/q642-progress.ogg",
-      "blake3_hash": "af270128f3f9f643fadfd3a4be5c676baf5446cf9c962ab2d60db0a2da81d8a9",
-      "size": 81445
+      "blake3_hash": "e7a8a274813aba8f8de974c74778d9d869bfa654757e8ce81ad75c9cacaebf38",
+      "size": 76504
     },
     "VivaVoce/Sounds/q642-reward.ogg": {
       "relative_path": "VivaVoce/Sounds/q642-reward.ogg",
-      "blake3_hash": "3e3fb4c6bb99b56991e8f95aef50ddc2edb1a98f414bd8502fe3596237d5bf91",
-      "size": 87822
+      "blake3_hash": "2c2511166c5c83abc7890cd7a6f03d45d9c93be42c80ba12e70ab8bef1240c20",
+      "size": 83463
     },
     "VivaVoce/Sounds/q642-text.ogg": {
       "relative_path": "VivaVoce/Sounds/q642-text.ogg",
-      "blake3_hash": "ea4a1a8d7c8e53e4fdd0ba9364bfb15efcf7e89f009bef91313d67389baf190d",
-      "size": 358873
+      "blake3_hash": "e2049d509f673dc517071f41d0e74bcfd2fb6aefc92e739699cb1ae76a3cec1e",
+      "size": 345440
     },
     "VivaVoce/Sounds/q6421-progress.ogg": {
       "relative_path": "VivaVoce/Sounds/q6421-progress.ogg",
@@ -101765,23 +101777,23 @@
     },
     "VivaVoce/Sounds/q644-progress-f.ogg": {
       "relative_path": "VivaVoce/Sounds/q644-progress-f.ogg",
-      "blake3_hash": "26a0ad4acccb3e9ec1f5a5bdbbfbbfc994878dd8f7dc763174ef52d641a897b8",
-      "size": 58131
+      "blake3_hash": "06ac699735c12bac22f51c7472a708ee6e476fe57b85005e524d9d3401c233d4",
+      "size": 53910
     },
     "VivaVoce/Sounds/q644-progress-m.ogg": {
       "relative_path": "VivaVoce/Sounds/q644-progress-m.ogg",
-      "blake3_hash": "9ab2899dcff1f92b697390f9557dcadc61b586672849aff0ce2b3d3d02addd8a",
-      "size": 65768
+      "blake3_hash": "5b2264d642a006d3b756b1495a7fb6c83cbe86e4781bc11860c1c0ccfced4cf8",
+      "size": 51132
     },
     "VivaVoce/Sounds/q644-reward.ogg": {
       "relative_path": "VivaVoce/Sounds/q644-reward.ogg",
-      "blake3_hash": "a6018f0c190c116178dc2c0d424d2111504346c1b94ad98950b4044d9cae906e",
-      "size": 170052
+      "blake3_hash": "dcff72302dfb8e4dd8fffd313324e1600903e78075d1f5657ca974642017a934",
+      "size": 138953
     },
     "VivaVoce/Sounds/q644-text.ogg": {
       "relative_path": "VivaVoce/Sounds/q644-text.ogg",
-      "blake3_hash": "0aa230a3e833a27fd699e1331875a42a7df847a17c0e0170565ef88800c5edf6",
-      "size": 205245
+      "blake3_hash": "3a744645559086e7797c0aa4193820c9aa7470f86d680f52c562951f750bc93b",
+      "size": 220317
     },
     "VivaVoce/Sounds/q6441-progress.ogg": {
       "relative_path": "VivaVoce/Sounds/q6441-progress.ogg",
@@ -101830,18 +101842,18 @@
     },
     "VivaVoce/Sounds/q646-progress.ogg": {
       "relative_path": "VivaVoce/Sounds/q646-progress.ogg",
-      "blake3_hash": "ae83a334738f9160bbdd65543ef90a060e87dbd6582d359adb9d88380cd974d7",
-      "size": 22137
+      "blake3_hash": "1629368faf384a76f5e9005c7cf7fe68e0c30be060a64a2f6f73e12607549df3",
+      "size": 21350
     },
     "VivaVoce/Sounds/q646-reward.ogg": {
       "relative_path": "VivaVoce/Sounds/q646-reward.ogg",
-      "blake3_hash": "5a241ac04bf57cdda8686e77340a43934e8f39cea42cec1608cad731fd78548a",
-      "size": 249425
+      "blake3_hash": "09e3adda95642b423801dc46a9510e5261561828ecd1ccd8ae06507177c509d9",
+      "size": 203546
     },
     "VivaVoce/Sounds/q646-text.ogg": {
       "relative_path": "VivaVoce/Sounds/q646-text.ogg",
-      "blake3_hash": "8277ce472712fb8f8999450d048d27b165d8cb2d1732975b079e5555b3615846",
-      "size": 79722
+      "blake3_hash": "d39c25d4fb89e117ab7dd2b3d579fc10798f192843c8b45d9475b527e15ac050",
+      "size": 67417
     },
     "VivaVoce/Sounds/q6461-progress.ogg": {
       "relative_path": "VivaVoce/Sounds/q6461-progress.ogg",
@@ -102045,43 +102057,43 @@
     },
     "VivaVoce/Sounds/q651-progress.ogg": {
       "relative_path": "VivaVoce/Sounds/q651-progress.ogg",
-      "blake3_hash": "39cbdabb07b9556eab79d8a4826e0e8a97ff8910c4ef5554d50feaeaeb15f70b",
-      "size": 95639
+      "blake3_hash": "6f9b0a088ef5dd77a9c21fabfed661ed627edead14eee564f0eb3c26984f4c5c",
+      "size": 87936
     },
     "VivaVoce/Sounds/q651-reward-f.ogg": {
       "relative_path": "VivaVoce/Sounds/q651-reward-f.ogg",
-      "blake3_hash": "a7efa8acea736fd923b599ac5f330c48195df84b04ed5a4e902f0ebb1e358c64",
-      "size": 152877
+      "blake3_hash": "3a84b4506276b1855e20560abf69de9432034a93b914ddee4669443c37dd84dd",
+      "size": 144209
     },
     "VivaVoce/Sounds/q651-reward-m.ogg": {
       "relative_path": "VivaVoce/Sounds/q651-reward-m.ogg",
-      "blake3_hash": "0e96ccaa16490790cc41fdf6050c35a71179c1ee15dcb11d869c61535ce3a6e1",
-      "size": 163471
+      "blake3_hash": "dee432493a5df6d497328e82a58cb18b80b94156d85d5755f50cfcc95963b7b7",
+      "size": 154257
     },
     "VivaVoce/Sounds/q651-text-f.ogg": {
       "relative_path": "VivaVoce/Sounds/q651-text-f.ogg",
-      "blake3_hash": "a58747c42c8f4e6ef2d147a611393d14a1e221574359e5e4687f05ae51993d6d",
-      "size": 219872
+      "blake3_hash": "31634f00bf253692740daf463680e1fce73a547add9d91f2321e7a3c731b5518",
+      "size": 210740
     },
     "VivaVoce/Sounds/q651-text-m.ogg": {
       "relative_path": "VivaVoce/Sounds/q651-text-m.ogg",
-      "blake3_hash": "e8c6830dedd19fa280b7424056a52a802532a0baff86c21020edeb95fa225493",
-      "size": 212676
+      "blake3_hash": "23a4f2e8c551316ec0b4092723acc33f02633a260f47f646b5aa6edcbc1c9fb6",
+      "size": 211370
     },
     "VivaVoce/Sounds/q652-progress.ogg": {
       "relative_path": "VivaVoce/Sounds/q652-progress.ogg",
-      "blake3_hash": "d5fcafd83e0b03b195bb0b4a486895c4ac0df35b83be9073dbcabda01f495ce1",
-      "size": 46129
+      "blake3_hash": "f7b2423fdfd5fcfa66b943442d34891e3f0fb09aa5f664857e928b99a7f5e4d1",
+      "size": 47218
     },
     "VivaVoce/Sounds/q652-reward.ogg": {
       "relative_path": "VivaVoce/Sounds/q652-reward.ogg",
-      "blake3_hash": "51c7f81a56e0f10bd2215ba556da25b5efedda725c644e313b5ec0c5b6be7f29",
-      "size": 58645
+      "blake3_hash": "58d64b951bc5d25cb9491f9dcd94da3552d8b89cffc3106f6e77c01b824d9e94",
+      "size": 47439
     },
     "VivaVoce/Sounds/q652-text.ogg": {
       "relative_path": "VivaVoce/Sounds/q652-text.ogg",
-      "blake3_hash": "11cd612d56813d54cc8c6c37d260ee9fdd5aff8ed5dcd08ddada7e8876c096d2",
-      "size": 363720
+      "blake3_hash": "d57ab0805e1f28600424f843fd7b66503936cf1d33b614f9c640d17401a86b19",
+      "size": 336071
     },
     "VivaVoce/Sounds/q6521-progress.ogg": {
       "relative_path": "VivaVoce/Sounds/q6521-progress.ogg",
@@ -102135,13 +102147,13 @@
     },
     "VivaVoce/Sounds/q653-text-f.ogg": {
       "relative_path": "VivaVoce/Sounds/q653-text-f.ogg",
-      "blake3_hash": "67337e8757d83d7cf3c87ce50d1b8dab1faa30cfa0fb74b804ac39187182827c",
-      "size": 342210
+      "blake3_hash": "e3d7a88ebd13360c99280eeaf61401b1ea39d08a01c9e9a1e456f9d880d75f6e",
+      "size": 374701
     },
     "VivaVoce/Sounds/q653-text-m.ogg": {
       "relative_path": "VivaVoce/Sounds/q653-text-m.ogg",
-      "blake3_hash": "0031f440df1482e6b9b22fcf8ce3a89826148561360f922dcf3ccef2afe641d9",
-      "size": 358473
+      "blake3_hash": "456236c7316b7342b8c9c942510adf52aeb57917d1fed1901346b131c9f285b7",
+      "size": 338101
     },
     "VivaVoce/Sounds/q654-progress.ogg": {
       "relative_path": "VivaVoce/Sounds/q654-progress.ogg",
@@ -104070,13 +104082,13 @@
     },
     "VivaVoce/Sounds/q688-text-f.ogg": {
       "relative_path": "VivaVoce/Sounds/q688-text-f.ogg",
-      "blake3_hash": "ed19a417e7058a0880211b566db0ea62f8d1ac8ad44df5c90339a26edc56f7bc",
-      "size": 334945
+      "blake3_hash": "4a72df89ab0b22a463df5c8e0e53f7e837676748288bf04e8e83ae770d17b00d",
+      "size": 326450
     },
     "VivaVoce/Sounds/q688-text-m.ogg": {
       "relative_path": "VivaVoce/Sounds/q688-text-m.ogg",
-      "blake3_hash": "1fb6aa18f3a367484255981ef8538b03cf212907ab49ccfb50d742778833dc41",
-      "size": 325590
+      "blake3_hash": "b3495bf687e8969d40f414ed353f77a57715587ad09bcebba286cc24cd9763b4",
+      "size": 333082
     },
     "VivaVoce/Sounds/q6881-progress.ogg": {
       "relative_path": "VivaVoce/Sounds/q6881-progress.ogg",
@@ -105215,18 +105227,18 @@
     },
     "VivaVoce/Sounds/q71-progress.ogg": {
       "relative_path": "VivaVoce/Sounds/q71-progress.ogg",
-      "blake3_hash": "1c966ac6f72340263c89c7d1947f03aab78a90d99eb7fe8abc13938c29267228",
-      "size": 40439
+      "blake3_hash": "16fc1e9ed4061ba1735629ea1ebdca1c00c8f52c7fee02cbdab837649ec6cc79",
+      "size": 41908
     },
     "VivaVoce/Sounds/q71-reward.ogg": {
       "relative_path": "VivaVoce/Sounds/q71-reward.ogg",
-      "blake3_hash": "a40c6a5b43969ab718b6e34116d0cb2b091662b78eab962ee1514bc727c06004",
-      "size": 64558
+      "blake3_hash": "cd236828e233af75a661f0acb66470f158c7f93414556d509d59f2fe9f1ee95a",
+      "size": 62237
     },
     "VivaVoce/Sounds/q71-text.ogg": {
       "relative_path": "VivaVoce/Sounds/q71-text.ogg",
-      "blake3_hash": "51245d5058a803f4f65427ea93c22914220c2bc9f0c7be84d2de779152670f56",
-      "size": 84405
+      "blake3_hash": "25c60d5f7d42c7024ed6b0ec5e1cf9d4b8569fc4a04187382d5d7e50f886bab8",
+      "size": 84828
     },
     "VivaVoce/Sounds/q710-progress.ogg": {
       "relative_path": "VivaVoce/Sounds/q710-progress.ogg",
@@ -113005,8 +113017,8 @@
     },
     "VivaVoce/Sounds/q81-text.ogg": {
       "relative_path": "VivaVoce/Sounds/q81-text.ogg",
-      "blake3_hash": "dfd78ce18a9aa583aa34e55d0e677d9911697c3d4c66f0a6bf637652aff98ae2",
-      "size": 303554
+      "blake3_hash": "d31fa8e3cb63667854ebec22bd41285105e7a741b2f5067cf525011f6a51cece",
+      "size": 280228
     },
     "VivaVoce/Sounds/q8101-reward-f.ogg": {
       "relative_path": "VivaVoce/Sounds/q8101-reward-f.ogg",
@@ -114595,13 +114607,13 @@
     },
     "VivaVoce/Sounds/q8246-progress-f.ogg": {
       "relative_path": "VivaVoce/Sounds/q8246-progress-f.ogg",
-      "blake3_hash": "414e8441aefe961d688d7fb6f5edbe480f0d1cd8ebe9f8c7a06b48c8c1ae7d39",
-      "size": 321729
+      "blake3_hash": "dc65ffbb6062cf6b18a50269a4a3587400f664ebfb05a8c49e753781145b5172",
+      "size": 314827
     },
     "VivaVoce/Sounds/q8246-progress-m.ogg": {
       "relative_path": "VivaVoce/Sounds/q8246-progress-m.ogg",
-      "blake3_hash": "c3d9490ddfe3006939ae482f1437afe65ba8070f6ad8f08f52ae3ee8cee77c0b",
-      "size": 342969
+      "blake3_hash": "bb965dec3302051e847f7bb19e617121810ce7bc88b7bbc8f2492c73da8bb093",
+      "size": 304120
     },
     "VivaVoce/Sounds/q8246-reward-f.ogg": {
       "relative_path": "VivaVoce/Sounds/q8246-reward-f.ogg",
@@ -116630,13 +116642,13 @@
     },
     "VivaVoce/Sounds/q84-progress.ogg": {
       "relative_path": "VivaVoce/Sounds/q84-progress.ogg",
-      "blake3_hash": "da5d98dd1ea3ab1838e8ae61b133fc5fd18b412fd4534bd2ce885d810563c219",
-      "size": 34814
+      "blake3_hash": "fd37369bff3ebd1fce588a6f8df1b29c26130773dc01e797e79ac97e389e2361",
+      "size": 40575
     },
     "VivaVoce/Sounds/q84-reward.ogg": {
       "relative_path": "VivaVoce/Sounds/q84-reward.ogg",
-      "blake3_hash": "9e7f88f3999540cfe3858e3455916607293b20bfe16fdb15f8f76f380a1a36b1",
-      "size": 53485
+      "blake3_hash": "b086f9e49b0d9747ac3a9634a2118c130fad240600b99850a40423d6a1573252",
+      "size": 54733
     },
     "VivaVoce/Sounds/q84-text.ogg": {
       "relative_path": "VivaVoce/Sounds/q84-text.ogg",
@@ -117935,8 +117947,8 @@
     },
     "VivaVoce/Sounds/q85-reward.ogg": {
       "relative_path": "VivaVoce/Sounds/q85-reward.ogg",
-      "blake3_hash": "a173e3336431499d609330682f142e50a6e54e8e8f7c38ca44ecc16c0cf8e669",
-      "size": 86959
+      "blake3_hash": "70562ff50d5ce4f40ee2ab345e8c3f02f098166a87056a929183143726ece3d5",
+      "size": 92071
     },
     "VivaVoce/Sounds/q85-text.ogg": {
       "relative_path": "VivaVoce/Sounds/q85-text.ogg",
@@ -119635,8 +119647,8 @@
     },
     "VivaVoce/Sounds/q86-text.ogg": {
       "relative_path": "VivaVoce/Sounds/q86-text.ogg",
-      "blake3_hash": "7efc3c25cd1903a824c42e7bce7c32380a49f2e454494b9ccda0b6d667eedb75",
-      "size": 183936
+      "blake3_hash": "9829f98707c022232dc3c84ceff9179c6f61a46e7c54fd4ba0ca5420326dfd32",
+      "size": 212179
     },
     "VivaVoce/Sounds/q860-reward.ogg": {
       "relative_path": "VivaVoce/Sounds/q860-reward.ogg",
@@ -121295,8 +121307,8 @@
     },
     "VivaVoce/Sounds/q87-text.ogg": {
       "relative_path": "VivaVoce/Sounds/q87-text.ogg",
-      "blake3_hash": "7baf3ec090f08acaa18448969b767aa87b081eec76f861158615674ce80f9bbc",
-      "size": 171100
+      "blake3_hash": "93f903eec3f6437fe424c0840e42f2d13a6e129b1763ccd7ded86cf71c99bf0c",
+      "size": 179082
     },
     "VivaVoce/Sounds/q870-progress-f.ogg": {
       "relative_path": "VivaVoce/Sounds/q870-progress-f.ogg",
@@ -122735,8 +122747,8 @@
     },
     "VivaVoce/Sounds/q8793-text.ogg": {
       "relative_path": "VivaVoce/Sounds/q8793-text.ogg",
-      "blake3_hash": "1753b033dc5ed27c780b451d1c7b72622a7ffd9f0b1c928419403a4ecba5c75d",
-      "size": 357192
+      "blake3_hash": "3aa7f2f8bd8f60b0fbd0c7d93f5ccff29993f48483d9a111107690f7f05c05c3",
+      "size": 479109
     },
     "VivaVoce/Sounds/q8794-reward.ogg": {
       "relative_path": "VivaVoce/Sounds/q8794-reward.ogg",
@@ -122760,8 +122772,8 @@
     },
     "VivaVoce/Sounds/q8795-text.ogg": {
       "relative_path": "VivaVoce/Sounds/q8795-text.ogg",
-      "blake3_hash": "c870535d43dfd91ac01ce213e8d1847ef3d18d77fc3e5db8e71537f44f25b09c",
-      "size": 276333
+      "blake3_hash": "823c0b20b502ba977078d38e9763054d2af5dcfd1a90beac99a93ed8a95a0ff4",
+      "size": 338754
     },
     "VivaVoce/Sounds/q8796-reward-f.ogg": {
       "relative_path": "VivaVoce/Sounds/q8796-reward-f.ogg",
@@ -122775,8 +122787,8 @@
     },
     "VivaVoce/Sounds/q8796-text.ogg": {
       "relative_path": "VivaVoce/Sounds/q8796-text.ogg",
-      "blake3_hash": "7f1efd6142f84b4164c3587ba815cd04de4c61da8d45208e300c4858862653b1",
-      "size": 347971
+      "blake3_hash": "d06c1bc558180a3ad7c9ca37fb9b327cb463fcc778ddba4d03e3a01ef2a2954b",
+      "size": 304428
     },
     "VivaVoce/Sounds/q8797-reward-f.ogg": {
       "relative_path": "VivaVoce/Sounds/q8797-reward-f.ogg",
@@ -122790,8 +122802,8 @@
     },
     "VivaVoce/Sounds/q8797-text.ogg": {
       "relative_path": "VivaVoce/Sounds/q8797-text.ogg",
-      "blake3_hash": "eb5dd323a511068dbe6bce2d04597ed1a037db68519e5d7ae8eaef41c9f78dc3",
-      "size": 340198
+      "blake3_hash": "da513cb9f96d8434a588af065a36b19ad601e8d1cb23815187b5edb750a76a03",
+      "size": 317289
     },
     "VivaVoce/Sounds/q8798-reward-f.ogg": {
       "relative_path": "VivaVoce/Sounds/q8798-reward-f.ogg",
@@ -122825,18 +122837,18 @@
     },
     "VivaVoce/Sounds/q88-progress.ogg": {
       "relative_path": "VivaVoce/Sounds/q88-progress.ogg",
-      "blake3_hash": "b15fa987ab002228352cfb51180621c3f5a6250a9cf7859e6d005ed91ec5a391",
-      "size": 23977
+      "blake3_hash": "d9f851a54447b8e1c0cf2dc65b14beb60c2110ced625b398731123473d79a3a6",
+      "size": 18724
     },
     "VivaVoce/Sounds/q88-reward.ogg": {
       "relative_path": "VivaVoce/Sounds/q88-reward.ogg",
-      "blake3_hash": "4e81de00f3a2317e99aed331c75259150ad407d9ee5a009afda25b48a90aaf8c",
-      "size": 114808
+      "blake3_hash": "d13f86049c437423f7c1d1d4f10d5c6bd0747c239ac75ffba737c94bc8ee0380",
+      "size": 85286
     },
     "VivaVoce/Sounds/q88-text.ogg": {
       "relative_path": "VivaVoce/Sounds/q88-text.ogg",
-      "blake3_hash": "dc9267fee76b1ba5a8f09772ecac2d0c6285ad8e0a974b7c344cbece91ccd643",
-      "size": 286034
+      "blake3_hash": "3bae91d639e7e5e28bc386801b394c1b6941605dffaf3977afa069bed2e357d0",
+      "size": 233870
     },
     "VivaVoce/Sounds/q880-progress.ogg": {
       "relative_path": "VivaVoce/Sounds/q880-progress.ogg",
@@ -122975,8 +122987,8 @@
     },
     "VivaVoce/Sounds/q8811-progress.ogg": {
       "relative_path": "VivaVoce/Sounds/q8811-progress.ogg",
-      "blake3_hash": "1fd9c875aba4425f47b796ef4671be535fe096474fc939185634986133f16f7c",
-      "size": 263648
+      "blake3_hash": "d5fad702889d0a47721f1c164b364b5fb36daaefe5e33526c8bd86e161d14b30",
+      "size": 299206
     },
     "VivaVoce/Sounds/q8811-reward.ogg": {
       "relative_path": "VivaVoce/Sounds/q8811-reward.ogg",
@@ -122995,8 +123007,8 @@
     },
     "VivaVoce/Sounds/q8813-progress.ogg": {
       "relative_path": "VivaVoce/Sounds/q8813-progress.ogg",
-      "blake3_hash": "e3c2c893bc495b8bb3daee45499b7715550825cc47df4018f1ca61496c3281ea",
-      "size": 304009
+      "blake3_hash": "83aee8fdaa6b5b16555bf7070071b8cdd380c5d8de23d9dc78e9f6fabe5dca27",
+      "size": 275272
     },
     "VivaVoce/Sounds/q8813-reward.ogg": {
       "relative_path": "VivaVoce/Sounds/q8813-reward.ogg",
@@ -123025,8 +123037,8 @@
     },
     "VivaVoce/Sounds/q8816-progress.ogg": {
       "relative_path": "VivaVoce/Sounds/q8816-progress.ogg",
-      "blake3_hash": "acc64719530ae9d18ad3e937757678224f6e2214bda980e5fc6e72e6148465e7",
-      "size": 407903
+      "blake3_hash": "3921df6336985bca62b070097f2e5729763cf8988c952c90845fcd7931b6bbf8",
+      "size": 188695
     },
     "VivaVoce/Sounds/q8816-reward.ogg": {
       "relative_path": "VivaVoce/Sounds/q8816-reward.ogg",
@@ -123045,8 +123057,8 @@
     },
     "VivaVoce/Sounds/q8818-progress.ogg": {
       "relative_path": "VivaVoce/Sounds/q8818-progress.ogg",
-      "blake3_hash": "458917862073e38f0f7b0022064ceadd883bbb0b4f5e41e10e4eaf4c2a25f0e6",
-      "size": 314318
+      "blake3_hash": "10bc75048c06609cb8919ad8406b04f4d3742c4c034ad96de599fb5ff3aba65b",
+      "size": 329908
     },
     "VivaVoce/Sounds/q8818-reward.ogg": {
       "relative_path": "VivaVoce/Sounds/q8818-reward.ogg",
@@ -123270,8 +123282,8 @@
     },
     "VivaVoce/Sounds/q8832-progress.ogg": {
       "relative_path": "VivaVoce/Sounds/q8832-progress.ogg",
-      "blake3_hash": "9769653602674d483d668b34f4e7243be1a253a3821a646da1e26e3c9b50dbb4",
-      "size": 272271
+      "blake3_hash": "e4d638f534d4630f9c14f9a95b9dd0eb276e666082c1d733f0d6de0462e47130",
+      "size": 239788
     },
     "VivaVoce/Sounds/q8832-reward.ogg": {
       "relative_path": "VivaVoce/Sounds/q8832-reward.ogg",
@@ -123320,8 +123332,8 @@
     },
     "VivaVoce/Sounds/q8836-progress.ogg": {
       "relative_path": "VivaVoce/Sounds/q8836-progress.ogg",
-      "blake3_hash": "74cfb6e3131be9833a468c30fd0dcbf9addf107f4dec255d12b3eee3df331c7e",
-      "size": 240722
+      "blake3_hash": "f5e41cb15d4ac2a1f88dddf90078ec3570334a194bb2adc588aea3aec956a146",
+      "size": 222459
     },
     "VivaVoce/Sounds/q8836-reward.ogg": {
       "relative_path": "VivaVoce/Sounds/q8836-reward.ogg",
@@ -123385,8 +123397,8 @@
     },
     "VivaVoce/Sounds/q8840-progress.ogg": {
       "relative_path": "VivaVoce/Sounds/q8840-progress.ogg",
-      "blake3_hash": "4f16ef241d59d0fd4ac517f4d99e38f12326ed9c32946da66674a0d13166a9be",
-      "size": 269718
+      "blake3_hash": "7fa866f855cd79a59ac3dccbfdf239acdebbaea529b02875fbfe0c8680376916",
+      "size": 326663
     },
     "VivaVoce/Sounds/q8840-reward.ogg": {
       "relative_path": "VivaVoce/Sounds/q8840-reward.ogg",
@@ -123410,8 +123422,8 @@
     },
     "VivaVoce/Sounds/q8842-progress.ogg": {
       "relative_path": "VivaVoce/Sounds/q8842-progress.ogg",
-      "blake3_hash": "678be827374b3721e9ded38b78d88136cd299eb9eb840fac04651ab0c2eba7e5",
-      "size": 363599
+      "blake3_hash": "fd447cea3d5521ceb955efb2a0b85fdd54cbeb8f734e69061d321fcad6d7dc43",
+      "size": 250917
     },
     "VivaVoce/Sounds/q8842-reward.ogg": {
       "relative_path": "VivaVoce/Sounds/q8842-reward.ogg",
@@ -127455,28 +127467,28 @@
     },
     "VivaVoce/Sounds/q908-progress-f.ogg": {
       "relative_path": "VivaVoce/Sounds/q908-progress-f.ogg",
-      "blake3_hash": "fac8b6771cf0b2089823211e920fe163ced8c2719ede70a02ff4df14b9bd85fc",
-      "size": 92884
+      "blake3_hash": "b3824de56168d72d2c427eb254391656ca92f009c8941dc80fa16b20f1e9f5dd",
+      "size": 80294
     },
     "VivaVoce/Sounds/q908-progress-m.ogg": {
       "relative_path": "VivaVoce/Sounds/q908-progress-m.ogg",
-      "blake3_hash": "e8f6e305c0b6ef1286ceee9d8e89457ee37fe3b3988eedc1656fb3427b499acd",
-      "size": 89600
+      "blake3_hash": "f02a23407a8a6c7731f5ac79b0399f7128de5eafa9f175a28d3ca90d4e78bbb4",
+      "size": 81876
     },
     "VivaVoce/Sounds/q908-reward-f.ogg": {
       "relative_path": "VivaVoce/Sounds/q908-reward-f.ogg",
-      "blake3_hash": "7b3e86f4a9f297c03818dd19f303298b2d77515eb90d75b9bee0fc571dd231c1",
-      "size": 293051
+      "blake3_hash": "f5aa9312c1ab8157f0a721a86bbd189d6f1e8798c1e5c1c206030c880cff3ce4",
+      "size": 264760
     },
     "VivaVoce/Sounds/q908-reward-m.ogg": {
       "relative_path": "VivaVoce/Sounds/q908-reward-m.ogg",
-      "blake3_hash": "a0e38540f3f633984a59b0e83dbc7491d4f9866c400954f09b47d53be1ebbb54",
-      "size": 308199
+      "blake3_hash": "cd3ba39cdfa433f0720437dc2c7ddc612072afc09d2483d66a90c51b436abee7",
+      "size": 272390
     },
     "VivaVoce/Sounds/q908-text.ogg": {
       "relative_path": "VivaVoce/Sounds/q908-text.ogg",
-      "blake3_hash": "10c383fded9ac2a037a0bdd7780bacd6bb71319e2c467d17d508ccfef2d2f695",
-      "size": 376836
+      "blake3_hash": "f878e7a6757d0d7e79061dac5819e2ae31346c622b932effe4d108a33f0c143a",
+      "size": 338289
     },
     "VivaVoce/Sounds/q9080-progress-f.ogg": {
       "relative_path": "VivaVoce/Sounds/q9080-progress-f.ogg",
@@ -129205,18 +129217,18 @@
     },
     "VivaVoce/Sounds/q92-progress.ogg": {
       "relative_path": "VivaVoce/Sounds/q92-progress.ogg",
-      "blake3_hash": "b0d3fff7c71f61eef805aec80f07c931cb084cac84f56648da106853f9d5e8c4",
-      "size": 77078
+      "blake3_hash": "df2d8ca8b144f7d810ae02fe985da4ea5920c9710aa45f547465ff19a8077c85",
+      "size": 68763
     },
     "VivaVoce/Sounds/q92-reward.ogg": {
       "relative_path": "VivaVoce/Sounds/q92-reward.ogg",
-      "blake3_hash": "4ac0356bd7a4cf5e75b84bae3024757886091ace1c729a01b91e5da0a21c8344",
-      "size": 83523
+      "blake3_hash": "3ab019cb4a31bd95d9a177bb610a96b60ec14def5d65169e49634ae199129623",
+      "size": 64509
     },
     "VivaVoce/Sounds/q92-text.ogg": {
       "relative_path": "VivaVoce/Sounds/q92-text.ogg",
-      "blake3_hash": "34b84e5cf0bc9f7554779149b2ffe1cb320e9ae2f81974a4cd36e8386345457b",
-      "size": 254148
+      "blake3_hash": "b0e463669308ac3c317c52b423691e6436bf0494fb16d944e0df87278a273023",
+      "size": 195120
     },
     "VivaVoce/Sounds/q920-reward.ogg": {
       "relative_path": "VivaVoce/Sounds/q920-reward.ogg",
@@ -132220,8 +132232,8 @@
     },
     "VivaVoce/Sounds/q93090-reward.ogg": {
       "relative_path": "VivaVoce/Sounds/q93090-reward.ogg",
-      "blake3_hash": "1fde59306ac0557c0c6ce263c05fb4894c5aa59a74a7b79f3c4213dcad7a3e79",
-      "size": 209534
+      "blake3_hash": "7b2a5e1386661b445682cd33b16fff674824a82bc5bf637d7ac2eb50cf0ad9c4",
+      "size": 290982
     },
     "VivaVoce/Sounds/q93090-text.ogg": {
       "relative_path": "VivaVoce/Sounds/q93090-text.ogg",
@@ -133340,8 +133352,8 @@
     },
     "VivaVoce/Sounds/q9388-reward.ogg": {
       "relative_path": "VivaVoce/Sounds/q9388-reward.ogg",
-      "blake3_hash": "ec6f6ecca4f4defda33176d4c9ab7ec5e1fd0c2ef9516daf78e682fb2adc1d0a",
-      "size": 141168
+      "blake3_hash": "dd6c22618cfdfb292045e56b71045d37d9c000e2d72255cedb980f1646ee6940",
+      "size": 140474
     },
     "VivaVoce/Sounds/q9388-text.ogg": {
       "relative_path": "VivaVoce/Sounds/q9388-text.ogg",
@@ -133535,8 +133547,8 @@
     },
     "VivaVoce/Sounds/q94003-text.ogg": {
       "relative_path": "VivaVoce/Sounds/q94003-text.ogg",
-      "blake3_hash": "e30074fcbd3efe787c32fbac142e07ad31505b74e3bab2ca7e6c2f2980a658ca",
-      "size": 286272
+      "blake3_hash": "0438f9ded879257f0d5e53f1e63439ee689d137f21b6e5b010d2dabe8e0afcf0",
+      "size": 358526
     },
     "VivaVoce/Sounds/q94006-reward-f.ogg": {
       "relative_path": "VivaVoce/Sounds/q94006-reward-f.ogg",
@@ -138840,13 +138852,13 @@
     },
     "VivaVoce/Sounds/q97932-text-f.ogg": {
       "relative_path": "VivaVoce/Sounds/q97932-text-f.ogg",
-      "blake3_hash": "b4182ad0116ed1992f1e19be3f7cffcd6cc47dbb42462904145154a09074e4ec",
-      "size": 243220
+      "blake3_hash": "06d79995266d73a2b38ca170c752ccd3bcd698ec93f5ed4f188623d8c99e6d46",
+      "size": 324251
     },
     "VivaVoce/Sounds/q97932-text-m.ogg": {
       "relative_path": "VivaVoce/Sounds/q97932-text-m.ogg",
-      "blake3_hash": "8a6c9187efa05d205e5c731e4179f970e91d3e897ad96301b0e461ed7d642500",
-      "size": 239231
+      "blake3_hash": "36aa25582df4bf7776e3a6fc5e0a8cc32a3586ae52519faefa1745346501ee30",
+      "size": 341745
     },
     "VivaVoce/Sounds/q97933-reward.ogg": {
       "relative_path": "VivaVoce/Sounds/q97933-reward.ogg",
@@ -138900,13 +138912,13 @@
     },
     "VivaVoce/Sounds/q97937-text-f.ogg": {
       "relative_path": "VivaVoce/Sounds/q97937-text-f.ogg",
-      "blake3_hash": "d48e49cf8f997b364e1db31cdd56ed59e1ce77176d0a1c449df6761cec7ec319",
-      "size": 244339
+      "blake3_hash": "333f985da09db744a92bc045914589e40c33c2f1820985ff43b971d2f77dde9f",
+      "size": 413380
     },
     "VivaVoce/Sounds/q97937-text-m.ogg": {
       "relative_path": "VivaVoce/Sounds/q97937-text-m.ogg",
-      "blake3_hash": "eaef489fbd5754c715e6d695d8776ab8474c36db8c4ddf61f38c79ffe9663450",
-      "size": 252164
+      "blake3_hash": "c436d58db00fdcedd44bbe6610d36637a349723f66d2306e494e87afc5c26a01",
+      "size": 385199
     },
     "VivaVoce/Sounds/q97938-progress.ogg": {
       "relative_path": "VivaVoce/Sounds/q97938-progress.ogg",
@@ -138920,8 +138932,8 @@
     },
     "VivaVoce/Sounds/q97938-text.ogg": {
       "relative_path": "VivaVoce/Sounds/q97938-text.ogg",
-      "blake3_hash": "6874e6e528dd40fbe08af509aec7dad188a6164818067a44edd8271113e25b61",
-      "size": 157311
+      "blake3_hash": "1d9f0338a89ca7b91f092881d27c950583844b710c80f9de15a32a283cae74ae",
+      "size": 186956
     },
     "VivaVoce/Sounds/q97939-text-f.ogg": {
       "relative_path": "VivaVoce/Sounds/q97939-text-f.ogg",
@@ -138980,13 +138992,13 @@
     },
     "VivaVoce/Sounds/q97943-text-f.ogg": {
       "relative_path": "VivaVoce/Sounds/q97943-text-f.ogg",
-      "blake3_hash": "42d331ca6435277e9b4f256545b29fba8d713e74a39a4005bc7a56790fd38f6e",
-      "size": 192862
+      "blake3_hash": "9e56e71dc8b0832e7e4109f551c4f65efe8f81acf339c9f911d3c122815185ea",
+      "size": 222408
     },
     "VivaVoce/Sounds/q97943-text-m.ogg": {
       "relative_path": "VivaVoce/Sounds/q97943-text-m.ogg",
-      "blake3_hash": "707b7f11761758ab73a429751f896174d5cceda12a1d6c4d545c9dfe60bc944c",
-      "size": 191434
+      "blake3_hash": "6821497f6524f912389217276c8ab7d8c4c20e57ad1c8a67c2463e5bf58fcd47",
+      "size": 228307
     },
     "VivaVoce/Sounds/q97944-reward.ogg": {
       "relative_path": "VivaVoce/Sounds/q97944-reward.ogg",
@@ -141270,8 +141282,8 @@
     },
     "VivaVoce/Sounds/q99-progress.ogg": {
       "relative_path": "VivaVoce/Sounds/q99-progress.ogg",
-      "blake3_hash": "df6d66f71932dab719da2ba1b465a835b282f0bad69e3703ccfff3094d247790",
-      "size": 29931
+      "blake3_hash": "3ce7c1efffbb1f74c45fc3e488bcc4a1e9b318acfac1ff697b6836d3f2b0cb97",
+      "size": 32430
     },
     "VivaVoce/Sounds/q99-reward.ogg": {
       "relative_path": "VivaVoce/Sounds/q99-reward.ogg",
@@ -141280,8 +141292,8 @@
     },
     "VivaVoce/Sounds/q99-text.ogg": {
       "relative_path": "VivaVoce/Sounds/q99-text.ogg",
-      "blake3_hash": "625891792d7775efcd80092cc8c7f0f0388f7e6337bd652c85b2bef490939161",
-      "size": 359572
+      "blake3_hash": "a33adf53d21f6f095d402aafd45b6d735733e6b1a4ae03636d2178163061905b",
+      "size": 374260
     },
     "VivaVoce/Sounds/q990-reward-f.ogg": {
       "relative_path": "VivaVoce/Sounds/q990-reward-f.ogg",
@@ -141977,11 +141989,6 @@
       "relative_path": "VivaVoce/Sounds/q998-reward.ogg",
       "blake3_hash": "ec85fa7f8cf3d45f53a78d715069c8cd742a0e83dd6c1d7402871a61fb461419",
       "size": 116052
-    },
-    "VivaVoce/MERGE_Voice.md": {
-      "relative_path": "VivaVoce/MERGE_Voice.md",
-      "blake3_hash": "1274a53bff88841becfa36ca1698d9990a10d3b647a1c656a82875891c8ccf85",
-      "size": 1860
     }
   }
 }
