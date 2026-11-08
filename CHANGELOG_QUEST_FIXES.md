@@ -28,6 +28,7 @@
 | `q177-text` | **[177] Guarda le Stelle** | `human-male-official` | **`human-female-official`** | Mary la Cieca: confermata voce da nobildonna spettrale (`human-female-official`). |
 | `q185-text` | **[185] Maestria nella Caccia alla Tigre** | `human-female-warrior` | **`troll-male-standard`** | Ajeck Rouack (Troll maschio a Nesingwary): rimosso l'errore che lo classificava come femmina umana. |
 | `q275-text` | **[275] Vesciche sulla Terra** | `bodley` | **`nightelf-male-official`** | Rethiel the Greenwarden (Custode della Giungla / Figlio di Cenarius): tolta la voce da fantasma bodley, assegnata voce druidica elfica. |
+| `q489-text` | **[489] Vilpigne (Fel Cones)** | `orc-male-shady` | **`nightelf-female-priestess`** | Syral Bladeleaf (Elfa della Notte a Teldrassil): rimossa la voce da orco losco generata per sbaglio, mappata correttamente sacerdotessa elfa della notte. |
 | `q8796-text` | **[8796] L'Alleanza Ha Bisogno del Tuo Aiuto!** | `dwarf-male-grim` | **`dwarf-female-guard`** | Sergente di Ferro (Ahn'Qiraj): assegnata voce da soldatessa nana femmina. |
 
 ### 📋 Elenco Completo Correzioni Vocali
