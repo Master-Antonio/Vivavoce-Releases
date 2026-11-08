@@ -1,7 +1,6 @@
 # 📜 Registro Modifiche e Correzioni Quest — VivaVoce
 
 > Questo documento raccoglie in dettaglio tutte le correzioni vocali, narrative e testuali apportate al manifest audio.
-> Include anche una sezione finale **pronta per Discord** per aggiornare la community.
 
 **Riepilogo Totale:**
 - **Voci corrette/riassegnate:** `271`
