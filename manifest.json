@@ -6,10 +6,10 @@
     {
       "id": "vivavoce_core",
       "filename": "VivaVoce_Core.tar.zst",
-      "blake3": "879f20f59d64d626d3ef40686d1653926c208858cdbeba53d0e7205f3793df36",
+      "blake3": "8ac4e4a6c8887d7402dd3cf9496ddf4b1e1d0056ab59b02141dc86d3ff7d7b94",
       "download_url": "https://github.com/Master-Antonio/Vivavoce-Releases/releases/download/v1.0.0/VivaVoce_Core.tar.zst",
-      "compressed_size": 509627,
-      "uncompressed_size": 2334593
+      "compressed_size": 5910146,
+      "uncompressed_size": 19525333
     },
     {
       "id": "vivavoce_quests",
