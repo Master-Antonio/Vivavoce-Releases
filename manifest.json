@@ -1,7 +1,7 @@
 {
-  "version": "1.0.2",
+  "version": "1.1.0",
   "total_files": 28391,
-  "total_bytes": 4594736367,
+  "total_bytes": 4594829474,
   "packages": [
     {
       "id": "vivavoce_core",
@@ -98,6 +98,17 @@
       "compressed_size": 5479823,
       "uncompressed_size": 17470021,
       "files_count": 31
+    },
+    {
+      "id": "patch-1.0.2-to-1.1.0",
+      "from_version": "1.0.2",
+      "to_version": "1.1.0",
+      "filename": "patch-v1.1.0.tar.zst",
+      "blake3": "1f1c3e4f82647d2bb98a5cd02f913cbac386996fdfcc833400a5b1b03a1a9f04",
+      "download_url": "https://github.com/Master-Antonio/Vivavoce-Releases/releases/download/v1.1.0/patch-v1.1.0.tar.zst",
+      "compressed_size": 449273,
+      "uncompressed_size": 1863635,
+      "files_count": 66
     }
   ],
   "files": {
@@ -108,13 +119,13 @@
     },
     "VivaVoce/Callbacks.lua": {
       "relative_path": "VivaVoce/Callbacks.lua",
-      "blake3_hash": "c93fe3efb97bf910a2c8a47198c41eb0f2771f15c21817e975e6ac089ce63943",
-      "size": 1225
+      "blake3_hash": "21acb014cd44744de778005ebbc96f1ab44053cd43c87dca4ae728d0577b4a99",
+      "size": 2066
     },
     "VivaVoce/Core.lua": {
       "relative_path": "VivaVoce/Core.lua",
-      "blake3_hash": "2db1a2f7600f3345bcba2e5a04e91607dc0d28b58f7225d0474512321bd2303b",
-      "size": 25438
+      "blake3_hash": "e1a2c7ed7968dcb88c1f8f17c746780061d8cbcebc04b1668e62fc49c9291840",
+      "size": 30388
     },
     "VivaVoce/embeds.xml": {
       "relative_path": "VivaVoce/embeds.xml",
@@ -131,11 +142,6 @@
       "blake3_hash": "3b8e1e27777e2e39365f5a4bb59479a4e9c494617445acaa1dac4b9bd45245b0",
       "size": 4250
     },
-    "VivaVoce/MERGE_Voice.md": {
-      "relative_path": "VivaVoce/MERGE_Voice.md",
-      "blake3_hash": "1274a53bff88841becfa36ca1698d9990a10d3b647a1c656a82875891c8ccf85",
-      "size": 1860
-    },
     "VivaVoce/NOTICE.md": {
       "relative_path": "VivaVoce/NOTICE.md",
       "blake3_hash": "81ea03327cacb028f76512a5952b496153aa0a64020699d8f3b6b60c6fdabc95",
@@ -143,28 +149,28 @@
     },
     "VivaVoce/OtherSounds.lua": {
       "relative_path": "VivaVoce/OtherSounds.lua",
-      "blake3_hash": "e7c676efc42563fb114d30068d5ee4ebd0a424d9b337e656b007e75cd556ec98",
-      "size": 7510
+      "blake3_hash": "910ac1bbe8cd3d38d1e52bc440ccf0d5313de9117708aabd328241951faf835c",
+      "size": 8497
     },
     "VivaVoce/Packs.lua": {
       "relative_path": "VivaVoce/Packs.lua",
-      "blake3_hash": "e7893a6ef9cbd64fed2e1216e48c15afb049d8aea185420ce211661ec4fbdc54",
-      "size": 10843
+      "blake3_hash": "22bc490bae31108bf0e7515b699b6ff84cd19e4561ff6154bad42acfd91f4ec3",
+      "size": 13183
     },
     "VivaVoce/QuestGivers.lua": {
       "relative_path": "VivaVoce/QuestGivers.lua",
-      "blake3_hash": "efa130835b72acd851ecfdc226afe76b7c78ca0b8b4e05c8d9a2793c9fdbb660",
-      "size": 146553
+      "blake3_hash": "a9626d615b0243e4aa8bbc8a3fec25531fa9869f9edfa1936314a8f05a890e24",
+      "size": 144504
     },
     "VivaVoce/QuestMetadata.lua": {
       "relative_path": "VivaVoce/QuestMetadata.lua",
-      "blake3_hash": "6bb6084acb81856592cff310f67c5cca2da46c75e994743f286c3986fadcddfd",
-      "size": 380207
+      "blake3_hash": "faeb2f455bcfe079429e9f500caf59902338bc092495b99c21f6badca92ff64a",
+      "size": 378297
     },
     "VivaVoce/QuestSource.lua": {
       "relative_path": "VivaVoce/QuestSource.lua",
-      "blake3_hash": "54f2573545cb24743bf6e5812f9b419a799badb96d11463c4223c9aacd4a4233",
-      "size": 17781
+      "blake3_hash": "2de52ab6f5a61e8254e0dcc3f36476b03c6fba6a25ca613b79070db47d96b01c",
+      "size": 19836
     },
     "VivaVoce/SoundLengths.lua": {
       "relative_path": "VivaVoce/SoundLengths.lua",
@@ -178,13 +184,13 @@
     },
     "VivaVoce/SoundQueue.lua": {
       "relative_path": "VivaVoce/SoundQueue.lua",
-      "blake3_hash": "dccfcc73ee454cd4fd2fc6f593060c58a824c35365aa1da16933bffd7ddd525d",
-      "size": 28419
+      "blake3_hash": "ca26073c0aa627c5517d84653037eff5139062516595f90e7d0905e92dc2796f",
+      "size": 30265
     },
     "VivaVoce/SoundUtils.lua": {
       "relative_path": "VivaVoce/SoundUtils.lua",
-      "blake3_hash": "269fe0687b1766df45ca762b315ecdba9c3f6b12de39bc4756653d14ea50a739",
-      "size": 10588
+      "blake3_hash": "7eaa1eef9cc16a244cd290fc96212b706af32ec28f9cb7e6008b3cd8ee5709b8",
+      "size": 14117
     },
     "VivaVoce/Sources.lua": {
       "relative_path": "VivaVoce/Sources.lua",
@@ -198,17 +204,17 @@
     },
     "VivaVoce/VivaAPI.lua": {
       "relative_path": "VivaVoce/VivaAPI.lua",
-      "blake3_hash": "e5496ddd6d3e76f8ded36efafb614d4cf33eb0e6dd12c4eaf8c0968a235e65ec",
-      "size": 42251
+      "blake3_hash": "881de75f9c6bd8938f97a3b39ca97b8b653d7c0065e96a8272ec2b9655139553",
+      "size": 44539
     },
     "VivaVoce/VivaEnv.lua": {
       "relative_path": "VivaVoce/VivaEnv.lua",
-      "blake3_hash": "7077bab1ed98d5f86f872b6134eca44e3818ee2820f089bb7a2c6b7309370d83",
-      "size": 958
+      "blake3_hash": "da526d9a62bf1c77618bf8e54fc22359125779a236c638dbcb737fe4569fda6f",
+      "size": 2429
     },
     "VivaVoce/VivaVoce.toc": {
       "relative_path": "VivaVoce/VivaVoce.toc",
-      "blake3_hash": "914a012d5988e1fb51647157f438e96a25a3eaceee6587cabe088df61e24cfdc",
+      "blake3_hash": "7e3a89b176829f9b3799950daaa3318fe0194a087e3ed9635b4db6c579feb18a",
       "size": 775
     },
     "VivaVoce/Libs/AceDB-3.0/AceDB-3.0.lua": {
@@ -373,63 +379,63 @@
     },
     "VivaVoce/UI/ContribBox.lua": {
       "relative_path": "VivaVoce/UI/ContribBox.lua",
-      "blake3_hash": "8feff7cc6037a09083126ad9fb280bffdea6c8ff85a240d61fdb8f326d152de5",
-      "size": 9882
+      "blake3_hash": "c66344cd0f0f4deaaa15737ec463d2fb9d70c54038c4497568319f764cf1c942",
+      "size": 10035
     },
     "VivaVoce/UI/ImmersivePlayer.lua": {
       "relative_path": "VivaVoce/UI/ImmersivePlayer.lua",
-      "blake3_hash": "651efd0da11e73a24c0e9fd5c469bf2eee4047ad42b6a635d9f4a3704310ccc8",
-      "size": 24006
+      "blake3_hash": "b4b441fb98388f539ed19358b84c336d4b90d65d157ab3989a52abd831498ab7",
+      "size": 29680
     },
     "VivaVoce/UI/Keys.lua": {
       "relative_path": "VivaVoce/UI/Keys.lua",
-      "blake3_hash": "ad8489854d1301dc496527f201f8376e06256e3c800cd4fe40c4464927d66f8f",
-      "size": 7637
+      "blake3_hash": "4165bf4698b75e9cf7e5ebaaddb503251b48b7ad0856a05bde5b3032d2e42463",
+      "size": 8320
     },
     "VivaVoce/UI/MinimalPlayer.lua": {
       "relative_path": "VivaVoce/UI/MinimalPlayer.lua",
-      "blake3_hash": "e1e628315673b4e8c88653e581f69cf9fdc970d558670e2abd55df324252bd08",
-      "size": 18653
+      "blake3_hash": "7e1fa421f19f059e9053d26b12103935c09492c1bb9e3a7d5efebba8dacb4164",
+      "size": 19192
     },
     "VivaVoce/UI/MinimapButton.lua": {
       "relative_path": "VivaVoce/UI/MinimapButton.lua",
-      "blake3_hash": "e13555b9c50eb558c8001fdb926c9911586d8f255ecd664e53ad24dd50a1de9f",
-      "size": 7580
+      "blake3_hash": "c8edf15efcb0d4c58ca164ed0068703f3d30469dc201e26ab0f84f56c275c153",
+      "size": 9124
     },
     "VivaVoce/UI/Options.lua": {
       "relative_path": "VivaVoce/UI/Options.lua",
-      "blake3_hash": "8e137f3da0061cd11bf2ac3e7ec5752113bc13c9f04bdc85b31c2a625c3b03df",
-      "size": 73372
+      "blake3_hash": "762a8ddcf4c722760ee128d433776fdd65d03650467ccce19fad2ad61849a8ee",
+      "size": 87987
     },
     "VivaVoce/UI/PlayerFrame.lua": {
       "relative_path": "VivaVoce/UI/PlayerFrame.lua",
-      "blake3_hash": "9b1be226738034ffe3c0822b77499236b56a84a67e0fb07c1401cecf0cf8bf4f",
-      "size": 32013
+      "blake3_hash": "ccce54004f6db80bac2fff18fb89e4893d599e7c96e15365f8c43b3d9d032abc",
+      "size": 32632
     },
     "VivaVoce/UI/Portrait.lua": {
       "relative_path": "VivaVoce/UI/Portrait.lua",
-      "blake3_hash": "8ffb628e8cf8298c2d797145e0e7d9df58fbae4cc4ce84f81893a8a05601caac",
-      "size": 5964
+      "blake3_hash": "4ae8ab80ef6abe58571c472b382aad650058ad28071ba4740ffa3522ac0c1353",
+      "size": 6950
     },
     "VivaVoce/UI/StaticPortrait.lua": {
       "relative_path": "VivaVoce/UI/StaticPortrait.lua",
-      "blake3_hash": "1907818436862cc0c9ac9b054725b037d987c28888f20ae8a3ebbeb841ea1bbe",
-      "size": 3779
+      "blake3_hash": "905af9284dd2afab8330f7b2a1fcd0c57b5513eb3a1dc409d25900cdbc0f2c3c",
+      "size": 5126
     },
     "VivaVoce/UI/Subtitle.lua": {
       "relative_path": "VivaVoce/UI/Subtitle.lua",
-      "blake3_hash": "586d53e26b887cc612362d5a384ad14acb009b0b1e91029b365f1e60d3fc80e7",
-      "size": 26963
+      "blake3_hash": "25295ac969d8960574001261d955bd1a72e2f6b3f386d15636c4572e6f94cd41",
+      "size": 27724
     },
     "VivaVoce/UI/Transcript.lua": {
       "relative_path": "VivaVoce/UI/Transcript.lua",
-      "blake3_hash": "53cd35eca8d50b9a68d51aebf8d20f7e0212e2ccbcdf4a34f84edd0d07046c14",
-      "size": 21079
+      "blake3_hash": "08fa5e5d6d2ae5a6bdf43ae2d5080e9465aee2b47b8b0e40fa0f95fbe4eed076",
+      "size": 21536
     },
     "VivaVoce/UI/Welcome.lua": {
       "relative_path": "VivaVoce/UI/Welcome.lua",
-      "blake3_hash": "c453180cc48749f433c6522ef2d1c2e501d60b5fdefbca1ac8d0591b2bf4e863",
-      "size": 7847
+      "blake3_hash": "7465c831281602b36c61317c020cf999b5aeac22afcddb9c130cfe6224b7533c",
+      "size": 7992
     },
     "VivaVoce_Quests/Compatibility.lua": {
       "relative_path": "VivaVoce_Quests/Compatibility.lua",
@@ -438,18 +444,18 @@
     },
     "VivaVoce_Quests/Contribute.lua": {
       "relative_path": "VivaVoce_Quests/Contribute.lua",
-      "blake3_hash": "8a5b728e5903431d7b03780bcaf0ec341c76691906713f11e12fb98bea244927",
-      "size": 12911
+      "blake3_hash": "ad768889cca75a4a7f9d51e712c805b1127fc72b8bdaa0bee692c0db0d536b3a",
+      "size": 11966
     },
     "VivaVoce_Quests/Core.lua": {
       "relative_path": "VivaVoce_Quests/Core.lua",
-      "blake3_hash": "d123110ddef07e28e637a6809299221e0596436bd90a65bb88757e4283a43cb3",
-      "size": 8236
+      "blake3_hash": "03345eb38f235cc3a1fc870d4a8e1247ab273541d55d6afb1aa0aa8cd6b663b1",
+      "size": 9398
     },
     "VivaVoce_Quests/DataModules.lua": {
       "relative_path": "VivaVoce_Quests/DataModules.lua",
-      "blake3_hash": "6e598dd59fde3973cd4ab8155b8c5c02368bdb666a4a86552698e92f2688986f",
-      "size": 8219
+      "blake3_hash": "1b47402c7c49f4868f5fc7e46b7e00d06ef8f81c8baf705fa0fbdda52cbcf5c5",
+      "size": 9445
     },
     "VivaVoce_Quests/DialogPlayButton.lua": {
       "relative_path": "VivaVoce_Quests/DialogPlayButton.lua",
@@ -463,13 +469,13 @@
     },
     "VivaVoce_Quests/FrameButtons.lua": {
       "relative_path": "VivaVoce_Quests/FrameButtons.lua",
-      "blake3_hash": "5ac4511c5ed91e6994e2c8b7a550ae85ab5bebfb0289441b741770df86dbb412",
-      "size": 6440
+      "blake3_hash": "75c8ff076ec9a4faefd491b31b4a2e59ac5839e93a31459e6b19877234fe2b00",
+      "size": 6689
     },
     "VivaVoce_Quests/FuzzySearch.lua": {
       "relative_path": "VivaVoce_Quests/FuzzySearch.lua",
-      "blake3_hash": "00778f059b82f8b2280e3f92e7a5491a6e829f61df23867e556227f8250c6007",
-      "size": 1861
+      "blake3_hash": "5c380445490f9cb1db1d80f35e8f681b983cbe5cad5824922d20a806eb18577f",
+      "size": 2657
     },
     "VivaVoce_Quests/Language.lua": {
       "relative_path": "VivaVoce_Quests/Language.lua",
@@ -493,18 +499,18 @@
     },
     "VivaVoce_Quests/Options.lua": {
       "relative_path": "VivaVoce_Quests/Options.lua",
-      "blake3_hash": "ff2eaeaf24124564282f6226a1b78b82ebf07ebee461651b6fb175d9fd8dd36c",
-      "size": 12299
+      "blake3_hash": "46bca1b3037ef955b959ae40366022592cd23305e16ba9033fae880a2db9f343",
+      "size": 13637
     },
     "VivaVoce_Quests/Player.lua": {
       "relative_path": "VivaVoce_Quests/Player.lua",
-      "blake3_hash": "12948f1d09c0ce4a175ef0df5f15dd22538cdbe9ea3cce85a0b4382cce1f5fe7",
-      "size": 8106
+      "blake3_hash": "d42e60c0b88da9051d9056305192583e40cbf9e8e013da5686cc00eebf296c99",
+      "size": 11122
     },
     "VivaVoce_Quests/QuestOverlayUI.lua": {
       "relative_path": "VivaVoce_Quests/QuestOverlayUI.lua",
-      "blake3_hash": "c8f17286feab68fe90eed84f603cf3db7ba18ed57d1b64502bcb64399d93b66c",
-      "size": 8229
+      "blake3_hash": "da49ae29f7d18f12e95fb6931b9f4feaf204813619d3ae0f7d4740fe51fe8307",
+      "size": 18283
     },
     "VivaVoce_Quests/README.md": {
       "relative_path": "VivaVoce_Quests/README.md",
@@ -513,23 +519,23 @@
     },
     "VivaVoce_Quests/Report.lua": {
       "relative_path": "VivaVoce_Quests/Report.lua",
-      "blake3_hash": "31301d7e5d9d14f9013c5ab538527cbc49e2ab10ac1157fb3af5ec70a9b41b59",
-      "size": 4071
+      "blake3_hash": "8d11b87a8b81e6d55c3fa900c2ec61884e1fa030266691d4e52328057b08d4ee",
+      "size": 4659
     },
     "VivaVoce_Quests/Utils.lua": {
       "relative_path": "VivaVoce_Quests/Utils.lua",
-      "blake3_hash": "c5111ec99ca168d6ae3c04056f81a380da4a53a2ec58409081de71a7e3ed46f9",
-      "size": 7017
+      "blake3_hash": "ce2d9c092123a14c42c6e59cd3ae4562459a3d100405bd49a392af418e8cf18c",
+      "size": 8190
     },
     "VivaVoce_Quests/VivaVoce_Quests.toc": {
       "relative_path": "VivaVoce_Quests/VivaVoce_Quests.toc",
-      "blake3_hash": "e48d86601161fb4e97424c298a29f1a03c72dc89f5128b5cde050db3703721b3",
+      "blake3_hash": "1ff3798fc178b22bf3f6c2b71d6269f795ec290512d6bfb11265aaf94f8cf05a",
       "size": 640
     },
     "VivaVoce_Quests/VoiceOver.lua": {
       "relative_path": "VivaVoce_Quests/VoiceOver.lua",
-      "blake3_hash": "c6c443942cb228f457c96d967f87a5d91f9f0d04c6ceb76de4650da0eebe2b20",
-      "size": 29024
+      "blake3_hash": "0f6ad827fadba23b93537475e8d8f48dfad86b660cd13b18bb2069bde969f547",
+      "size": 34233
     },
     "VivaVoce_Quests/Textures/Icon.tga": {
       "relative_path": "VivaVoce_Quests/Textures/Icon.tga",
@@ -538,8 +544,8 @@
     },
     "VivaVoce_Books/Audio.lua": {
       "relative_path": "VivaVoce_Books/Audio.lua",
-      "blake3_hash": "9e43e586de0423bafb79ca5d0c662494e01af7b932ff95c99689e89622f1033b",
-      "size": 7621
+      "blake3_hash": "8e281be8971336f0d79fbf6eb97c56ae4fe6883ac4ee5bd374b148dc080706c3",
+      "size": 9964
     },
     "VivaVoce_Books/Checksum.lua": {
       "relative_path": "VivaVoce_Books/Checksum.lua",
@@ -548,23 +554,23 @@
     },
     "VivaVoce_Books/Commands.lua": {
       "relative_path": "VivaVoce_Books/Commands.lua",
-      "blake3_hash": "716618409a34ab56678fb4b72c766f0e2842f7ea617b8258e76ded1b01d8bc2a",
-      "size": 5017
+      "blake3_hash": "ba2c05e1ecde6b0cfbcebdc14fa8861f6da072dbe93d33dc5fefcde72fb04808",
+      "size": 5846
     },
     "VivaVoce_Books/Contribute.lua": {
       "relative_path": "VivaVoce_Books/Contribute.lua",
-      "blake3_hash": "45087d0ff78ea9d1ef3062ed1f1e7ef5ac990c4a11f7201b16b6089793c52172",
-      "size": 4181
+      "blake3_hash": "736b2af0620891fa5e40d1dff9b5a94f9216e7a1f4b3e6c4c759fac0722e821b",
+      "size": 5258
     },
     "VivaVoce_Books/Core.lua": {
       "relative_path": "VivaVoce_Books/Core.lua",
-      "blake3_hash": "752e7193b4f206cb03e1c2dd41548cd9fee6316a1bca84096872d28062c4a8ee",
-      "size": 7398
+      "blake3_hash": "b0be8b77a868f13d6c96de676f0c7c82840938c534b872b079683d24b9ec4fe9",
+      "size": 9017
     },
     "VivaVoce_Books/Events.lua": {
       "relative_path": "VivaVoce_Books/Events.lua",
-      "blake3_hash": "2f9ce99584649967f34b237551c25d5c46a3c23e30ede482f4487fc1f6daea63",
-      "size": 6066
+      "blake3_hash": "633724cd54f140ca63ee5d470708afa380180d0de546053a7cc074f5d320b5e5",
+      "size": 6011
     },
     "VivaVoce_Books/Language.lua": {
       "relative_path": "VivaVoce_Books/Language.lua",
@@ -588,17 +594,17 @@
     },
     "VivaVoce_Books/Playlist.lua": {
       "relative_path": "VivaVoce_Books/Playlist.lua",
-      "blake3_hash": "b5dfc9ed4f6b0fc241268ff139f18f857fb6e0d94e48814f01f077a12b0b8e52",
-      "size": 4186
+      "blake3_hash": "74003b1a5601c1fa915e96a9f1b1db88c439422bee72e8d20073684dc096c56f",
+      "size": 4308
     },
     "VivaVoce_Books/Reader.lua": {
       "relative_path": "VivaVoce_Books/Reader.lua",
-      "blake3_hash": "48eb71419732cf3e27a967ac287da76ae1424f79ea7758a0309203c62a2d8c5c",
-      "size": 4315
+      "blake3_hash": "26a6fa829044fc5766634861e681c14198a3c7460d5e6a0c77c0275774bce57c",
+      "size": 4602
     },
     "VivaVoce_Books/VivaVoce_Books.toc": {
       "relative_path": "VivaVoce_Books/VivaVoce_Books.toc",
-      "blake3_hash": "a1c1abcd12f995cb09b220e8c0d23cb55067fc5820df64f14162788ace80e49f",
+      "blake3_hash": "79118f17a30edd340a9973b491a8a2cec966539775c5bcdcbab5a27dc2725230",
       "size": 1367
     },
     "VivaVoce_Books/Data/Books.lua": {
@@ -623,28 +629,28 @@
     },
     "VivaVoce_Books/UI/Options.lua": {
       "relative_path": "VivaVoce_Books/UI/Options.lua",
-      "blake3_hash": "12623450086ad61930a2c1931f8834511633dcaac1cd6829a9838c9aa72d93ff",
-      "size": 4934
+      "blake3_hash": "e2eedefb16624e8c86b1fafd9adf70d339f93ed87974cc0d30f27421f2742295",
+      "size": 5619
     },
     "VivaVoce_Books/UI/PlayButton.lua": {
       "relative_path": "VivaVoce_Books/UI/PlayButton.lua",
-      "blake3_hash": "de1062f72c741f067bf7c8fa1bfa2476bc6fa3144bd1b6a5b3487b73c67da250",
-      "size": 5959
+      "blake3_hash": "198340519be70e9b8dec9a0c70419953fd18ff04f9aea014ca769ce95072e0e4",
+      "size": 6311
     },
     "VivaVoce_Zones/Audio.lua": {
       "relative_path": "VivaVoce_Zones/Audio.lua",
-      "blake3_hash": "ca4f8ba301751e6ec104bf4d35609d99305c4194f36e0cfec65c15d162c6ac9a",
-      "size": 16909
+      "blake3_hash": "f7f6d3c0ec05dc243208aa9078abd870a08a15be3e08ff8bfa4776954369c9e4",
+      "size": 17448
     },
     "VivaVoce_Zones/Autoplay.lua": {
       "relative_path": "VivaVoce_Zones/Autoplay.lua",
-      "blake3_hash": "535c880374f507af0d77b61a15508059ea1445e1081a5bae53366420de4dfdd7",
-      "size": 14267
+      "blake3_hash": "6dc08ddf4c71105384a6ec9c2b88b908d5d47f3081aefd30eb3d98e9c4351a9e",
+      "size": 17462
     },
     "VivaVoce_Zones/Commands.lua": {
       "relative_path": "VivaVoce_Zones/Commands.lua",
-      "blake3_hash": "94d34e8de331948a1dc5ccec89eff64f7033958be54e5dccf766cfc33321979d",
-      "size": 9716
+      "blake3_hash": "69d5bc55720a87518ade599a86f489be69c81d41f23ec7178d046b30c6a49127",
+      "size": 9959
     },
     "VivaVoce_Zones/Contribute.lua": {
       "relative_path": "VivaVoce_Zones/Contribute.lua",
@@ -653,13 +659,13 @@
     },
     "VivaVoce_Zones/Core.lua": {
       "relative_path": "VivaVoce_Zones/Core.lua",
-      "blake3_hash": "a0d7ca6823ebb8ad86d3705fc6c81b10b107816cc5445faa2937bd7ea50b9d7a",
-      "size": 12870
+      "blake3_hash": "babd3e10029fe4b0fe62efd0115fb4f5911ef9204218540206be8bcfc7657ce0",
+      "size": 13573
     },
     "VivaVoce_Zones/Language.lua": {
       "relative_path": "VivaVoce_Zones/Language.lua",
-      "blake3_hash": "0dfdcc3088fa5c2c40afbe868d91777747f47256e4e594e8c6a25abbd9f9305f",
-      "size": 10198
+      "blake3_hash": "25a1ef050f7dd279e930bcfb887014f8a7c2e4bb62cf3b2c2f23db02856fc292",
+      "size": 10251
     },
     "VivaVoce_Zones/LICENSE.md": {
       "relative_path": "VivaVoce_Zones/LICENSE.md",
@@ -678,13 +684,18 @@
     },
     "VivaVoce_Zones/VivaVoce_Zones.toc": {
       "relative_path": "VivaVoce_Zones/VivaVoce_Zones.toc",
-      "blake3_hash": "dbf841fd938bae03a2fc09c2c6405c455ea076de924bd3c73547be59b3f1a647",
-      "size": 779
+      "blake3_hash": "ca6de809bce8b28490462fcb89a3d3824fe30caf760764c8a36a00b58b6ae1bd",
+      "size": 765
+    },
+    "VivaVoce_Zones/Data/AudioPack.lua": {
+      "relative_path": "VivaVoce_Zones/Data/AudioPack.lua",
+      "blake3_hash": "eaf34cd0897245a9549e77b4331d344f22b2c284b5bfae9076f28eac9e04b724",
+      "size": 436
     },
     "VivaVoce_Zones/Data/itIT.lua": {
       "relative_path": "VivaVoce_Zones/Data/itIT.lua",
-      "blake3_hash": "ae113bb2a6614289779b683e8e1f068533cab9341c5be59c39cd300c35a203a7",
-      "size": 62633
+      "blake3_hash": "5d8e7c83a5443d494ef94be4b6da9a4f14bd6b71bb9524c3e425d74f0ee21356",
+      "size": 62406
     },
     "VivaVoce_Zones/Data/Pictures.lua": {
       "relative_path": "VivaVoce_Zones/Data/Pictures.lua",
@@ -693,8 +704,8 @@
     },
     "VivaVoce_Zones/Data/subzones_itIT.lua": {
       "relative_path": "VivaVoce_Zones/Data/subzones_itIT.lua",
-      "blake3_hash": "b8129fb5f2693cc94950f4408c0aa2c5198d0d15a934c269f621ac7b2e1e5e30",
-      "size": 491454
+      "blake3_hash": "72f900eac8ee85b0e853066336924a146acca6b60cee3aebef8118aff3e7c50c",
+      "size": 496534
     },
     "VivaVoce_Zones/Textures/AddonIcon.tga": {
       "relative_path": "VivaVoce_Zones/Textures/AddonIcon.tga",
@@ -4823,13 +4834,13 @@
     },
     "VivaVoce_Zones/UI/MapPanel.lua": {
       "relative_path": "VivaVoce_Zones/UI/MapPanel.lua",
-      "blake3_hash": "0d2d0714f912e530584136950d63a26596364e0d4abd803c51f19e34471867c2",
-      "size": 7977
+      "blake3_hash": "fa1362faa576d97a25ff697c96a34013447a5f7ae5a62946fc709fda9d5c5abb",
+      "size": 8317
     },
     "VivaVoce_Zones/UI/MinimapButton.lua": {
       "relative_path": "VivaVoce_Zones/UI/MinimapButton.lua",
-      "blake3_hash": "5320789e688443ae5860bd239d43bbcffaed1ef798cf0c7cb0b35884bbb3a2ba",
-      "size": 3336
+      "blake3_hash": "6695155ceb5f250fc7873d1b6294f038033534652a928c7984de81aed6dc5172",
+      "size": 3457
     },
     "VivaVoce_Zones/UI/Options.lua": {
       "relative_path": "VivaVoce_Zones/UI/Options.lua",
@@ -4853,18 +4864,18 @@
     },
     "VivaVoce_Codex/Audio.lua": {
       "relative_path": "VivaVoce_Codex/Audio.lua",
-      "blake3_hash": "7881b585d213b64214cbb374934ca84bebfef449c5efff668afc88573b56eb95",
-      "size": 5484
+      "blake3_hash": "a562e700c538343cb35f09dd6dfd37e3407abd014d078039fc547616393b9c29",
+      "size": 5439
     },
     "VivaVoce_Codex/Commands.lua": {
       "relative_path": "VivaVoce_Codex/Commands.lua",
-      "blake3_hash": "d9cd39559a5718b7d9149569cc8c24e3c9ba03b64939648c757d5c7d7fd8e5a9",
-      "size": 3514
+      "blake3_hash": "f0c2496690bc7c038f463b53a317e5d905becd3ed9ea23ef98d67409ebaeb7de",
+      "size": 4313
     },
     "VivaVoce_Codex/Core.lua": {
       "relative_path": "VivaVoce_Codex/Core.lua",
-      "blake3_hash": "765c0058ce90dd36c94d66fd0279c6c41dc009336ea0334bf31bf51d1100720a",
-      "size": 8647
+      "blake3_hash": "47beacabd666bbb6e2efa6ad34200e0365d6ec1cd19ef94c992e4792407f1384",
+      "size": 10341
     },
     "VivaVoce_Codex/LICENSE.md": {
       "relative_path": "VivaVoce_Codex/LICENSE.md",
@@ -4883,7 +4894,7 @@
     },
     "VivaVoce_Codex/VivaVoce_Codex.toc": {
       "relative_path": "VivaVoce_Codex/VivaVoce_Codex.toc",
-      "blake3_hash": "f0a6f33959c9923e0895d26f456012903a4aab18ae8e54503a262b8f837154b2",
+      "blake3_hash": "5c88ac48c2fffa5fa01a47fcb9747a6a0eabbd9766c2e3a3bd99f202a06f700d",
       "size": 535
     },
     "VivaVoce_Codex/Data/Icons_DB.lua": {
@@ -4913,18 +4924,18 @@
     },
     "VivaVoce_Codex/UI/CodexWindow.lua": {
       "relative_path": "VivaVoce_Codex/UI/CodexWindow.lua",
-      "blake3_hash": "7e57ecded0d23e218af32f31c4dc7782d898b5cd5d097d98a070ad8557be9829",
-      "size": 33384
+      "blake3_hash": "539822d1600bb8b2d31adc3132ccff037a92efc44ac0c5bafeafc642f31df1cb",
+      "size": 37458
     },
     "VivaVoce_Codex/UI/TargetButton.lua": {
       "relative_path": "VivaVoce_Codex/UI/TargetButton.lua",
-      "blake3_hash": "db0632b6a0bd75824ff02533d23abb466d2beea87aa775daed3b03921d8304fd",
-      "size": 3242
+      "blake3_hash": "491f242ef08351736408df51d6673805d440d21cac2fd9ed152091f7ebc787a5",
+      "size": 3772
     },
     "VivaVoce_Collector/Collector.lua": {
       "relative_path": "VivaVoce_Collector/Collector.lua",
-      "blake3_hash": "57bae18d427f39c16019a91d7e3c29aca104fb74e229f7db29c9d1161ffbcc05",
-      "size": 6275
+      "blake3_hash": "59f79bfdc5b3b836694b9e95a0b23ba501e3c3b64ed5d8a49bf31b421aa9b45c",
+      "size": 7471
     },
     "VivaVoce_Collector/LICENSE.md": {
       "relative_path": "VivaVoce_Collector/LICENSE.md",
@@ -4943,12 +4954,12 @@
     },
     "VivaVoce_Collector/UI.lua": {
       "relative_path": "VivaVoce_Collector/UI.lua",
-      "blake3_hash": "56277efd502c35bc01c09460ff32d665039dce4cfc87ac7f050cd003c57c2247",
-      "size": 7554
+      "blake3_hash": "3978e00dd8acaf2b9ebc16fdd631e48d47c358611290f4e3ffead87c364999e5",
+      "size": 8808
     },
     "VivaVoce_Collector/VivaVoce_Collector.toc": {
       "relative_path": "VivaVoce_Collector/VivaVoce_Collector.toc",
-      "blake3_hash": "5d24874559b439bc796d7a598db7da8cfb4328dc9c4b9303198bfadf5370bdaf",
+      "blake3_hash": "ed319f3f9b753a963560f17f42ef9b8fd8006c35b98f49116fa6752d9c694340",
       "size": 474
     },
     "VivaVoce_Collector/Textures/Icon.tga": {
