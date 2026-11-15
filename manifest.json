@@ -1,7 +1,7 @@
 {
-  "version": "1.1.0",
-  "total_files": 28391,
-  "total_bytes": 4594829474,
+  "version": "1.1.1",
+  "total_files": 28403,
+  "total_bytes": 4593334276,
   "packages": [
     {
       "id": "vivavoce_core",
@@ -109,6 +109,17 @@
       "compressed_size": 449273,
       "uncompressed_size": 1863635,
       "files_count": 66
+    },
+    {
+      "id": "patch-1.1.0-to-1.1.1",
+      "from_version": "1.1.0",
+      "to_version": "1.1.1",
+      "filename": "patch-v1.1.1.tar.zst",
+      "blake3": "723b0609bfd80fb511a0a73c8e93cd95d2dd4fa96a3394148f5a1699b5f159dd",
+      "download_url": "https://github.com/Master-Antonio/Vivavoce-Releases/releases/download/v1.1.1/patch-v1.1.1.tar.zst",
+      "compressed_size": 97618,
+      "uncompressed_size": 121056,
+      "files_count": 28
     }
   ],
   "files": {
@@ -209,12 +220,12 @@
     },
     "VivaVoce/VivaEnv.lua": {
       "relative_path": "VivaVoce/VivaEnv.lua",
-      "blake3_hash": "da526d9a62bf1c77618bf8e54fc22359125779a236c638dbcb737fe4569fda6f",
+      "blake3_hash": "c534067aec05951c1f78d0d83613ee932b85afd0bae97043bb07530dd5c53608",
       "size": 2429
     },
     "VivaVoce/VivaVoce.toc": {
       "relative_path": "VivaVoce/VivaVoce.toc",
-      "blake3_hash": "7e3a89b176829f9b3799950daaa3318fe0194a087e3ed9635b4db6c579feb18a",
+      "blake3_hash": "35d741527d5cdaf7dfff6612bb55118a771f7d99ce50983357d27acc65acc85b",
       "size": 775
     },
     "VivaVoce/Libs/AceDB-3.0/AceDB-3.0.lua": {
@@ -312,10 +323,20 @@
       "blake3_hash": "abd709971143429c7baf82c624f865e27e0351b58918e35ba56f89160b0aca55",
       "size": 65554
     },
+    "VivaVoce/Textures/Icon.png": {
+      "relative_path": "VivaVoce/Textures/Icon.png",
+      "blake3_hash": "4e9a2f5ecd262a6bff2a524dbdb2972f0ab2cf375085b5e7e977997d3975b305",
+      "size": 14395
+    },
+    "VivaVoce/Textures/Icon.svg": {
+      "relative_path": "VivaVoce/Textures/Icon.svg",
+      "blake3_hash": "0463767ebf6fae7e11f89e807a0499238050c270e58c9c6ae1b3405316d5baf2",
+      "size": 1063
+    },
     "VivaVoce/Textures/Icon.tga": {
       "relative_path": "VivaVoce/Textures/Icon.tga",
-      "blake3_hash": "a755d76c972b8ac995c5da44936ffd6104a127c83a65d6a0dfe4bfab9b5bb8c7",
-      "size": 262188
+      "blake3_hash": "af1349b9f5f9a1a6a0404dea36dcc9499bcb25c9adc112b7cc9a93cae41f3262",
+      "size": 0
     },
     "VivaVoce/Textures/MinimapButton.blp": {
       "relative_path": "VivaVoce/Textures/MinimapButton.blp",
@@ -449,7 +470,7 @@
     },
     "VivaVoce_Quests/Core.lua": {
       "relative_path": "VivaVoce_Quests/Core.lua",
-      "blake3_hash": "03345eb38f235cc3a1fc870d4a8e1247ab273541d55d6afb1aa0aa8cd6b663b1",
+      "blake3_hash": "f38610495c836955d67338d9ce4a88bf8706fc4aaa3c19a502ebbae6f4e1924f",
       "size": 9398
     },
     "VivaVoce_Quests/DataModules.lua": {
@@ -529,7 +550,7 @@
     },
     "VivaVoce_Quests/VivaVoce_Quests.toc": {
       "relative_path": "VivaVoce_Quests/VivaVoce_Quests.toc",
-      "blake3_hash": "1ff3798fc178b22bf3f6c2b71d6269f795ec290512d6bfb11265aaf94f8cf05a",
+      "blake3_hash": "aa79e7d12de8755142f4412b2c8ae1272bd86450210e07e031dfd97a39173b35",
       "size": 640
     },
     "VivaVoce_Quests/VoiceOver.lua": {
@@ -537,10 +558,20 @@
       "blake3_hash": "0f6ad827fadba23b93537475e8d8f48dfad86b660cd13b18bb2069bde969f547",
       "size": 34233
     },
+    "VivaVoce_Quests/Textures/Icon.png": {
+      "relative_path": "VivaVoce_Quests/Textures/Icon.png",
+      "blake3_hash": "50afb631ab0f8a9cc8c44afd02bbcab84d928cb2f11dc0968ea66fd3c47fac4e",
+      "size": 12369
+    },
+    "VivaVoce_Quests/Textures/Icon.svg": {
+      "relative_path": "VivaVoce_Quests/Textures/Icon.svg",
+      "blake3_hash": "49c07ab45f95b5981008eb078bbf65b991e35f5a9b07a337e408822e4a3f6d82",
+      "size": 843
+    },
     "VivaVoce_Quests/Textures/Icon.tga": {
       "relative_path": "VivaVoce_Quests/Textures/Icon.tga",
-      "blake3_hash": "6c87c25de325d32e3df93b8a94d366352563633d5a88084a9c4cb11f4206a82b",
-      "size": 262188
+      "blake3_hash": "af1349b9f5f9a1a6a0404dea36dcc9499bcb25c9adc112b7cc9a93cae41f3262",
+      "size": 0
     },
     "VivaVoce_Books/Audio.lua": {
       "relative_path": "VivaVoce_Books/Audio.lua",
@@ -604,7 +635,7 @@
     },
     "VivaVoce_Books/VivaVoce_Books.toc": {
       "relative_path": "VivaVoce_Books/VivaVoce_Books.toc",
-      "blake3_hash": "79118f17a30edd340a9973b491a8a2cec966539775c5bcdcbab5a27dc2725230",
+      "blake3_hash": "561bde7d664c6433c4fd3c481672595cf0539fa4b261fc58869ef940d51641a7",
       "size": 1367
     },
     "VivaVoce_Books/Data/Books.lua": {
@@ -612,10 +643,20 @@
       "blake3_hash": "a675e8b544911c9012ae76dedd36509871166a7dc75289db2974f11290424a80",
       "size": 898
     },
+    "VivaVoce_Books/Textures/Icon.png": {
+      "relative_path": "VivaVoce_Books/Textures/Icon.png",
+      "blake3_hash": "ef5449b5b2ca7df433c72564ff58f7889d5940839e35e7ff4e7292d0ded0e4f4",
+      "size": 11642
+    },
+    "VivaVoce_Books/Textures/Icon.svg": {
+      "relative_path": "VivaVoce_Books/Textures/Icon.svg",
+      "blake3_hash": "b018ef4c92222e11403ec9a0cc1f90fd86a5e9e60a73be4eefd1c111584ddc00",
+      "size": 833
+    },
     "VivaVoce_Books/Textures/Icon.tga": {
       "relative_path": "VivaVoce_Books/Textures/Icon.tga",
-      "blake3_hash": "db4442cdf97189f445a7e3f463416e0b796aaf994a9b9766f417974341bf487e",
-      "size": 262188
+      "blake3_hash": "af1349b9f5f9a1a6a0404dea36dcc9499bcb25c9adc112b7cc9a93cae41f3262",
+      "size": 0
     },
     "VivaVoce_Books/UI/CopyLink.lua": {
       "relative_path": "VivaVoce_Books/UI/CopyLink.lua",
@@ -684,8 +725,8 @@
     },
     "VivaVoce_Zones/VivaVoce_Zones.toc": {
       "relative_path": "VivaVoce_Zones/VivaVoce_Zones.toc",
-      "blake3_hash": "ca6de809bce8b28490462fcb89a3d3824fe30caf760764c8a36a00b58b6ae1bd",
-      "size": 765
+      "blake3_hash": "9eb0b691ccd9e6bca84933aa370f1ffd19035908e1fd7cb116a5a7a7d4e1161c",
+      "size": 799
     },
     "VivaVoce_Zones/Data/AudioPack.lua": {
       "relative_path": "VivaVoce_Zones/Data/AudioPack.lua",
@@ -709,8 +750,8 @@
     },
     "VivaVoce_Zones/Textures/AddonIcon.tga": {
       "relative_path": "VivaVoce_Zones/Textures/AddonIcon.tga",
-      "blake3_hash": "55931881143fc24a69888a0bbd20bf8aa45f3c736002a2e3935a6ae002ea564a",
-      "size": 16402
+      "blake3_hash": "af1349b9f5f9a1a6a0404dea36dcc9499bcb25c9adc112b7cc9a93cae41f3262",
+      "size": 0
     },
     "VivaVoce_Zones/Textures/BackgroundGradient.blp": {
       "relative_path": "VivaVoce_Zones/Textures/BackgroundGradient.blp",
@@ -722,10 +763,20 @@
       "blake3_hash": "cc5181eb0600149f807fce752c1decc86c6798835fb456bc14868368e893bba0",
       "size": 88580
     },
+    "VivaVoce_Zones/Textures/Icon.png": {
+      "relative_path": "VivaVoce_Zones/Textures/Icon.png",
+      "blake3_hash": "8338b5cc1da1ef0c0d411d0bb3ec1f9ea8833a94b06c1158e66b47ae66427499",
+      "size": 21219
+    },
+    "VivaVoce_Zones/Textures/Icon.svg": {
+      "relative_path": "VivaVoce_Zones/Textures/Icon.svg",
+      "blake3_hash": "d7006217bd238fee92da86e5d11e952d92f31dd324d321ff840b044df93cf9ad",
+      "size": 785
+    },
     "VivaVoce_Zones/Textures/Icon.tga": {
       "relative_path": "VivaVoce_Zones/Textures/Icon.tga",
-      "blake3_hash": "b51a94988a19caa54da02ee4084f2da67b5f71a109606da71611842e96c63429",
-      "size": 262188
+      "blake3_hash": "af1349b9f5f9a1a6a0404dea36dcc9499bcb25c9adc112b7cc9a93cae41f3262",
+      "size": 0
     },
     "VivaVoce_Zones/Textures/PortraitFrameAtlas.blp": {
       "relative_path": "VivaVoce_Zones/Textures/PortraitFrameAtlas.blp",
@@ -4874,8 +4925,8 @@
     },
     "VivaVoce_Codex/Core.lua": {
       "relative_path": "VivaVoce_Codex/Core.lua",
-      "blake3_hash": "47beacabd666bbb6e2efa6ad34200e0365d6ec1cd19ef94c992e4792407f1384",
-      "size": 10341
+      "blake3_hash": "8fbaffe83c1e3a57800bb2e2beedd0862a3b37a72669c943d6d143fadb5d5f16",
+      "size": 10669
     },
     "VivaVoce_Codex/LICENSE.md": {
       "relative_path": "VivaVoce_Codex/LICENSE.md",
@@ -4894,7 +4945,7 @@
     },
     "VivaVoce_Codex/VivaVoce_Codex.toc": {
       "relative_path": "VivaVoce_Codex/VivaVoce_Codex.toc",
-      "blake3_hash": "5c88ac48c2fffa5fa01a47fcb9747a6a0eabbd9766c2e3a3bd99f202a06f700d",
+      "blake3_hash": "cf73d3245706a92b2ce8ad40984be3be842267f96fda09c9db5858cca109653c",
       "size": 535
     },
     "VivaVoce_Codex/Data/Icons_DB.lua": {
@@ -4917,10 +4968,20 @@
       "blake3_hash": "071f817e61035d738c34a4a22d4be1dc36db220ac56b127c8ca2c9c01cc172e0",
       "size": 86525
     },
+    "VivaVoce_Codex/Textures/Icon.png": {
+      "relative_path": "VivaVoce_Codex/Textures/Icon.png",
+      "blake3_hash": "793b3689184bdaa2b301e989f3fa4d7ca6320637f5a6553eefc0d95e6f6942b7",
+      "size": 10881
+    },
+    "VivaVoce_Codex/Textures/Icon.svg": {
+      "relative_path": "VivaVoce_Codex/Textures/Icon.svg",
+      "blake3_hash": "3638ac5d51898e10931c883d5829ea144433e8f831db2220d1d5cc575606ee08",
+      "size": 801
+    },
     "VivaVoce_Codex/Textures/Icon.tga": {
       "relative_path": "VivaVoce_Codex/Textures/Icon.tga",
-      "blake3_hash": "98382187ab0f8b1f4d88f4a4b63193767c458edb6360f9772cd4da5a01cdeebe",
-      "size": 262188
+      "blake3_hash": "af1349b9f5f9a1a6a0404dea36dcc9499bcb25c9adc112b7cc9a93cae41f3262",
+      "size": 0
     },
     "VivaVoce_Codex/UI/CodexWindow.lua": {
       "relative_path": "VivaVoce_Codex/UI/CodexWindow.lua",
@@ -4959,13 +5020,23 @@
     },
     "VivaVoce_Collector/VivaVoce_Collector.toc": {
       "relative_path": "VivaVoce_Collector/VivaVoce_Collector.toc",
-      "blake3_hash": "ed319f3f9b753a963560f17f42ef9b8fd8006c35b98f49116fa6752d9c694340",
+      "blake3_hash": "0741030ec1253de26517a388c05987e51230d9d66817dbe398bef1e778d8cfda",
       "size": 474
+    },
+    "VivaVoce_Collector/Textures/Icon.png": {
+      "relative_path": "VivaVoce_Collector/Textures/Icon.png",
+      "blake3_hash": "27475b018d1526cc6f866c5254130b6eb87b25da6aae69a954ebb678bdaa3955",
+      "size": 18188
+    },
+    "VivaVoce_Collector/Textures/Icon.svg": {
+      "relative_path": "VivaVoce_Collector/Textures/Icon.svg",
+      "blake3_hash": "6c424da91b2687eb523a2838e08ab7ec03f39b897fe43a3ce74f6207ab5dbbef",
+      "size": 951
     },
     "VivaVoce_Collector/Textures/Icon.tga": {
       "relative_path": "VivaVoce_Collector/Textures/Icon.tga",
-      "blake3_hash": "8cb3af21def4f5e227091b29e79593ec56baa47ba618a22845da3033f2221d1a",
-      "size": 262188
+      "blake3_hash": "af1349b9f5f9a1a6a0404dea36dcc9499bcb25c9adc112b7cc9a93cae41f3262",
+      "size": 0
     },
     "VivaVoce/Sounds/b000560c9.ogg": {
       "relative_path": "VivaVoce/Sounds/b000560c9.ogg",
