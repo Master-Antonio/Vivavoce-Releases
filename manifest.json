@@ -1,56 +1,8 @@
 {
-  "version": "1.2.0",
+  "version": "1.2.1",
   "total_files": 28593,
-  "total_bytes": 5037054204,
+  "total_bytes": 5037055381,
   "packages": [
-    {
-      "id": "vivavoce_core",
-      "filename": "VivaVoce_Core.tar.zst",
-      "blake3": "639d9ec6c99c0dad33038cb10224a671a419eee6d9062f85ea48377c8ca39f30",
-      "download_url": "https://github.com/Master-Antonio/Vivavoce-Releases/releases/download/v1.2.0/VivaVoce_Core.tar.zst",
-      "compressed_size": 5870777,
-      "uncompressed_size": 19401002
-    },
-    {
-      "id": "vivavoce_quests",
-      "filename": "VivaVoce_Quests.tar.zst",
-      "blake3": "a5f84c40712888fefe060d0033ee1a9fba9a30d455a3d923fd6dd97a5a287236",
-      "download_url": "https://github.com/Master-Antonio/Vivavoce-Releases/releases/download/v1.2.0/VivaVoce_Quests.tar.zst",
-      "compressed_size": 61990,
-      "uncompressed_size": 237052
-    },
-    {
-      "id": "vivavoce_books",
-      "filename": "VivaVoce_Books.tar.zst",
-      "blake3": "da2875d71b1c6a5961a748182d2c727e50fc11cc306dd62b8cedf90b5f8cae09",
-      "download_url": "https://github.com/Master-Antonio/Vivavoce-Releases/releases/download/v1.2.0/VivaVoce_Books.tar.zst",
-      "compressed_size": 43735,
-      "uncompressed_size": 156629
-    },
-    {
-      "id": "vivavoce_zones",
-      "filename": "VivaVoce_Zones.tar.zst",
-      "blake3": "d53a5f2e6e1c2446c859066d7753da95c23cb736d9dae8ca12f1899f15e04018",
-      "download_url": "https://github.com/Master-Antonio/Vivavoce-Releases/releases/download/v1.2.0/VivaVoce_Zones.tar.zst",
-      "compressed_size": 60452761,
-      "uncompressed_size": 81327223
-    },
-    {
-      "id": "vivavoce_codex",
-      "filename": "VivaVoce_Codex.tar.zst",
-      "blake3": "0cb1a30adf710c48cbdcbb467c024c8bc38b7410fa91580d62faa7335a8a4c2c",
-      "download_url": "https://github.com/Master-Antonio/Vivavoce-Releases/releases/download/v1.2.0/VivaVoce_Codex.tar.zst",
-      "compressed_size": 276886,
-      "uncompressed_size": 1394735
-    },
-    {
-      "id": "vivavoce_collector",
-      "filename": "VivaVoce_Collector.tar.zst",
-      "blake3": "094827a18ecc94109a87c844100391d8b19c561382700a0504f9ec0062977310",
-      "download_url": "https://github.com/Master-Antonio/Vivavoce-Releases/releases/download/v1.2.0/VivaVoce_Collector.tar.zst",
-      "compressed_size": 33954,
-      "uncompressed_size": 112086
-    },
     {
       "id": "vivavoce_sounds_part1",
       "filename": "VivaVoce_Sounds_part1.tar.zst",
@@ -74,9 +26,69 @@
       "download_url": "https://github.com/Master-Antonio/Vivavoce-Releases/releases/download/v1.2.0/VivaVoce_Sounds_part3.tar.zst",
       "compressed_size": 1590418475,
       "uncompressed_size": 1714404655
+    },
+    {
+      "id": "vivavoce_core",
+      "filename": "VivaVoce_Core.tar.zst",
+      "blake3": "0e8bdff952c6765de39cf7cf3ab6f16ffd41d689f6ac8280b9df2ad0f4d16c62",
+      "download_url": "https://github.com/Master-Antonio/Vivavoce-Releases/releases/download/v1.2.1/VivaVoce_Core.tar.zst",
+      "compressed_size": 5870197,
+      "uncompressed_size": 19401238
+    },
+    {
+      "id": "vivavoce_quests",
+      "filename": "VivaVoce_Quests.tar.zst",
+      "blake3": "c5507c8a10040a27cb74c17708dff9ffce37a08638ea08f243fad5d9b4291d08",
+      "download_url": "https://github.com/Master-Antonio/Vivavoce-Releases/releases/download/v1.2.1/VivaVoce_Quests.tar.zst",
+      "compressed_size": 61703,
+      "uncompressed_size": 237979
+    },
+    {
+      "id": "vivavoce_books",
+      "filename": "VivaVoce_Books.tar.zst",
+      "blake3": "c5318bc5c93a86e29d3aff173ffbbc32974fc7de609e26f73363ab149d7fb00c",
+      "download_url": "https://github.com/Master-Antonio/Vivavoce-Releases/releases/download/v1.2.1/VivaVoce_Books.tar.zst",
+      "compressed_size": 43733,
+      "uncompressed_size": 156629
+    },
+    {
+      "id": "vivavoce_zones",
+      "filename": "VivaVoce_Zones.tar.zst",
+      "blake3": "5eed5d0b11810c43688ddc4ee292583fd17a82c2fb009e049c86ab6a619b9b7e",
+      "download_url": "https://github.com/Master-Antonio/Vivavoce-Releases/releases/download/v1.2.1/VivaVoce_Zones.tar.zst",
+      "compressed_size": 60452794,
+      "uncompressed_size": 81327237
+    },
+    {
+      "id": "vivavoce_codex",
+      "filename": "VivaVoce_Codex.tar.zst",
+      "blake3": "0f8ca1241959e27a6d35dbd44a76561c3762b2eef94c8cbd2c79113de2d96fdd",
+      "download_url": "https://github.com/Master-Antonio/Vivavoce-Releases/releases/download/v1.2.1/VivaVoce_Codex.tar.zst",
+      "compressed_size": 276886,
+      "uncompressed_size": 1394735
+    },
+    {
+      "id": "vivavoce_collector",
+      "filename": "VivaVoce_Collector.tar.zst",
+      "blake3": "ca3d26e5b4b4a1cbcf83cafa2fba1b994dd6acb2e958734cf2111f67f1b77945",
+      "download_url": "https://github.com/Master-Antonio/Vivavoce-Releases/releases/download/v1.2.1/VivaVoce_Collector.tar.zst",
+      "compressed_size": 33951,
+      "uncompressed_size": 112086
     }
   ],
-  "patches": [],
+  "patches": [
+    {
+      "id": "patch-1.2.0-to-1.2.1",
+      "from_version": "1.2.0",
+      "to_version": "1.2.1",
+      "filename": "patch-v1.2.1.tar.zst",
+      "blake3": "6f1a1d804d939c750302cbcd0574d09ca9cbe13e21ccff94827fdaf100d4944c",
+      "download_url": "https://github.com/Master-Antonio/Vivavoce-Releases/releases/download/v1.2.1/patch-v1.2.1.tar.zst",
+      "compressed_size": 22844,
+      "uncompressed_size": 77470,
+      "files_count": 13
+    }
+  ],
   "files": {
     "VivaVoce/Bindings.xml": {
       "relative_path": "VivaVoce/Bindings.xml",
@@ -120,8 +132,8 @@
     },
     "VivaVoce/Packs.lua": {
       "relative_path": "VivaVoce/Packs.lua",
-      "blake3_hash": "22bc490bae31108bf0e7515b699b6ff84cd19e4561ff6154bad42acfd91f4ec3",
-      "size": 13183
+      "blake3_hash": "c5843cbaff54ac387c6f6c53bdc0b74c8dda0daf5b982824daddde03ed44594a",
+      "size": 13419
     },
     "VivaVoce/QuestGivers.lua": {
       "relative_path": "VivaVoce/QuestGivers.lua",
@@ -175,12 +187,12 @@
     },
     "VivaVoce/VivaEnv.lua": {
       "relative_path": "VivaVoce/VivaEnv.lua",
-      "blake3_hash": "4d848ab325355d6d551e15600d5598ae28d899fc55c0a4130eb1c8672d90ac84",
+      "blake3_hash": "5b654faa230f194d7b1cab0dc0eef1554228f2406dd1682b63fd4d5151687228",
       "size": 2367
     },
     "VivaVoce/VivaVoce.toc": {
       "relative_path": "VivaVoce/VivaVoce.toc",
-      "blake3_hash": "bba52a616878a9ceaf3a62f41b95fb04ba2caff0682f635d3111a78783275ec8",
+      "blake3_hash": "92dd5012934a121d461fb2ff78a55e0d9e5452ef268adfa992d1bb14d6c60ecb",
       "size": 738
     },
     "VivaVoce/Libs/AceDB-3.0/AceDB-3.0.lua": {
@@ -425,13 +437,13 @@
     },
     "VivaVoce_Quests/Core.lua": {
       "relative_path": "VivaVoce_Quests/Core.lua",
-      "blake3_hash": "f6ca4a14fb853a8d24d62eab3c15437c015c5fb842723d72ad67c0e4859a2e32",
+      "blake3_hash": "b44f65e05911fe64e8b7758def092fc75357af48f541918fb61bb1ef24370f19",
       "size": 9164
     },
     "VivaVoce_Quests/DataModules.lua": {
       "relative_path": "VivaVoce_Quests/DataModules.lua",
-      "blake3_hash": "1b47402c7c49f4868f5fc7e46b7e00d06ef8f81c8baf705fa0fbdda52cbcf5c5",
-      "size": 9445
+      "blake3_hash": "da4a492a6510357c0df472d6c044c9ccde31afb72d42c891414e040ed5405fd8",
+      "size": 10372
     },
     "VivaVoce_Quests/DialogPlayButton.lua": {
       "relative_path": "VivaVoce_Quests/DialogPlayButton.lua",
@@ -505,7 +517,7 @@
     },
     "VivaVoce_Quests/VivaVoce_Quests.toc": {
       "relative_path": "VivaVoce_Quests/VivaVoce_Quests.toc",
-      "blake3_hash": "8c81f84ea6ea7324f9ad1f1162ab5ea86c454646648eb6f256b28ea13bb249ba",
+      "blake3_hash": "8ce7fc362bed22a3cac3336f18bffd91e8ef68c19cc8000e18b2c84bb6b05932",
       "size": 615
     },
     "VivaVoce_Quests/VoiceOver.lua": {
@@ -590,7 +602,7 @@
     },
     "VivaVoce_Books/VivaVoce_Books.toc": {
       "relative_path": "VivaVoce_Books/VivaVoce_Books.toc",
-      "blake3_hash": "73e1d755ad4cd451d1824dc5ae030093b35fce040f3235e49a3eb79e5df6fc4e",
+      "blake3_hash": "4595368d3b173e7d000f0da387f4c73f461e5423b15eb461774926bb968fc9f9",
       "size": 1331
     },
     "VivaVoce_Books/Data/Books.lua": {
@@ -635,8 +647,8 @@
     },
     "VivaVoce_Zones/Audio.lua": {
       "relative_path": "VivaVoce_Zones/Audio.lua",
-      "blake3_hash": "f7f6d3c0ec05dc243208aa9078abd870a08a15be3e08ff8bfa4776954369c9e4",
-      "size": 17448
+      "blake3_hash": "9b069374e56dcbca1a6da95d71215c9f01fad61d22262c0d6d7d89d867a74b9c",
+      "size": 17456
     },
     "VivaVoce_Zones/Autoplay.lua": {
       "relative_path": "VivaVoce_Zones/Autoplay.lua",
@@ -645,8 +657,8 @@
     },
     "VivaVoce_Zones/Commands.lua": {
       "relative_path": "VivaVoce_Zones/Commands.lua",
-      "blake3_hash": "3e4dbf43f8e9e0a01850050869aabdf20f82c6478bc85f209f03615bd6edb45c",
-      "size": 9919
+      "blake3_hash": "7a976418bc989fc58489c0c2c24fb4ccd735649a9d571fa31bdabcfd844db166",
+      "size": 9925
     },
     "VivaVoce_Zones/Contribute.lua": {
       "relative_path": "VivaVoce_Zones/Contribute.lua",
@@ -680,7 +692,7 @@
     },
     "VivaVoce_Zones/VivaVoce_Zones.toc": {
       "relative_path": "VivaVoce_Zones/VivaVoce_Zones.toc",
-      "blake3_hash": "136e2a6abf37d8cd24a02e56f45707c4ad8c88dbcc1995e0419dec8c1bdd103f",
+      "blake3_hash": "df2529c96699cd0e3a7593b4426eba2460a714124470d3ba4b3ea842aaa16cd6",
       "size": 765
     },
     "VivaVoce_Zones/Data/AudioPack.lua": {
@@ -4895,7 +4907,7 @@
     },
     "VivaVoce_Codex/Core.lua": {
       "relative_path": "VivaVoce_Codex/Core.lua",
-      "blake3_hash": "b97a28cb0a548798bdbf3a5691e7c53b31bc2d56fa1eb8bdd062bfc951330231",
+      "blake3_hash": "b0e0d886cf751e0cd57c92c83d98fd5a11e4c6ccd3f5089ed35b01eab25a43f8",
       "size": 10341
     },
     "VivaVoce_Codex/LICENSE.md": {
@@ -4915,7 +4927,7 @@
     },
     "VivaVoce_Codex/VivaVoce_Codex.toc": {
       "relative_path": "VivaVoce_Codex/VivaVoce_Codex.toc",
-      "blake3_hash": "00f7c61c4b7bf847177ce14ed12fbb021f0ca6356a2b8a65ddaa0dfff6f511d8",
+      "blake3_hash": "f841ac75e03d9cc6c623f9f074ac450b4a17ed9c1f846a537a8481897e33537a",
       "size": 516
     },
     "VivaVoce_Codex/Data/Icons_DB.lua": {
@@ -4990,7 +5002,7 @@
     },
     "VivaVoce_Collector/VivaVoce_Collector.toc": {
       "relative_path": "VivaVoce_Collector/VivaVoce_Collector.toc",
-      "blake3_hash": "b9ba789e8764feb2974520e4ca37fc22c9d41b9ab4c8236fc5ab46d7766134f2",
+      "blake3_hash": "c333bebe8d47e2558aa0209bbc7d518e54656baf8749907fe55cf42ecd46cfb2",
       "size": 461
     },
     "VivaVoce_Collector/Textures/Icon.png": {
